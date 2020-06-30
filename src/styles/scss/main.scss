@@ -1,0 +1,84 @@
+// 3. Base stuff
+// @import 'base/font';
+@import "abstracts/variables";
+// 4. Layout-related sections
+@import 'layout/header','layout/footer';
+ 
+@import 'component/card';
+
+
+//========= Home page===========//
+.container{
+    max-width: 1300px!important;
+}
+
+.banner-main-wrapper.container{
+    .heading{
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .right-section{
+        background-image: url('../../images/banner.jpg');
+        background-size: cover;
+        height: 540px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        .featured-details{
+            color: $text-black;
+            font-weight: 700;
+            &:hover{
+                color:$primary-color;
+                text-decoration: none;
+            }
+        }
+    }
+    .left-section{
+        .more-project{
+            color: $text-black;
+            font-weight: 700;
+            &:hover{
+                color:$primary-color;
+                text-decoration: none;
+            }
+        }
+        .more-button{
+            margin-top: 40px;
+        }
+     h1{
+         font-size: 96px;
+         line-height: 90px;
+         font-weight: 700;
+        }
+     }
+}
+
+//==========Services============//
+.services-section{
+    background-color: #f9f9f9;
+    padding: 100px 0 50px 0 ;
+}
+//===Subtitle css ===//
+.subititle-wrap{
+    .main-title{
+        font-size: 54px;
+        letter-spacing: -2px;
+        line-height: 1.1;
+    }
+    .subtitle{
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(35, 34, 38, 0.8);
+        &::after{
+            content: '';
+            border-bottom: 1px solid rgba(136, 136, 136, 0.8);
+            display: block;
+            margin-top: 20px;
+            
+        }
+    }
+}
+

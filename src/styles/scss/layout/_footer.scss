@@ -1,0 +1,78 @@
+Footer{
+    background-color: $footer-bg-color;
+    .page-container{
+        padding: 40px 0;
+        .logo{
+            padding: 50px 0 0;
+            img{
+                width: 100px;
+            }
+        }
+    }
+    .footer-list{
+        list-style: none;
+        .inner-wrap{
+            padding: 50px 0 0;
+        }
+        .footer-list-title{
+            font-size: 14px;
+            margin: 0 0 20px;
+            color: $secondary-text-color;
+            font-size: 16px;
+        }
+        .info{
+            color: $footer-text-color;
+        }
+    }
+    .subscribe{
+        padding-left: 0;
+        .subscribe-input{
+            background-color: rgba(136, 136, 136, 0.06);
+            border-color: transparent;
+            height: 100%;
+            padding: 14px 15px;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .subscribe-button{
+            background-color: rgba(136, 136, 136, 0.06);
+            border: none;
+            padding: 14px 18px;
+            font-weight: 700;
+            color:#fff;
+            border-radius: 4px;
+            &:hover{
+                background-color: $primary-color;
+            }
+        }
+    }
+    .site-info-holder{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top: 1px solid rgba(136, 136, 136, 0.1);
+        .info{
+            color: $footer-text-color;
+            .info-link{
+             @extend .info;
+             &:hover{
+                 color:$primary-color;
+                 text-decoration: none;
+             }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px){
+    Footer {
+        .footer-list{
+            padding: 0;
+        }
+        .main-row{
+            margin:0
+        }
+    }
+}

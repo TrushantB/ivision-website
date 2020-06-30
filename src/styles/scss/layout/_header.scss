@@ -1,0 +1,75 @@
+
+.header-wrap{
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 130px;
+    .header-wrap-inner{
+        flex-direction:row;
+        display: flex;
+        height: 100%;
+            .right-part{
+                flex: 4;
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                .nav-link{
+                    position: relative;
+                    color: $text-black;
+                    &::before{
+                        content: '0';
+                        position: absolute;
+                        top: 0;
+                        right: 15px;
+                        font-size: .6em;
+                        height: auto;
+                        background: transparent;
+                        opacity: .7;
+                    }
+                    .link{
+                        color: $text-black;
+                        font-weight: 600;
+                        &:hover{
+                            color: $primary-color;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .button{
+                    background-color: $secondary-color;
+                    font-weight: 600;
+                    padding: 7px 15px;
+                    border-color: transparent;
+                    &:hover{
+                        background-color: $primary-color;
+                    }
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+            }
+            .left-part{
+                flex: 2;
+                flex-direction: row;
+                display:flex;
+                height: 100%;
+                align-items: center;
+                .logo {
+                    width: 90px;
+                    img{
+                        margin-bottom: 0;
+                        width: 90px;
+                    }
+                }
+                .menu-icon{
+                    background-color:#fbfbfb;
+                    width: 60px;
+                    height: 60px;
+                    border-radius:100%;
+                    margin-right: 15px;
+                    a{
+                        color: #000;
+                    }
+                }
+            }
+    }
+}

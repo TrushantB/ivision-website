@@ -1,0 +1,24 @@
+.row{
+    margin: 0!important;
+}
+.contact-wrapper{
+    .contact-details{
+        .right-section{
+            padding: 65px 50px;
+            height: 100%;
+        }
+    }
+    .join-team{
+        padding:70px 0
+    }
+    .button{
+        background-color: $secondary-color;
+        border: transparent;
+        padding: 7px 15px;
+        font-weight: 600;
+        &:hover{
+            background-color: $primary-color;
+        }
+    }
+}
+

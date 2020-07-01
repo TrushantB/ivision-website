@@ -4,9 +4,9 @@
 // 4. Layout-related sections
 @import 'layout/header','layout/footer';
  
-@import 'component/card';
-
-
+@import 'component/card','component/team-card','component/accordian';
+//pages
+@import 'pages/contact.scss';
 //========= Home page===========//
 .container{
     max-width: 1300px!important;
@@ -56,11 +56,64 @@
 
 //==========Services============//
 .services-section{
-    background-color: #f9f9f9;
+    background-color: $bg-color;
     padding: 100px 0 50px 0 ;
 }
+//Common css
+.page-heading{
+    font-size: 50px;
+}
+.bg-transparent{
+    background-color: transparent;
+}
+.bg-black{
+background-color:$bg-black;
+}
+.bg-color{
+    background-color:$bg-color;
+}
+.description{
+    font-size: 17px;
+    font-weight: 600;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.f-w-500{
+    font-weight: 500;
+}
+.secondary-text-color{
+    color: $secondary-text-color;
+}
+.title{
+    font-size: 54px;
+    line-height: 1;
+}
+.pl-70{
+    padding-left: 70px;
+}
+.bottom-border{
+    padding-bottom: 25px;
+    &::after{
+        content:'';
+        display: block;
+        border-bottom: 1px solid rgba(136,136,136,0.8);;
+        padding-top: 36px;
+    }
+}
+.circle{
+    width:50px;
+    border-radius: 50%;
+    border:1px solid #fff;
+    height: 50px;
+}
+.text-color{
+    color:#A4A3A6; 
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
 //===Subtitle css ===//
-.subititle-wrap{
     .main-title{
         font-size: 54px;
         letter-spacing: -2px;
@@ -80,5 +133,59 @@
             
         }
     }
+//===== Capabilties===//
+.capabilties-section{
+    .image{
+        margin-top: 60px;
+    }
+    .play-icon{
+        width: 60px;
+    }
+    .title{
+        font-size: 40px;;
+    }
+    .right-body{
+        padding:100px 120px
+    }
 }
+//=====Collaboration ===//
+.collaboration-section{
+    background-color: #1a191d;
+    padding:90px 90px;
+    .subtitle{
+        color: #A4A3A6;
+        text-transform: uppercase;
+    }
+    .title{
+        font-size: 54px;
+        line-height: 1;
+    }
+  
+    .decription{
+        font-size: 17px;
+    }
+    .contact-buttom{
+        background-color: $primary-color;
+        border-color: transparent;
+        padding: 14px 18px;
+        font-weight: 600;
+        &:hover{
+            background-color: $primary-color;
+            border-color: transparent;
+        }
+    }
+}
+//=== sponser ===//
+.sponser-section{
+    padding:100px 0 80px 0;
+    .image-wrap{
+        width: 120px;
+        margin-bottom: 20px;
+    }
+}
+///== Award ===//
+.award-section {
+    padding:80px 0 40px 0;
+}
+
 

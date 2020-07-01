@@ -4,14 +4,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container,Nav } from 'react-bootstrap';
 
-const Elements = () => (
+const Career = () => (
   <Layout>
-    <SEO title="Elements" />
+    <SEO title="Career" />
      <Container>
-         <h1>Elements</h1>
+         <h1>Career</h1>
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
      </Container>
   </Layout>
 )
 
-export default Elements
+export default Career

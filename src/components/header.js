@@ -4,14 +4,10 @@ import React from "react"
 import { Container,Nav ,Button} from 'react-bootstrap';
 import '../styles/scss/main.scss';
 import logo from './../images/logo.jpg';
-import FontAwesome from 'react-fontawesome'
+import FontAwesome from 'react-fontawesome' 
 
   const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header>
    <div className='header-wrap'>
       <div className='header-wrap-inner'>
           <div className='left-part'>
@@ -40,35 +36,31 @@ import FontAwesome from 'react-fontawesome'
             </Nav.Item>
             <Nav.Item>
               <Nav.Link >
-                <Link to='/elements' className='link'>Elements </Link>
+                <Link to='/about' className='link'>About </Link>
                 </Nav.Link>
             </Nav.Item>
            
             <Nav.Item>
               <Nav.Link >
-                <Link to='/portfolio' className='link'>Porfolio </Link>
+                <Link to='/services' className='link'>Services </Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link >
-                <Link to='/blog' className='link'>Blog </Link>
+                <Link to='/career' className='link'>Career </Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link >
-                <Link to='/portfolio' className='link'>Shop</Link>
+                <Link to='/team' className='link'>Team</Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link >
-                <Link to='/pages' className='link'>Pages</Link>
+                <Link to='/contact' className='link'>Contact</Link>
                 </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link >
-                <Link to='/docs' className='link'>Docs</Link>
-                </Nav.Link>
-            </Nav.Item>
+           
           </Nav>
           <Button className='button'>Let's Talk</Button>
           </div>

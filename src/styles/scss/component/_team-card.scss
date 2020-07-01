@@ -1,0 +1,15 @@
+.team-card-wrapper{
+    .profile-wrap{
+        width: 200px;
+        margin: 0 auto;
+        border-radius: 50%;
+    }
+    .card{
+        box-shadow: 0 0 5px rgba(0,0,0,.02), 0 5px 22px -6px rgba(0,0,0,.1), 0 -12px 35px -19px rgba(0,0,0,.2);
+        transition: all .8s ease;
+        border: none;
+        .card-text{
+            color: $primary-color;
+        }
+    }
+}

@@ -21,7 +21,7 @@ const IndexPage = () => (
       <Row>
         <Col lg='5'>
           <div className='left-section'>
-            <h5 className='title heading'>
+            <h5 className=' heading'>
               We are proud of <br/>    
               the works we’ve done.	
             </h5>
@@ -98,7 +98,7 @@ const IndexPage = () => (
         </Container>
       </section>
       <section className='capabilties-section bg-color'>
-        <Container fluid>
+        <Container fluid className='p-0'>
           <Row>
             <Col lg='7' className='p-0'>
                  <div className='capabilities-wrap subititle-wrap'>

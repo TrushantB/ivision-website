@@ -1,0 +1,27 @@
+.top-wrap{
+    margin: 0 0 80px 0;
+}
+.middle-section{
+    padding-bottom: 80px;
+}
+.job-article{
+    ul{
+        list-style: none;
+        padding-left: 30px;
+        li{
+            p{
+                font-size: 18px;
+                margin-bottom: 20px;
+                &::before{
+                    content: "\2713";
+                    font-weight: bolder;
+                    color: #000;
+                    font-size: 20px;
+                    margin-right: 8px;
+                    position: absolute;
+                    left: 17px;
+                }
+            }
+        }
+    }
+}

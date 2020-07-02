@@ -7,11 +7,7 @@ import logo from './../images/footer-logo.jpg';
 import FontAwesome from 'react-fontawesome'
 import faStyles from 'font-awesome/css/font-awesome.css'
   const Footer = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header>
    
        <footer>
          <Container className='page-container'> 

@@ -4,9 +4,9 @@
 // 4. Layout-related sections
 @import 'layout/header','layout/footer';
  
-@import 'component/card','component/team-card','component/accordian';
+@import 'component/card','component/team-card','component/accordian','component/button','component/service-card';
 //pages
-@import 'pages/contact.scss';
+@import 'pages/contact','pages/about','pages/career','pages/services';
 //========= Home page===========//
 .container{
     max-width: 1300px!important;
@@ -59,9 +59,17 @@
     background-color: $bg-color;
     padding: 100px 0 50px 0 ;
 }
-//Common css
+//===Common css ===//
 .page-heading{
     font-size: 50px;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.heading{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.1;
 }
 .bg-transparent{
     background-color: transparent;
@@ -106,6 +114,9 @@ background-color:$bg-black;
     border-radius: 50%;
     border:1px solid #fff;
     height: 50px;
+    justify-content:center;
+    display: flex;
+    align-items:center;
 }
 .text-color{
     color:#A4A3A6; 

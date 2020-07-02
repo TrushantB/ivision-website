@@ -31,7 +31,7 @@ import FontAwesome from 'react-fontawesome'
           
             <Nav.Item>
               <Nav.Link className='nav-link'>
-                <Link to='/' className='link active'>Home </Link>
+                <Link to='/' className='link active' >Home </Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>

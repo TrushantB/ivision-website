@@ -38,7 +38,7 @@ const IndexPage = () => (
         </Col>
         <Col lg='6'>
           <div className='right-section'>
-            <h6 className='heading'>Featured project:</h6>
+            <h6 className='font-weight-bold'>Featured project:</h6>
             <h5 className='feature-project-title'>
               <a href='' className='featured-details'>Unique Bowls From<br/> the South Pacific.</a>
             </h5>

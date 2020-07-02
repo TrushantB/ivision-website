@@ -1,15 +1,46 @@
 .team-card-wrapper{
     .profile-wrap{
-        width: 200px;
+        // width: 160px;
         margin: 0 auto;
-        border-radius: 50%;
+        // border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        &:hover img{
+            transform: scale3d(1.1,1.1,1);
+            transition: all cubic-bezier(.4,0,.2,1) .4s;
+        }
+        img{
+            border-radius: 4px;
+        }
+        .member-details-wrap{
+            position: absolute;
+            transition: all cubic-bezier(.4,0,.2,1) .4s;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 40px;
+            z-index: 1;
+            background-image: linear-gradient(to top,rgba(23,22,26,.6),transparent);
+            opacity: 0;
+            border-radius: 4px;
+        }
+    }   
+    .profile-wrap:hover .member-details-wrap{
+        opacity: 1;
     }
-    .card{
-        box-shadow: 0 0 5px rgba(0,0,0,.02), 0 5px 22px -6px rgba(0,0,0,.1), 0 -12px 35px -19px rgba(0,0,0,.2);
-        transition: all .8s ease;
-        border: none;
-        .card-text{
-            color: $primary-color;
+ 
+    .member-name{
+        font-weight: 500;
+    }
+    .circle{
+        width: 40px;
+        height: 40px;
+        &:hover{
+            background-color: #fff;
+            cursor: pointer;
+            .icon{
+                color: #000!important;
+            }
         }
     }
 }

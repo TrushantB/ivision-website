@@ -11,7 +11,7 @@ import FontAwesome from 'react-fontawesome'
         <p className='subtitle'>
             services
         </p>
-        <h4 className='heading'>Brand Strategy & Art Direction</h4>
+        <h4 className='subheading'>Brand Strategy & Art Direction</h4>
         <p>
          Creating a higher spacing and how people move through a unique and impactful campaign.
         </p>

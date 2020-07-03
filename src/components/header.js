@@ -1,23 +1,34 @@
-import { Link } from "gatsby"
+import { Link,navigate } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { Container,Nav ,Button} from 'react-bootstrap';
 import '../styles/scss/main.scss';
 import logo from './../images/logo.jpg';
+import './layout.css'
 import FontAwesome from 'react-fontawesome' 
 
-  const Header = ({ siteTitle }) => (
+  const Header = ({ siteTitle }) => {
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    return (
   <header>
    <div className='header-wrap'>
       <div className='header-wrap-inner'>
           <div className='left-part'>
-             <div className='menu-icon justify-content-center align-items-center d-flex'>
-                <a href='#'>
+             <div className='menu-icon justify-content-center align-items-center d-flex cursor-pointer'
+             onClick={() => openNav()}>
+                {/* <a href='#'> */}
                   <FontAwesome
                     name="bars"
                     size="1x"
                   />
-                  </a>
+                  {/* </a> */}
              </div>
             <div className='logo'>
               <img src={logo} />
@@ -62,8 +73,15 @@ import FontAwesome from 'react-fontawesome'
           </div>
       </div>
    </div>
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onClick={() => closeNav()}>&times;</a>
+      <Link to='/about' className='link' onClick={() => closeNav()}>About </Link>
+      <Link to='/career' className='link' onClick={() => closeNav()}>Career </Link>
+      <Link to='/team' className='link' onClick={() => closeNav()}>Team</Link>
+      <Link to='/contact' className='link' onClick={() => closeNav()}>Contact</Link>    </div>
   </header>
 )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

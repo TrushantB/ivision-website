@@ -65,6 +65,12 @@ Footer{
             }
         }
     }
+    .footer-link{
+        color: #fff;
+        &:hover{
+            color: $primary-color;
+        }
+    }
 }
 @media screen and (max-width: 992px){
     Footer {

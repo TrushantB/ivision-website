@@ -7,7 +7,7 @@ import { Container,Nav,Col,Row, Button } from 'react-bootstrap';
 const Career = () => (
   <Layout>
     <SEO title="Career" />
-    <section className='mt-5'>
+    <section className='mt-5 main-section'>
      <Container >
           <div className='top-wrap'>
               <h1 className='page-heading font-weight-bold '>Careers at Ivision Web Studio</h1>
@@ -27,7 +27,7 @@ const Career = () => (
           <Col lg='6'>
             <div className='job-article'>
               <div className='mb-4'>
-                <h3>PHP Developer with MVC Framework</h3>
+                <h3 className='font-weight-bold'>PHP Developer with MVC Framework</h3>
                 <p className='font-weight-bold mt-4'>Experience: 1-4 years</p>
                 <p>
                   <span  className='font-weight-bold'>Skills Required:</span> PHP, MySQL, HTML5, CSS3, JavaScript, JQuery, Ajax and related Technologies
@@ -66,7 +66,7 @@ const Career = () => (
           <Col lg='6'>
             <div className='job-article'>
               <div className='mb-4'>
-                <h3>Front End Developer</h3>
+                <h3  className='font-weight-bold'>Front End Developer</h3>
                 <p className='font-weight-bold mt-4'>Experience: 1-4 years</p>
                 <p>
                   <span  className='font-weight-bold'>Skills Required:</span> XHTML / HTML5, CSS2.1 / CSS3, JavaScript, jQuery, Bootstrap, Angular.JS

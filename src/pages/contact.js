@@ -8,7 +8,7 @@ import FontAwesome from 'react-fontawesome'
 const Contact = () => (
   <Layout>
     <SEO title="Contact" />
-   <section className='contact-wrapper mt-5 '>
+   <section className='contact-wrapper mt-5 main-section '>
     <Container className='mb-5'>
           <h1 className='page-heading font-weight-bold'>Contact Us</h1>
           {/* <p className='description'>The people who work at iVision Web Studio share the vision and values of our community.</p> */}

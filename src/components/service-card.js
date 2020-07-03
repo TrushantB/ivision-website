@@ -7,15 +7,15 @@ import logo from './../images/logo.jpg';
 import FontAwesome from 'react-fontawesome'
 
   const ServiceCard = ({ siteTitle }) => (
-    <div className='services-card-wrapper mb-5'>
+    <div className='services-card-wrapper'>
         <div className='border-left body'>
             <p> 01. </p>
             <h4 className='subheading'>JAM Development</h4>
             <p className='font-weight-bold'>Gatsby /Hugo/Jekyll / Contentful / Netlify</p>
             <p>
-            Creating a higher spacing and how people move through a unique and impactful campaign.
+             Creating a higher spacing and how people move through a unique and impactful campaign.
             </p>
-            <a className='read-more' href='#'>Read More</a>
+            <Link className='read-more' to='/services-details'>Read More</Link>
         </div>
     </div>
 

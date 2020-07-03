@@ -16,7 +16,7 @@ import { Container, Col ,Row, Button} from "react-bootstrap"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <main>
+    <main className='main-section'>
        <Container className='banner-main-wrapper'>
       <Row>
         <Col lg='5'>
@@ -38,7 +38,7 @@ const IndexPage = () => (
         </Col>
         <Col lg='6'>
           <div className='right-section'>
-            <h6 className='font-weight-bold'>Featured project:</h6>
+            <h6 className='font-weight-bold mb-3'>Featured project:</h6>
             <h5 className='feature-project-title'>
               <a href='' className='featured-details'>Unique Bowls From<br/> the South Pacific.</a>
             </h5>
@@ -49,7 +49,7 @@ const IndexPage = () => (
        <section className='services-section'>
          <Container>
             <Row>
-               <Col lg='5'>
+               <Col lg='5' sm='7'>
                  <div className='services-wrap subititle-wrap'>
                     <p className='subtitle'>
                       services
@@ -62,16 +62,16 @@ const IndexPage = () => (
                <Col lg='1'></Col>
                <Col lg='6'>
                  <Row>
-                   <Col lg='6'>
+                   <Col lg='6' md='6'>
                      <Card/>
                    </Col>
-                   <Col lg='6'>
+                   <Col lg='6' md='6'>
                    <Card/>
                    </Col>
-                   <Col lg='6'>
+                   <Col lg='6' md='6'>
                      <Card/>
                    </Col>
-                   <Col lg='6'>
+                   <Col lg='6' md='6'>
                    <Card/>
                    </Col>
                  </Row>
@@ -80,10 +80,15 @@ const IndexPage = () => (
            
          </Container>
        </section>
-      <section className='gallery-section bg-color'>
+       <section className='gallery-section'>
+         <Container fluid className='p-0'>
+
+         </Container>
+       </section>
+      <section className=' bg-color'>
         <Container>
           <Row>
-              <Col lg='5'>
+              <Col lg='5' sm='7'>
                   <div className='capabilities-wrap subititle-wrap'>
                       <p className='subtitle'>
                         Capabilities
@@ -134,32 +139,32 @@ const IndexPage = () => (
       <section className='sponser-section bg-color'>
           <Container>
              <Row>
-               <Col lg='2' md='3' sm='4'>
+               <Col lg='2' md='3' sm='4' xs={6}>
                 <div className='image-wrap'>
                   <img src={sponser} width='100%'/>
                 </div>
                </Col>
-               <Col lg='2' md='3' sm='4'>
+               <Col lg='2' md='3' sm='4' xs={6}>
                 <div className='image-wrap'>
                   <img src={sponser} width='100%'/>
                 </div>
                </Col>
-               <Col lg='2' md='3' sm='4'>
+               <Col lg='2' md='3' sm='4' xs={6}>
                 <div className='image-wrap'>
                   <img src={sponser} width='100%'/>
                 </div>
                </Col>
-               <Col lg='2' md='3' sm='4'>
+               <Col lg='2' md='3' sm='4' xs={6}>
                 <div className='image-wrap'>
                   <img src={sponser} width='100%'/>
                 </div>
                </Col>
-               <Col lg='2' md='3' sm='4'>
+               <Col lg='2' md='3' sm='4' xs={6}>
                 <div className='image-wrap'>
                   <img src={sponser} width='100%'/>
                 </div>
                </Col>
-               <Col lg='2' md='3' sm='4'>
+               <Col lg='2' md='3' sm='4' xs={6}>
                 <div className='image-wrap'>
                   <img src={sponser} width='100%'/>
                 </div>
@@ -170,7 +175,7 @@ const IndexPage = () => (
         <section className='award-section '>
          <Container>
             <Row>
-               <Col lg='5'>
+               <Col lg='5' sm='7'>
                  <div className='subititle-wrap'>
                     <p className='subtitle'>
                     AWARDS & HONORS
@@ -184,26 +189,26 @@ const IndexPage = () => (
                <Col lg='1'></Col>
                <Col lg='6'>
                  <Row>
-                   <p className='mb-5'>Our clients describe us as a product team which <span className='font-weight-bold'>creates amazing UI/UX </span>experiences, <span className='font-weight-bold'> by crafting top-notch</span> user experience.</p>
-                   <Col lg='4'>
+                   <p className='mb-5 mt-sm-3'>Our clients describe us as a product team which <span className='font-weight-bold'>creates amazing UI/UX </span>experiences, <span className='font-weight-bold'> by crafting top-notch</span> user experience.</p>
+                   <Col lg='4' sm='4'  xs='6'>
                       <div className='mb-5'>
                         <img src={award} width='100%'/>
                         <p className='mt-2'><span className='font-weight-bold'>5x</span> Developer Award</p>
                       </div>
                    </Col>
-                   <Col lg='4'>
+                   <Col lg='4'sm='4'  xs='6'>
                     <div  className='mb-5'>
                         <img src={award} width='100%'/>
                         <p className='mt-2'><span className='font-weight-bold'>3x</span> Website of the Day</p>
                       </div>
                    </Col>
-                   <Col lg='4'>
+                   <Col lg='4' sm='4' xs='6'>
                     <div  className='mb-5'>
                         <img src={award} width='100%'/>
                         <p className='mt-2'><span className='font-weight-bold'>5x</span>Mobile of the Day</p>
                       </div>
                    </Col>
-                   <Col lg='4'>
+                   <Col lg='4'sm='4'  xs='6' >
                      <div  className='mb-5'>
                         <img src={award} width='100%'/>
                         <p className='mt-2'><span className='font-weight-bold'>5x</span> Developer Award</p>
@@ -220,12 +225,12 @@ const IndexPage = () => (
              <div>
                <p className='text-color mb-3'>Collaboration</p>
                <div className='bottom-border'>
-                  <div className='d-flex align-items-start justify-content-between'>
+                  <div className='d-flex align-items-start justify-content-between flex-wrap'>
                       <h2 className=' mb-0 text-white title'>
                         Got a project?<br/>
                           Let’s talk.
                     </h2>
-                    <Button className='contact-buttom'>Contact Us<FontAwesome className='ml-3' name='arrow-right'/></Button>
+                    <Button className='contact-buttom mt-sm-4'>Contact Us<FontAwesome className='ml-3' name='arrow-right'/></Button>
                   </div>
                </div>
                <p className='m-0 text-white decription'>We’re a <span className='font-weight-bold'>team of creatives </span>who are excited about unique ideas and help fin-tech<br/> companies to <span className='font-weight-bold'>create amazing identity</span> by crafting top-notch UI/UX.</p>

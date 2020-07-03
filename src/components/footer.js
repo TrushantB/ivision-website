@@ -42,13 +42,13 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                     <h3 className='footer-list-title'>Work inquiries</h3>
                     <div>
                       <p className='info mb-0 '>Interested in working with us?</p>
-                      <p className='mb-0 font-weight-bold text-white'>hola@ohio.colabr.io</p>
+                      <a href='mailto:hola@ohio.colabr.io' className='mb-0 font-weight-bold text-decoration-none footer-link'>hola@ohio.colabr.io</a>
                     </div>
                   </li>
                   <li className='inner-wrap'>
                     <h3 className='footer-list-title'>Phone</h3>
                     <div>
-                      <p className='mb-0 font-weight-bold text-white'>Ph: +3.230.705.5448</p>
+                      <a href='tel: +3.230.705.5448' className='mb-0 font-weight-bold text-decoration-none footer-link'>Ph: +3.230.705.5448</a>
                     </div>
                   </li>
                 </ul>

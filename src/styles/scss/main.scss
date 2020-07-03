@@ -6,16 +6,19 @@
  
 @import 'component/card','component/team-card','component/accordian','component/button','component/service-card';
 //pages
-@import 'pages/contact','pages/about','pages/career','pages/services';
+@import 'pages/contact','pages/about','pages/career','pages/services','pages/services-details';
 //========= Home page===========//
-.container{
-    max-width: 1300px!important;
-}
 
+.main-section{
+    .container{
+        max-width: 1300px;
+    } 
+}
 .banner-main-wrapper.container{
     .heading{
         margin-bottom: 20px;
         font-weight: 700;
+        font-size: 20px;
     }
     .right-section{
         background-image: url('../../images/banner.jpg');
@@ -199,4 +202,38 @@ background-color:$bg-black;
     padding:80px 0 40px 0;
 }
 
+///Media Query
+@media screen and (max-width:992px){
+    ///Banner
+    .banner-main-wrapper.container{
+            .left-section h1{
+                font-size: 60px;
+                width: 500px;
+                line-height: 54px;
+            }
+            .right-section{
+                height: 340px;
+            }
+    }
+    .main-title{
+        font-size: 45px;
+    }
+    //services
+    .services-section{
+        .services-wrap{
+            padding-bottom: 40px;
+           
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .capabilties-section{
+        .right-body{
+            padding: 75px 50px;
+        }
+    } 
+    .sponser-section{
+        padding: 50px 0 30px 0;
+    }
+}
 

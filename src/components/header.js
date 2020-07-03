@@ -24,14 +24,10 @@ import FontAwesome from 'react-fontawesome'
             </div>
           </div>
           <div className='right-part '>
-          <Nav
-              activeKey="/home"
-            
-            >
-          
+          <Nav activeKey="/home">
             <Nav.Item>
               <Nav.Link className='nav-link'>
-                <Link to='/' className='link active' >Home </Link>
+                <Link to='/' className='link '>Home </Link>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>

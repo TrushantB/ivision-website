@@ -9,7 +9,7 @@ import Accordian from "../components/accordian";
 const About = () => (
   <Layout>
     <SEO title="About" />
-     <section className='mt-5 about-wrapper'>
+     <section className='mt-5 about-wrapper main-section'>
        <Container className='mb-5'>
             <h1 className='page-heading font-weight-bold'>About Us</h1>
             <p className='description'>The people who work at iVision Web Studio share the vision and values of our community.</p>

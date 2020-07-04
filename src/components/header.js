@@ -75,10 +75,52 @@ import FontAwesome from 'react-fontawesome'
    </div>
    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onClick={() => closeNav()}>&times;</a>
+      <Link to='/' className='link' onClick={() => closeNav()}>Home </Link>
       <Link to='/about' className='link' onClick={() => closeNav()}>About </Link>
+      <Link to='/services' className='link' onClick={() => closeNav()}>Services </Link>
       <Link to='/career' className='link' onClick={() => closeNav()}>Career </Link>
       <Link to='/team' className='link' onClick={() => closeNav()}>Team</Link>
-      <Link to='/contact' className='link' onClick={() => closeNav()}>Contact</Link>    </div>
+      <Link to='/contact' className='link' onClick={() => closeNav()}>Contact</Link>  
+      <div className='bottom-section'>
+        <div className='d-flex info-wrap'>
+          <div className='info'>
+            <p className='font-weight-bold text-white'>Get In Touch</p>
+            <p>541 Melville Ave, Palo Alto, CA 94301,
+                ask@ohio.clbthemes.com
+                Ph: +1.831.705.5448</p>
+          </div>
+          <div className='info'>
+            <p className='font-weight-bold text-white'>Get In Touch</p>
+            <p>541 Melville Ave, Palo Alto, CA 94301,
+                ask@ohio.clbthemes.com
+                Ph: +1.831.705.5448</p>
+          </div>
+        </div> 
+        <div className='social-link d-flex mt-4'>
+            <div className='circle mr-3'>
+                <FontAwesome
+                    name="facebook-f"
+                    size="1x"
+                    className='text-white icon'
+                />
+            </div>
+            <div className='circle mr-3'>
+                <FontAwesome
+                    name="twitter"
+                    size="1x"
+                    className='text-white icon'
+                />
+            </div>
+            <div className='circle mr-3'>
+                <FontAwesome
+                    name="instagram"
+                    size="1x"
+                    className='text-white icon'
+                />
+            </div>
+        </div>
+      </div>
+    </div>
   </header>
 )
 }

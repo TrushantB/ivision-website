@@ -630,22 +630,24 @@ pre tt:after {
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 140px;
   text-align:center;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 0 45px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size:30px; 
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
   display: block;
   transition: 0.3s;
 
 }
 
 .sidenav a:hover{
-  color: #f1f1f1;
+  color: #c0c0c0;
 }
 
 
@@ -659,8 +661,9 @@ pre tt:after {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
   font-size: 36px;
+  padding-top:30px;
+  left: -54px;
   margin-left: 50px;
 }
 

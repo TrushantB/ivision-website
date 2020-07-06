@@ -1,5 +1,8 @@
 Footer{
     background-color: $footer-bg-color;
+    .container{
+        max-width: 1300px;
+    }
     .page-container{
         padding: 40px 0;
         .logo{
@@ -65,15 +68,20 @@ Footer{
             }
         }
     }
-    .footer-link{
-        color: #fff;
-        &:hover{
-            color: $primary-color;
-        }
+  
+}
+.footer-link{
+    color: #fff;
+    &:hover{
+        color: $primary-color;
     }
 }
+
 @media screen and (max-width: 992px){
     Footer {
+       .page-container{
+           padding: 40px 10px;
+       }
         .footer-list{
             padding: 0;
         }

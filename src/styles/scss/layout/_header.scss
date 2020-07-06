@@ -1,10 +1,11 @@
-.active{
-    color:red;
-}
+
 .header-wrap{
     padding-right: 40px;
     padding-left: 40px;
     height: 130px;
+    .menu-icon {
+        cursor: pointer;
+    }
     .header-wrap-inner{
         flex-direction:row;
         display: flex;
@@ -61,7 +62,7 @@
                 align-items: center;
                 .logo {
                     width: 90px;
-                    img{
+                    img{ 
                         margin-bottom: 0;
                         width: 90px;
                     }
@@ -80,20 +81,90 @@
     }
   
 }
-.info{
-    width: 25vw;
-    text-align: left;
-}
+
 .bottom-section{
     padding-left: 45px;
     padding-top: 100px;
     .social-link{
         .circle{
             border-color: #878787;
+            width: 40px;
+            height: 40px;
+            .icon{
+                font-size: 20px;
+            }
         }
     }
-   
+   .info-wrap{
+       .info{
+           padding-right:40px;
+       }
+       p{
+           color: $secondary-text-color  ;
+       }
+   }
 }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 120px;
+    text-align:center;
+  }
+  
+  .sidenav{
+    .link[aria-current=page]{
+        color: $primary-color;
+    }
+    .info{
+        width: 25vw;
+        text-align: left;
+    }
+    .link {
+        padding: 0 45px;
+        text-decoration: none;
+        font-size:30px; 
+        font-weight: 600;
+        text-align: left;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+      
+      }
+      .closebtn {
+        position: absolute;
+        top: 0;
+        font-size: 36px;
+        padding-top:30px;
+        left: -54px;
+        margin-left: 50px;
+      }
+      a:hover{
+        color: $primary-color;
+        text-decoration: none;
+      }
+      .menu-item{
+        color: #f1f1f1;
+        font-size: x-large;
+        cursor: pointer;
+      }
+      .footer-link{
+          color: $secondary-text-color;
+      }
+  }
+  
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 
 @media screen and (max-width: 992px){
     .header-wrap{
@@ -109,4 +180,22 @@
         }
     }
 
+}
+@media screen and (max-width: 768px){
+    .sidenav{
+        padding-top: 90px;
+        .link{
+            font-size: 25px;
+        }
+    }
+    .info-wrap{
+        flex-wrap: wrap;
+        .info{
+            width: auto;
+            margin-bottom: 20px;
+        }
+    }
+.bottom-section{
+    padding-top: 60px;
+}
 }

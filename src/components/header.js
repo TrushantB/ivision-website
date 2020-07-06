@@ -73,8 +73,8 @@ import FontAwesome from 'react-fontawesome'
           </div>
       </div>
    </div>
-   <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onClick={() => closeNav()}>&times;</a>
+   <div id="mySidenav" className="sidenav">
+      <a href="javascript:void(0)" className="closebtn link" onClick={() => closeNav()}>&times;</a>
       <Link to='/' className='link' onClick={() => closeNav()}>Home </Link>
       <Link to='/about' className='link' onClick={() => closeNav()}>About </Link>
       <Link to='/services' className='link' onClick={() => closeNav()}>Services </Link>
@@ -82,41 +82,44 @@ import FontAwesome from 'react-fontawesome'
       <Link to='/team' className='link' onClick={() => closeNav()}>Team</Link>
       <Link to='/contact' className='link' onClick={() => closeNav()}>Contact</Link>  
       <div className='bottom-section'>
-        <div className='d-flex info-wrap'>
+        <div className='d-flex info-wrap flex-wrap'>
           <div className='info'>
             <p className='font-weight-bold text-white'>Get In Touch</p>
-            <p>541 Melville Ave, Palo Alto, CA 94301,
-                ask@ohio.clbthemes.com
-                Ph: +1.831.705.5448</p>
+            <p className='mb-0'>541 Melville Ave, Palo Alto, CA 94301,</p>
+            <p className='mb-0'><a href='mailto:hola@ohio.colabr.io' className='mb-0 text-decoration-none footer-link'>hola@ohio.colabr.io</a></p>
+            <p className='mb-0'><a href='tel: +3.230.705.5448' className='mb-0 text-decoration-none footer-link'>Ph: +3.230.705.5448</a></p>
+
           </div>
           <div className='info'>
-            <p className='font-weight-bold text-white'>Get In Touch</p>
-            <p>541 Melville Ave, Palo Alto, CA 94301,
-                ask@ohio.clbthemes.com
-                Ph: +1.831.705.5448</p>
+            <p className='font-weight-bold text-white'>Work Inquiry</p>
+            <p className='mb-0'>541 Melville Ave, Palo Alto, CA 94301,</p>
+                <a href='tel: +3.230.705.5448' className='mb-0 text-decoration-none footer-link'>Ph: +3.230.705.5448</a>
           </div>
         </div> 
-        <div className='social-link d-flex mt-4'>
+        <div className='social-link d-flex mt-4 mb-4'>
             <div className='circle mr-3'>
-                <FontAwesome
-                    name="facebook-f"
-                    size="1x"
-                    className='text-white icon'
-                />
+                <a href='#' className='d-flex'>
+                  <FontAwesome
+                      name="facebook-f"
+                      className='text-white icon'
+                  />
+                </a>
             </div>
             <div className='circle mr-3'>
+              <a href='#' className='d-flex'>
                 <FontAwesome
                     name="twitter"
-                    size="1x"
                     className='text-white icon'
                 />
+              </a>
             </div>
             <div className='circle mr-3'>
+             <a href='#' className='d-flex'> 
                 <FontAwesome
                     name="instagram"
-                    size="1x"
                     className='text-white icon'
                 />
+                </a>
             </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const About = () => (
   <Layout>
     <SEO title="About" />
      <section className='mt-5 about-wrapper main-section'>
-       <Container className='mb-5'>
+       <Container className='top-wrap'>
             <h1 className='page-heading font-weight-bold'>About Us</h1>
             <p className='description'>The people who work at iVision Web Studio share the vision and values of our community.</p>
             <p>
@@ -24,8 +24,8 @@ const About = () => (
           <Container fluid className='p-0'>
               <Row className='m-0'>
                 <Col lg='5' className='p-0'>
-                  <div>
-                    <img src={image} width='100%'/>
+                  <div className='image-wrapper'>
+                    <img src={image} height='100%' width='100%'/>
                   </div>
                 </Col>
                 <Col lg='7'>

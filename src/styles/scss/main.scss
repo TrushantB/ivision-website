@@ -203,6 +203,13 @@ background-color:$bg-black;
 }
 
 ///Media Query
+@media screen and (max-width:1140px){
+    .capabilties-section{
+        .right-body{
+            padding: 75px 60px;
+        }
+    }
+}
 @media screen and (max-width:992px){
     ///Banner
     .banner-main-wrapper.container{
@@ -216,7 +223,8 @@ background-color:$bg-black;
             }
     }
     .main-title{
-        font-size: 45px;
+        font-size: 40px;
+        margin-bottom: 10px;
     }
     //services
     .services-section{
@@ -225,8 +233,10 @@ background-color:$bg-black;
            
         }
     }
+ 
 }
 @media screen and (max-width:768px){
+       
     .capabilties-section{
         .right-body{
             padding: 75px 50px;
@@ -234,6 +244,20 @@ background-color:$bg-black;
     } 
     .sponser-section{
         padding: 50px 0 30px 0;
+    }
+}
+@media screen and (max-width:580px){
+    .banner-main-wrapper.container{
+        .left-section h1{
+            font-size: 60px;
+            width: auto;
+            line-height: 54px;
+        }
+    }
+    .capabilties-section{
+        .right-body{
+            padding: 50px 30px;
+        }
     }
 }
 

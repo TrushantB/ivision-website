@@ -7,7 +7,7 @@ import { Container,Nav,Col,Row, Button } from 'react-bootstrap';
 const Career = () => (
   <Layout>
     <SEO title="Career" />
-    <section className='mt-5 main-section'>
+    <section className='mt-5 main-section career-wrapper'>
      <Container >
           <div className='top-wrap'>
               <h1 className='page-heading font-weight-bold '>Careers at Ivision Web Studio</h1>
@@ -22,10 +22,10 @@ const Career = () => (
           </div>
       </Container>
       <section className='bg-color pt-80'>
-      <Container className='middle-section'>
+      <Container className='middle-section p-0'>
         <Row >
           <Col lg='6'>
-            <div className='job-article'>
+            <div className='job-article left-section'>
               <div className='mb-4'>
                 <h3 className='font-weight-bold'>PHP Developer with MVC Framework</h3>
                 <p className='font-weight-bold mt-4'>Experience: 1-4 years</p>
@@ -64,7 +64,7 @@ const Career = () => (
             </div>
           </Col>
           <Col lg='6'>
-            <div className='job-article'>
+            <div className='job-article right-section'>
               <div className='mb-4'>
                 <h3  className='font-weight-bold'>Front End Developer</h3>
                 <p className='font-weight-bold mt-4'>Experience: 1-4 years</p>

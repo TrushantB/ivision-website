@@ -17,12 +17,12 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                 <img src={logo} />
               </div>
              </Col>
-             <Col lg='3' md='6' sm='12'>
+             <Col lg='3' md='6' sm='6'>
                 <ul className='footer-list'>
                   <li className='inner-wrap'>
                     <h3 className='footer-list-title'>Barcelona</h3>
                     <div>
-                      <p className='info'>365 Gran Via de Corts,
+                      <p className='info'>365 Gran Via de Corts,<br/>
                         Catalanes, BA 08015</p>
                     </div>
                   </li>
@@ -36,7 +36,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                   </li>
                 </ul>
              </Col>
-             <Col lg='3' md='6' sm='12'>
+             <Col lg='3' md='6' sm='6'>
                 <ul className='footer-list'>
                   <li  className='inner-wrap'>
                     <h3 className='footer-list-title'>Work inquiries</h3>
@@ -53,7 +53,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                   </li>
                 </ul>
              </Col>
-             <Col lg='3' md='6'sm='12'>
+             <Col lg='3' md='6'sm='6'>
                 <ul className='subscribe footer-list'>
                   <li className='inner-wrap'>
                     <h3 className='footer-list-title'>Stay in touch</h3>

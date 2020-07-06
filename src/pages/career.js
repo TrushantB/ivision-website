@@ -22,7 +22,7 @@ const Career = () => (
           </div>
       </Container>
       <section className='bg-color pt-80'>
-      <Container className='middle-section p-0'>
+      <Container className='middle-section pl-0 pr-0'>
         <Row >
           <Col lg='6'>
             <div className='job-article left-section'>

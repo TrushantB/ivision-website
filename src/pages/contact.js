@@ -27,7 +27,7 @@ const Contact = () => (
                         </Form.Group>
 
                         <Form.Group as={Col} controlId="formGridPassword">
-                          <Form.Label>Last Nmae</Form.Label>
+                          <Form.Label>Last Name</Form.Label>
                           <Form.Control type="name" placeholder="Last Name" />
                         </Form.Group>
                       </Form.Row>

@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link,navigate } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container,Nav,Col,Row, Button } from 'react-bootstrap';
@@ -17,7 +17,7 @@ const Career = () => (
                 Listed below are the current vacancies at the company, however if you feel you have exceptional skills in any area of the web then we would be more than happy to hear from you.
               </p>
               <div>
-                <Button className='primary-button'>Send Us an Email</Button>
+                <Button className='primary-button'><Link className='text-white text-decoration-none' to='/contact'>Send Us an Email</Link></Button>
               </div>
           </div>
       </Container>

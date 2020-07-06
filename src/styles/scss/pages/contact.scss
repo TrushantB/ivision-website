@@ -24,4 +24,29 @@
         }
     }
 }
+@media screen and (max-width:768px){
+.contact-wrapper{
+    .contact-form {
+        padding-right: 0!important;
+        margin-bottom: 60px;
+     }
+     .contact-details {
+         padding:0;
+     }
+     
+ }
+  
+}
+@media screen and (max-width:580px){
+  .contact-wrapper{
+    .input-box{
+        flex-basis: auto;
+    }
+    .contact-details{
+        .right-section{
+            padding: 50px 16px;
+        }
+    }
+  }
+}
 

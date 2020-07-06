@@ -15,13 +15,13 @@ const Contact = () => (
       </Container>
       
       <section className='contact-details '>
-        <Container className=''> 
+        <Container className='p-0 p-md-3'> 
           <Row className='m-0'>
             <Col md='6'>
                  <div className=' contact-form pr-4'>
                    <Form>
                     <Form.Row>
-                        <Form.Group as={Col} controlId="formGridEmail">
+                        <Form.Group as={Col} className='input-box' controlId="formGridEmail">
                           <Form.Label>First Name</Form.Label>
                           <Form.Control type="name" placeholder="First Name" />
                         </Form.Group>
@@ -55,7 +55,7 @@ const Contact = () => (
             <Col md='6' className='p-0'>
               <div className='bg-black right-section'>
                   <Row className='m-0'>
-                    <Col sm='6' >
+                    <Col sm='6' className='mb-md-0 mb-4' >
                        <div className='circle d-flex justify-content-center align-items-center mb-3'>
                           <FontAwesome className='text-white'
                             name="phone"
@@ -75,7 +75,7 @@ const Contact = () => (
                           <p className='secondary-text-color mb-0 '>
                           Assistance hours:
                           </p>
-                          <p className='text-white f-w-500'>
+                          <p className='text-white f-w-500 mb-0'>
                              Monday – Friday<br/>
                             6 am to 8 pm EST
                           </p>

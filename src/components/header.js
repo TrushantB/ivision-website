@@ -108,7 +108,7 @@ import FontAwesome from 'react-fontawesome'
             <div className='circle mr-3'>
               <a href='#' target='blank' className='d-flex'>
                 <FontAwesome
-                    name="twitter"
+                    name="linkedin"
                     className='text-white icon'
                 />
               </a>

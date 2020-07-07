@@ -7,7 +7,7 @@ import { Container,Nav,Col,Row, Button } from 'react-bootstrap';
 const Career = () => (
   <Layout>
     <SEO title="Career" />
-    <section className='mt-5 main-section career-wrapper'>
+    <section className='mt-4 main-section career-wrapper'>
      <Container >
           <div className='top-wrap'>
               <h1 className='page-heading font-weight-bold '>Careers at Ivision Web Studio</h1>

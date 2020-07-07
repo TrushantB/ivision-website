@@ -9,10 +9,10 @@ import Accordian from "../components/accordian";
 const About = () => (
   <Layout>
     <SEO title="About" />
-     <section className='mt-5 about-wrapper main-section'>
+     <section className='mt-4 about-wrapper main-section'>
        <Container className='top-wrap'>
             <h1 className='page-heading font-weight-bold'>About Us</h1>
-            <p className='description'>The people who work at iVision Web Studio share the vision and values of our community.</p>
+            <p className='description'>We Make Beautiful Things.</p>
             <p>
               Successful businesses require working with full-service web development and digital marketing agencies to help them thrive on an online platform. iVision Studio is based in India, and we specialize in offering a wide scope of services in JAM Development, Website Development, Mobile Application Development, E-Commerce Solutions, and CMS Services,   Website Designing all in one place.
               We are familiar with the modern and latest practices in digital marketing, and we employ them to help our clients score deliverable and business-oriented outcomes. We work with a team of talented web developers and digital marketers that work closely with our clients to provide them with long-term web development and e-commerce solutions.

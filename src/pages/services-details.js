@@ -42,7 +42,6 @@ const ServicesDetails = ({location}) =>{
                                      )
                                  })
                              }
-
                          </Row>
                      </div>
                      <div>
@@ -62,7 +61,6 @@ const ServicesDetails = ({location}) =>{
                                      )
                                  })
                              }
-
                          </Row>
                      </div>
                  </div>
@@ -72,5 +70,7 @@ const ServicesDetails = ({location}) =>{
     </Layout>
   )
 } 
-
 export default ServicesDetails;
+
+
+

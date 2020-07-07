@@ -15,6 +15,7 @@ import FontAwesome from 'react-fontawesome'
         <p>
         {data.discription}
         </p>
+         <Link className='read-more' to='/services-details'>Read More</Link>
     </div>
 
 )

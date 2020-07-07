@@ -98,7 +98,7 @@ const IndexPage = () => (
                   </div>
                   <div className='project-name'>
                     <h5>
-                      <a href='#'> Plastic Credit Card</a>
+                      <a href='#' className='text-decoration-none'> Plastic Credit Card</a>
                     </h5>
                     <p className='category'>Identity</p>
                   </div>
@@ -111,7 +111,7 @@ const IndexPage = () => (
                   </div>
                   <div className='project-name'>
                     <h5>
-                      <a href='#'> Plastic Credit Card</a>
+                      <a href='#' className='text-decoration-none'> Plastic Credit Card</a>
                     </h5>
                     <p className='category'>Identity</p>
                   </div>
@@ -124,7 +124,7 @@ const IndexPage = () => (
                   </div>
                   <div className='project-name'>
                     <h5>
-                      <a href='#'> Plastic Credit Card</a>
+                      <a href='#'className='text-decoration-none'> Fitness Lifestyle Mobile App</a>
                     </h5>
                     <p className='category'>Identity</p>
                   </div>
@@ -137,16 +137,16 @@ const IndexPage = () => (
                   </div>
                   <div className='project-name'>
                     <h5>
-                      <a href='#'> Plastic Credit Card</a>
+                      <a href='#' className='text-decoration-none'> Plastic Credit Card</a>
                     </h5>
-                    <p className='category'>Identity</p>
+                    <p className='category'>Identity,Mockup</p>
                   </div>
                 </div>
               </Col>
             </Row>
          </Container>
         </section> 
-      <section className=' bg-color'>
+      <section className='pt-70 bg-color'>
         <Container>
           <Row>
               <Col lg='5' sm='7'>

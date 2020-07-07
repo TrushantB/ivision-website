@@ -8,7 +8,7 @@ import dataSource from '../mock-data.json';
 const Services = () => (
   <Layout>
     <SEO title="Services" />
-     <section className='mt-5 services-wrapper main-section'>
+     <section className='mt-4 services-wrapper main-section'>
         <Container className='top-wrap'>
           <h1 className='page-heading line-heignt0
             font-weight-bold'>

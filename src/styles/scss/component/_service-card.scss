@@ -8,13 +8,14 @@
     .border-left{
         border-left: 1px solid rgba(136,136,136,0.8)!important;
     }
-    .read-more{
-        color: #000;
-        font-weight: 600;
-        &:hover{
-            text-decoration: none;
-            color: $primary-color;
-        }
+    
+}
+.read-more{
+    color: #000;
+    font-weight: 600;
+    &:hover{
+        text-decoration: none;
+        color: $primary-color;
     }
 }
 @media screen and (max-width:580px){

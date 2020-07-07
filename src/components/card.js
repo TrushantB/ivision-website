@@ -15,6 +15,7 @@ import FontAwesome from 'react-fontawesome'
         <p>
          Creating a higher spacing and how people move through a unique and impactful campaign.
         </p>
+        <Link className='read-more' to='/services-details'>Read More</Link>
     </div>
 
 )

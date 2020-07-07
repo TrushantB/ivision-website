@@ -47,10 +47,10 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                   <li className='inner-wrap'>
                     <h3 className='footer-list-title'>Phone</h3>
                     <div>
-                      <a href='tel: +1 860 967 0120' className='mb-0 font-weight-bold text-decoration-none footer-link'>USA +1 860 967 0120</a>
+                      <span className='mb-0 font-weight-bold text-white'>USA </span> <a href='tel: +1 860 967 0120' className='mb-0 font-weight-bold text-decoration-none footer-link'>+1 860 967 0120</a>
                     </div>
                     <div>
-                      <a href='tel: +91 9130 036 036' className='mb-0 font-weight-bold text-decoration-none footer-link'>IND +91 9130 036 036</a>
+                    <span  className='mb-0 font-weight-bold text-white'>IND </span><a href='tel: +91 9130 036 036' className='mb-0 font-weight-bold text-decoration-none footer-link'> +91 9130 036 036</a>
                     </div>
                   </li>
                 </ul>

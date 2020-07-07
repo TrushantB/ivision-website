@@ -5,6 +5,7 @@
         // border-radius: 50%;
         overflow: hidden;
         position: relative;
+        border-radius: 4px;
         &:hover img{
             transform: scale3d(1.1,1.1,1);
             transition: all cubic-bezier(.4,0,.2,1) .4s;

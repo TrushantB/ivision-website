@@ -74,7 +74,7 @@ const IndexPage = () => (
                         if(index < 4) {
                           return (
                             <Col lg='6' md='6' key={index}>
-                            <Card data={item}/>
+                            <Card data={item} index={index}/>
                             {/* <ServiceCard data={item} index={index}/> */}
                           </Col>
        

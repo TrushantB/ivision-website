@@ -6,7 +6,7 @@ import '../styles/scss/main.scss';
 import logo from './../images/logo.jpg';
 import FontAwesome from 'react-fontawesome'
 
-  const Card = ({ siteTitle ,data}) => (
+  const Card = ({ siteTitle ,data,index}) => (
     <div className='card-wrapper'>
         <p className='subtitle'>
             {data.name}
@@ -15,7 +15,7 @@ import FontAwesome from 'react-fontawesome'
         <p>
         {data.discription}
         </p>
-         <Link className='read-more' to='/services-details'>Read More</Link>
+         <Link className='read-more' to={`/services-details?id=${index + 1}`}>Read More</Link>
     </div>
 
 )

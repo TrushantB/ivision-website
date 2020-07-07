@@ -12,9 +12,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../styles/scss/main.scss'
 import Card from "../components/card"
+import ServiceCard from "../components/service-card"
 import Accordian from "../components/accordian"
 import FontAwesome from 'react-fontawesome' 
-
+import dataSource from '../mock-data.json';
 import { Container, Col ,Row, Button} from "react-bootstrap"
 
 const IndexPage = () => (
@@ -68,18 +69,17 @@ const IndexPage = () => (
                <Col lg='1'></Col>
                <Col lg='6' className='p-0'>
                  <Row>
-                   <Col lg='6' md='6'>
-                     <Card/>
-                   </Col>
-                   <Col lg='6' md='6'>
-                   <Card/>
-                   </Col>
-                   <Col lg='6' md='6'>
-                     <Card/>
-                   </Col>
-                   <Col lg='6' md='6'>
-                   <Card/>
-                   </Col>
+                   {
+                      dataSource.Services.map((item,index) => {
+                        return (
+                          <Col lg='6' md='6'>
+                          {/* <Card data={item}/> */}
+                          <ServiceCard data={item} index={index}/>
+                        </Col>
+     
+                        )
+                      })
+                   }
                  </Row>
                </Col>
             </Row>

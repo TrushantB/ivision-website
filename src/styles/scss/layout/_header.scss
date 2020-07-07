@@ -64,7 +64,7 @@
                 height: 100%;
                 align-items: center;
                 .logo {
-                    width: 90px;
+                    width: 150px;
                     img{ 
                         margin-bottom: 0;
                         width: 100%;
@@ -201,4 +201,20 @@
 .bottom-section{
     padding-top: 60px;
 }
+}
+@media screen and (max-width: 420px){
+    .header-wrap {
+        padding-right: 10px;
+        padding-left: 0;
+        .header-wrap-inner{
+            .left-part{
+                .logo {
+                    width: 120px;
+                }
+                .menu-icon{
+                    margin-right: 0;
+                }
+            }
+        }
+    }  
 }

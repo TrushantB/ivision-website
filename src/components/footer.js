@@ -20,20 +20,19 @@ import faStyles from 'font-awesome/css/font-awesome.css'
              <Col lg='3' md='6' sm='6'>
                 <ul className='footer-list'>
                   <li className='inner-wrap'>
-                    <h3 className='footer-list-title'>Barcelona</h3>
+                    <h3 className='footer-list-title'>Address</h3>
                     <div>
-                      <p className='info'>365 Gran Via de Corts,<br/>
-                        Catalanes, BA 08015</p>
+                      <p className='info'>IVISION WEB STUDIO, 3rd Floor Nilgiri apartment Karve Road, Erandwane, Near Bajaj Service Station, Opposite SNDT College, Kothrud Pune 411038.</p>
                     </div>
                   </li>
-                  <li className='inner-wrap'>
+                  {/* <li className='inner-wrap'>
                     <h3 className='footer-list-title'>Rotterdam</h3>
                     <div>
                       <p className='info'>Graaf Florisstraat 22A,<br/>
                           3021 CH Rotterdam,
                           Netherlands</p>
                     </div>
-                  </li>
+                  </li> */}
                 </ul>
              </Col>
              <Col lg='3' md='6' sm='6'>
@@ -42,13 +41,16 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                     <h3 className='footer-list-title'>Work inquiries</h3>
                     <div>
                       <p className='info mb-0 '>Interested in working with us?</p>
-                      <a href='mailto:hola@ohio.colabr.io' className='mb-0 font-weight-bold text-decoration-none footer-link'>hola@ohio.colabr.io</a>
+                      <a href='mailto:hola@ohio.colabr.io' className='mb-0 font-weight-bold text-decoration-none footer-link'>contact@ivisionstudio.in</a>
                     </div>
                   </li>
                   <li className='inner-wrap'>
                     <h3 className='footer-list-title'>Phone</h3>
                     <div>
-                      <a href='tel: +3.230.705.5448' className='mb-0 font-weight-bold text-decoration-none footer-link'>Ph: +3.230.705.5448</a>
+                      <a href='tel: +1 860 967 0120' className='mb-0 font-weight-bold text-decoration-none footer-link'>USA +1 860 967 0120</a>
+                    </div>
+                    <div>
+                      <a href='tel: +91 9130 036 036' className='mb-0 font-weight-bold text-decoration-none footer-link'>IND +91 9130 036 036</a>
                     </div>
                   </li>
                 </ul>
@@ -79,9 +81,9 @@ import faStyles from 'font-awesome/css/font-awesome.css'
           <Container >
             <div className='site-info-holder'>
               <div className='left info'>
-                © {new Date().getFullYear()}, Ohio Theme. Made with passion by
+                © {new Date().getFullYear()}, All rights reserved | Website Design by
                 {` `}
-                <a href="https://www.gatsbyjs.org" className='info-link'>Colabrio.</a>
+                <a href="https://www.gatsbyjs.org" className='info-link'> iVision Web Studio.</a>
               </div>
               <div>
                 <p className='right info m-0'>All right reserved.</p>

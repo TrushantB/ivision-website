@@ -2,3 +2,12 @@
     background-color: $primary-color!important;
     border-color: transparent!important;
 }
+.button-wrap{
+    .button{
+        background-color: $secondary-color!important;
+        border-color: transparent!important;
+        &:hover{
+            background-color:$primary-color!important ;
+        }
+    }
+}

@@ -11,7 +11,7 @@
 
 .main-section{
     .container{
-        max-width: 1300px;
+        max-width: 1381px;
     } 
 }
 .banner-main-wrapper.container{
@@ -165,7 +165,7 @@ background-color:$bg-black;
 //=====Collaboration ===//
 .collaboration-section{
     background-color: #1a191d;
-    padding:90px 90px;
+    padding:90px 0;
     .subtitle{
         color: #A4A3A6;
         text-transform: uppercase;
@@ -209,6 +209,9 @@ background-color:$bg-black;
             padding: 75px 60px;
         }
     }
+    .collaboration-section{
+        padding: 60px 20px;
+    }   
 }
 @media screen and (max-width:992px){
     ///Banner
@@ -231,6 +234,11 @@ background-color:$bg-black;
         .services-wrap{
             padding-bottom: 40px;
            
+        }
+    }
+    .collaboration-section{
+        .title{
+            font-size: 40px;
         }
     }
  

@@ -16,8 +16,8 @@ const Career = () => (
                 At iVision Web Studio, we are constantly looking to expand our team of people. If you feel you have what it takes to work in one of India's leading web development companies then <span className='font-weight-bold'>please send us your resume to contact@ivisionstudio.in</span><br/>
                 Listed below are the current vacancies at the company, however if you feel you have exceptional skills in any area of the web then we would be more than happy to hear from you.
               </p>
-              <div>
-                <Button className='primary-button'><Link className='text-white text-decoration-none' to='/contact'>Send Us an Email</Link></Button>
+              <div className='button-wrap'>
+                <Button className='button'><Link className='text-white text-decoration-none' to='/contact'>Send Us an Email</Link></Button>
               </div>
           </div>
       </Container>

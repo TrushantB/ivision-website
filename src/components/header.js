@@ -31,7 +31,7 @@ import FontAwesome from 'react-fontawesome'
                   {/* </a> */}
              </div>
             <div className='logo'>
-              <img src={logo} />
+              <Link to='/'><img src={logo} /></Link>
             </div>
           </div>
           <div className='right-part '>

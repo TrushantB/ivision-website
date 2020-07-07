@@ -60,7 +60,7 @@ const IndexPage = () => (
                  </div>
                </Col>
                <Col lg='1'></Col>
-               <Col lg='6'>
+               <Col lg='6' className='p-0'>
                  <Row>
                    <Col lg='6' md='6'>
                      <Card/>
@@ -78,11 +78,6 @@ const IndexPage = () => (
                </Col>
             </Row>
            
-         </Container>
-       </section>
-       <section className='gallery-section'>
-         <Container fluid className='p-0'>
-
          </Container>
        </section>
       <section className=' bg-color'>
@@ -230,7 +225,7 @@ const IndexPage = () => (
                         Got a project?<br/>
                           Let’s talk.
                     </h2>
-                    <Button className='contact-buttom mt-sm-4'>Contact Us<FontAwesome className='ml-3' name='arrow-right'/></Button>
+                    <Button className='primary-button contact-buttom mt-sm-4'><Link className='text-white text-decoration-none' to='/contact'>Contact Us<FontAwesome className='ml-3' name='arrow-right'/></Link></Button>
                   </div>
                </div>
                <p className='m-0 text-white decription'>We’re a <span className='font-weight-bold'>team of creatives </span>who are excited about unique ideas and help fin-tech<br/> companies to <span className='font-weight-bold'>create amazing identity</span> by crafting top-notch UI/UX.</p>

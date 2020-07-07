@@ -67,9 +67,9 @@ const Contact = () => (
                           <p className='secondary-text-color mb-0 '>
                             Work and general inquiries
                           </p>
-                          <p className='text-white f-w-500'>
-                            +1.809.120.6705
-                          </p>
+                          <p className='mb-0'><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none font-weight-bold footer-link'>USA +1 860 967 0120</a></p>
+                          <p className='mb-0'><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none font-weight-bold footer-link'>IND +91 9130 036 036</a></p>
+
                         </div>
                         <div className='mt-4'>
                           <p className='secondary-text-color mb-0 '>
@@ -91,9 +91,7 @@ const Contact = () => (
                         <h5 className='text-white mb-4'>Post address</h5>
                         <div>
                           <p className='text-white f-w-500'>
-                            541 Melville Ave, Palo Alto,<br/>
-                            CA 94301,
-                            United States
+                          IVISION WEB STUDIO, 3rd Floor Nilgiri apartment Karve Road, Erandwane, Near Bajaj Service Station, Opposite SNDT College, Kothrud Pune 411038.
                           </p>
                         </div>
                     </Col>

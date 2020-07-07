@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container,Nav,Col,Row, Button } from 'react-bootstrap';
@@ -15,8 +15,8 @@ const Career = () => (
               <p>
               The JAM Development is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.
               </p>
-              <div>
-                <Button className='primary-button'>Learn More</Button>
+              <div className='button-wrap'>
+                <Button className='button'><Link className='text-white text-decoration-none' to='/contact'>Learn More</Link></Button>
               </div>
           </div>
       </Container>

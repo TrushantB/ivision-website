@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Container,Nav, Row, Col ,InputGroup,FormControl,Button} from 'react-bootstrap';
 import '../styles/scss/main.scss';
-import logo from './../images/footer-logo.jpg';
+import logo from './../images/ivision_logo-white.png';
 import FontAwesome from 'react-fontawesome'
 import faStyles from 'font-awesome/css/font-awesome.css'
   const Footer = ({ siteTitle }) => (

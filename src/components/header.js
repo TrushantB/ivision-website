@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Container,Nav ,Button} from 'react-bootstrap';
 import '../styles/scss/main.scss';
-import logo from './../images/logo.jpg';
+import logo from './../images/ivision_logo.png';
 import './layout.css'
 import FontAwesome from 'react-fontawesome' 
 
@@ -106,7 +106,7 @@ import FontAwesome from 'react-fontawesome'
                 </a>
             </div>
             <div className='circle mr-3'>
-              <a href='https://www.instagram.com/ivisionwebstudio/?utm_source=ig_profile_share&igshid=1djd4p8s9673q' target='blank' className='d-flex'>
+              <a href='#' target='blank' className='d-flex'>
                 <FontAwesome
                     name="twitter"
                     className='text-white icon'
@@ -114,7 +114,7 @@ import FontAwesome from 'react-fontawesome'
               </a>
             </div>
             <div className='circle mr-3'>
-             <a href='#' className='d-flex'> 
+             <a href='https://www.instagram.com/ivisionwebstudio/?utm_source=ig_profile_share&igshid=1djd4p8s9673q' target='blank' className='d-flex'> 
                 <FontAwesome
                     name="instagram"
                     className='text-white icon'

@@ -12,7 +12,7 @@ import FontAwesome from 'react-fontawesome'
             {data.name}
         </p>
         <h4 className='subheading'>{data.tagline}</h4>
-        <p>
+        <p className='description-details'>
         {data.discription}
         </p>
          <Link className='read-more' to={`/services-details?id=${index + 1}`}>Read More</Link>

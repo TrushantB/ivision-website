@@ -85,7 +85,7 @@ import FontAwesome from 'react-fontawesome'
         <div className='d-flex info-wrap flex-wrap'>
           <div className='info'>
             <p className='font-weight-bold text-white'>Get In Touch</p>
-            <p className='mb-0'><a href='mailto:hola@ohio.colabr.io' className='mb-0 text-decoration-none footer-link'>contact@ivisionstudio.in</a></p>
+            <p className='mb-0'><a href='mailto:contact@ivisionstudio.in' className='mb-0 text-decoration-none footer-link'>contact@ivisionstudio.in</a></p>
             <p className='mb-0'><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none footer-link'>USA +1 860 967 0120</a></p>
             <p className='mb-0'><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none footer-link'>IND +91 9130 036 036</a></p>
 

@@ -67,8 +67,8 @@ const Contact = () => (
                           <p className='secondary-text-color mb-0 '>
                             Work and general inquiries
                           </p>
-                          <p className='mb-0'><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none f-w-600 footer-link'>USA +1 860 967 0120</a></p>
-                          <p className='mb-0'><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none f-w-600 footer-link'>IND +91 9130 036 036</a></p>
+                            <p className='mb-0'> <span className='text-white font-weight-bold'>USA</span><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none f-w-600 footer-link'> +1 860 967 0120</a></p>
+                          <p className='mb-0'><span className='text-white font-weight-bold'>IND</span><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none f-w-600 footer-link'> +91 9130 036 036</a></p>
 
                         </div>
                         <div className='mt-4'>

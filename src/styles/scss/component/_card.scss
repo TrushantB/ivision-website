@@ -3,4 +3,11 @@
     .heading{
         margin-bottom: 20px;
     }
+    .description-details{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* number of lines to show */
+        -webkit-box-orient: vertical;
+    }
 }

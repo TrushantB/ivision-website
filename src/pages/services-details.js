@@ -24,8 +24,8 @@ const ServicesDetails = ({location}) =>{
         </Container>
          <section className='details-wrapper bg-color pt-80'>
              <Container>
-                 <div className='mb-5'>
-                         <div>
+                 <div>
+                     <div className='mb-5'>
                          <h3>{serviceDetails.heading1}</h3>
                          <Row>
                              {

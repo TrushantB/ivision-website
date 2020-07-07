@@ -170,8 +170,213 @@
         "name":"Mobile Development",
         "tools":"Gatsby /Hugo/Jekyll / Contentful / Netlify",
         "tagline": "Modern Web Development Architecture",
-        "discription":"The JAM Development is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.",
+        "discription":"Web Application Development is the creation of application programs that reside on remote servers and are delivered to the user's device over the Internet. for starters, web applications don’t require any installation and that means that they can be used almost instantly. At the same time, this also means that nearly all web applications are cloud-based by definition",
         "heading1": "What is the JAM Development ?",
+        "heading1_content":[
+            {
+                "title":"JAVASCRIPT",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"APIS",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"MARKUP",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ],
+        "heading2": "What is the JAM Development ?",
+        "heading2_content":[
+            {
+                "title":"BETTER PERFORMANCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"HIGHER SECURITY",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"BETTER DEVELOPER EXPERIENCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"CHEAPER, EASIER SCALING",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ]
+      },
+      {
+        "id":3,
+        "name":"Mobile Application",
+        "tools":" iOS / Android /React Native /Ionic",
+        "tagline": "Mobile Application Development",
+        "discription":"A majority of the users prefer using their smartphones to navigate a website or an app. The mobile applications should be developed in congruence with a user-friendly interface, and we strive to develop top-notch and accessible mobile apps for our clients.",
+        "heading1": "What is the JAM Development ?",
+        "heading1_content":[
+            {
+                "title":"JAVASCRIPT",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"APIS",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"MARKUP",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ],
+        "heading2": "What is the JAM Development ?",
+        "heading2_content":[
+            {
+                "title":"BETTER PERFORMANCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"HIGHER SECURITY",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"BETTER DEVELOPER EXPERIENCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"CHEAPER, EASIER SCALING",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ]
+      },
+      {
+        "id":4,
+        "name":"Website Development",
+        "tools":" Opencart, WooCommerce, Magento. / Wordpress. / Bootstrap, Foundation. / HTML 5, CSS 3, Javascript.",
+        "tagline": "Mobile Application Development",
+        "discription":"A majority of the users prefer using their smartphones to navigate a website or an app. The mobile applications should be developed in congruence with a user-friendly interface, and we strive to develop top-notch and accessible mobile apps for our clients.",
+        "heading1": "What is the JAM Development ?",
+        "heading1_content":[
+            {
+                "title":"JAVASCRIPT",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"APIS",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"MARKUP",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ],
+        "heading2": "What is the JAM Development ?",
+        "heading2_content":[
+            {
+                "title":"BETTER PERFORMANCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"HIGHER SECURITY",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"BETTER DEVELOPER EXPERIENCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"CHEAPER, EASIER SCALING",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ]
+      },
+      {
+        "id":5,
+        "name":"UI / UX Design",
+        "tools":" Photoshop / Illustrator / Wireframes software",
+        "tagline": "Mobile Application Development",
+        "discription":"A majority of the users prefer using their smartphones to navigate a website or an app. The mobile applications should be developed in congruence with a user-friendly interface, and we strive to develop top-notch and accessible mobile apps for our clients.",
+        "heading1": "What is the JAM Development ?",
+        "heading1_content":[
+            {
+                "title":"JAVASCRIPT",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"APIS",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"MARKUP",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ],
+        "heading2": "What is the JAM Development ?",
+        "heading2_content":[
+            {
+                "title":"BETTER PERFORMANCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"HIGHER SECURITY",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"BETTER DEVELOPER EXPERIENCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"CHEAPER, EASIER SCALING",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ]
+      },
+      {
+        "id":6,
+        "name":"Redesign & Maintenance",
+        "tools":" ",
+        "tagline": "Mobile Application Development",
+        "discription":"iVision Studio offers redesign maintenance services to its customers, and we take all the measurements to help our clients with updating their websites. We make sure that your website is updated as well as up-to-date, and we scan it thoroughly to avoid any glitches from it.",
+        "heading1": "What is the JAM Development ?",
+        "heading1_content":[
+            {
+                "title":"JAVASCRIPT",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"APIS",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"MARKUP",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ],
+        "heading2": "What is the JAM Development ?",
+        "heading2_content":[
+            {
+                "title":"BETTER PERFORMANCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"HIGHER SECURITY",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"BETTER DEVELOPER EXPERIENCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"CHEAPER, EASIER SCALING",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ]
+      },
+      {
+        "id":7,
+        "name":"Staffing Solutions",
+        "tools":" ",
+        "tagline": "Temporary Staffing, Temporary-to-Hire, Logn-term Staffing",
+        "discription":"A temporary staff can lead to cost savings and enhanced productivity for your organization. One of the leading temporary agencies, iVision combines innovative technology with the human touch to save costs, enhance quality, and maximize efficiency for your business. Embrace flexibility and business freedom with our excellent contract staffing services.",
+        "heading1": "Why iVision Web Studio?",
         "heading1_content":[
             {
                 "title":"JAVASCRIPT",

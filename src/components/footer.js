@@ -41,7 +41,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                     <h3 className='footer-list-title'>Work inquiries</h3>
                     <div>
                       <p className='info mb-0 '>Interested in working with us?</p>
-                      <a href='mailto:hola@ohio.colabr.io' className='mb-0 font-weight-bold text-decoration-none footer-link'>contact@ivisionstudio.in</a>
+                      <a href='mailto:contact@ivisionstudio.in' className='mb-0 font-weight-bold text-decoration-none footer-link'>contact@ivisionstudio.in</a>
                     </div>
                   </li>
                   <li className='inner-wrap'>

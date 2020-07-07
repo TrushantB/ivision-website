@@ -17,7 +17,7 @@ import FontAwesome from 'react-fontawesome'
       document.getElementById("mySidenav").style.width = "0";
     }
     return (
-  <header>
+  <header className='nav-fixed-top'>
    <div className='header-wrap'>
       <div className='header-wrap-inner'>
           <div className='left-part'>
@@ -43,7 +43,7 @@ import FontAwesome from 'react-fontawesome'
             </Nav.Item>
             <Nav.Item>
               <Nav.Link >
-                <Link to='/about' className='link'>About </Link>
+                <Link to='/about' className='link'>About Us</Link>
                 </Nav.Link>
             </Nav.Item>
            
@@ -76,7 +76,7 @@ import FontAwesome from 'react-fontawesome'
    <div id="mySidenav" className="sidenav">
       <a href="javascript:void(0)" className="closebtn link" onClick={() => closeNav()}>&times;</a>
       <Link to='/' className='link' onClick={() => closeNav()}>Home </Link>
-      <Link to='/about' className='link' onClick={() => closeNav()}>About </Link>
+      <Link to='/about' className='link' onClick={() => closeNav()}>About Us </Link>
       <Link to='/services' className='link' onClick={() => closeNav()}>Services </Link>
       <Link to='/career' className='link' onClick={() => closeNav()}>Career </Link>
       <Link to='/team' className='link' onClick={() => closeNav()}>Team</Link>

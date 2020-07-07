@@ -211,7 +211,38 @@ background-color:$bg-black;
 .award-section {
     padding:80px 0 40px 0;
 }
+///===== Project ===//
+.featured-project{
+    .project{
+        position: relative;
+        height: 100%;
+        .img-wrap{
+            overflow: hidden;
+            border-radius: 4px;
+            position: relative;
+            padding-bottom: 50%;
+            height: 100%;
 
+            img{
+                transform: scale(1);
+                transition: .3s ease-in-out;
+                position: absolute;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+      
+        &:hover img{
+            transform: scale(1.1);
+        }
+        .project-name{
+            position: absolute;
+            bottom: 5%;
+            left: 40px;
+        }
+    }
+}
 ///Media Query
 @media screen and (max-width:1140px){
     .capabilties-section{

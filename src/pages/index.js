@@ -3,6 +3,10 @@ import { Link } from "gatsby"
 import image from './../images/image.jpg';
 import play from './../images/play.png'
 import sponser from './../images/sponser.png'
+import project from './../images/project.jpg'
+import project1 from './../images/project1.jpg'
+import project3 from './../images/project3.jpg'
+
 import award from './../images/a.png'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -82,6 +86,64 @@ const IndexPage = () => (
            
          </Container>
        </section>
+       <section className='featured-project'>
+         <Container className='p-0' fluid> 
+            <Row>
+              <Col lg='4' className='p-0'>
+                <div className='project'>
+                  <div className='img-wrap'>
+                      <img src={project1} width='100%'/>
+                  </div>
+                  <div className='project-name'>
+                    <h5>
+                      <a href='#'> Plastic Credit Card</a>
+                    </h5>
+                    <p className='category'>Identity</p>
+                  </div>
+                </div>
+              </Col>
+              <Col lg='8' className='p-0'>
+                <div className='project'>
+                  <div className='img-wrap'>
+                      <img src={project3} width='100%'/>
+                  </div>
+                  <div className='project-name'>
+                    <h5>
+                      <a href='#'> Plastic Credit Card</a>
+                    </h5>
+                    <p className='category'>Identity</p>
+                  </div>
+                </div>
+              </Col>
+              <Col lg='8' className='p-0'>
+                <div className='project'>
+                  <div className='img-wrap'>
+                      <img src={project} width='100%'/>
+                  </div>
+                  <div className='project-name'>
+                    <h5>
+                      <a href='#'> Plastic Credit Card</a>
+                    </h5>
+                    <p className='category'>Identity</p>
+                  </div>
+                </div>
+              </Col>
+              <Col lg='4' className='p-0'>
+                <div className='project'>
+                  <div className='img-wrap'>
+                      <img src={project1} width='100%'/>
+                  </div>
+                  <div className='project-name'>
+                    <h5>
+                      <a href='#'> Plastic Credit Card</a>
+                    </h5>
+                    <p className='category'>Identity</p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+         </Container>
+        </section> 
       <section className=' bg-color'>
         <Container>
           <Row>

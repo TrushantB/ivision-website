@@ -81,7 +81,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
           <Container >
             <div className='site-info-holder'>
               <div className='left info'>
-                © {new Date().getFullYear()}, All rights reserved | Website Design by
+                © {new Date().getFullYear()}, Website Design by
                 {` `}
                 <a href="https://www.gatsbyjs.org" className='info-link'> iVision Web Studio.</a>
               </div>

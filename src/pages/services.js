@@ -10,9 +10,10 @@ const Services = () => (
     <SEO title="Services" />
      <section className='mt-5 services-wrapper main-section'>
         <Container className='top-wrap'>
-          <p>What We Do</p>
-          <h1 className='page-heading line-heignt mb-5 font-weight-bold'>We make strategies,<br/> design & development<br/>
-            to create valuable<br/> products.</h1>
+          <h1 className='page-heading line-heignt0
+            font-weight-bold'>
+          Services</h1>
+          <p className='description mb-3'>What We Do</p>
         </Container>
         <section className='bg-color what-we-do'>
           <Container>

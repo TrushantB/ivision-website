@@ -15,7 +15,7 @@ import FontAwesome from 'react-fontawesome'
                     <FontAwesome className=''
                         name="plus"
                         size="1x"
-                        className='pr-3'
+                        className='pr-3 plus-icon' 
                         />
                     Website & Mobile App Design
                 </Accordion.Toggle>
@@ -28,7 +28,7 @@ import FontAwesome from 'react-fontawesome'
                      <FontAwesome className=''
                         name="plus"
                         size="1x"
-                        className='pr-3'
+                        className='pr-3 plus-icon'
                         />
                      Motion Graphics & Animation
                 </Accordion.Toggle>
@@ -41,7 +41,7 @@ import FontAwesome from 'react-fontawesome'
                   <FontAwesome className=''
                         name="plus"
                         size="1x"
-                        className='pr-3'
+                        className='pr-3 plus-icon'
                         />
                    User Experience
                 </Accordion.Toggle>

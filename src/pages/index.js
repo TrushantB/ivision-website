@@ -38,10 +38,12 @@ const IndexPage = () => (
         </Col>
         <Col lg='6'>
           <div className='right-section'>
-            <h6 className='font-weight-bold mb-3'>Featured project:</h6>
-            <h5 className='feature-project-title'>
-              <a href='' className='featured-details'>Unique Bowls From<br/> the South Pacific.</a>
-            </h5>
+            <div className='featured-project'>
+              <h6 className='font-weight-bold mb-4'>Featured project:</h6>
+              <h5 className='feature-project-title'>
+                <a href='' className='featured-details'>Unique Bowls From<br/> the South Pacific.</a>
+              </h5>
+            </div>
           </div>
         </Col>
       </Row>

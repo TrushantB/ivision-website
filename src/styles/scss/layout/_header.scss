@@ -6,6 +6,9 @@
     .menu-icon {
         cursor: pointer;
     }
+    .nav-item {
+        padding-right: 8px;
+    }
     .header-wrap-inner{
         flex-direction:row;
         display: flex;
@@ -18,16 +21,16 @@
                 .nav-link{
                     position: relative;
                     color: $text-black;
-                    &::before{
-                        content: '0';
-                        position: absolute;
-                        top: 0;
-                        right: 15px;
-                        font-size: .6em;
-                        height: auto;
-                        background: transparent;
-                        opacity: .7;
-                    }
+                    // &::before{
+                    //     content: '0';
+                    //     position: absolute;
+                    //     top: 0;
+                    //     right: 15px;
+                    //     font-size: .6em;
+                    //     height: auto;
+                    //     background: transparent;
+                    //     opacity: .7;
+                    // }
                     .link[aria-current=page]{
                         color: $primary-color;
                     }

@@ -85,20 +85,20 @@ import FontAwesome from 'react-fontawesome'
         <div className='d-flex info-wrap flex-wrap'>
           <div className='info'>
             <p className='font-weight-bold text-white'>Get In Touch</p>
-            <p className='mb-0'>541 Melville Ave, Palo Alto, CA 94301,</p>
-            <p className='mb-0'><a href='mailto:hola@ohio.colabr.io' className='mb-0 text-decoration-none footer-link'>hola@ohio.colabr.io</a></p>
-            <p className='mb-0'><a href='tel: +3.230.705.5448' className='mb-0 text-decoration-none footer-link'>Ph: +3.230.705.5448</a></p>
+            <p className='mb-0'><a href='mailto:hola@ohio.colabr.io' className='mb-0 text-decoration-none footer-link'>contact@ivisionstudio.in</a></p>
+            <p className='mb-0'><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none footer-link'>USA +1 860 967 0120</a></p>
+            <p className='mb-0'><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none footer-link'>IND +91 9130 036 036</a></p>
 
           </div>
           <div className='info'>
             <p className='font-weight-bold text-white'>Work Inquiry</p>
-            <p className='mb-0'>541 Melville Ave, Palo Alto, CA 94301,</p>
-                <a href='tel: +3.230.705.5448' className='mb-0 text-decoration-none footer-link'>Ph: +3.230.705.5448</a>
+            <p className='mb-0'>IVISION WEB STUDIO, 3rd Floor Nilgiri apartment Karve Road, Erandwane, Near Bajaj Service Station, Opposite SNDT College, Kothrud Pune 411038.</p>
+                {/* <a href='tel: +3.230.705.5448' className='mb-0 text-decoration-none footer-link'>Ph: +3.230.705.5448</a> */}
           </div>
         </div> 
         <div className='social-link d-flex mt-4 mb-4'>
             <div className='circle mr-3'>
-                <a href='#' className='d-flex'>
+                <a href='https://www.facebook.com/ivision.webstudio.9' target='blank' className='d-flex'>
                   <FontAwesome
                       name="facebook-f"
                       className='text-white icon'
@@ -106,7 +106,7 @@ import FontAwesome from 'react-fontawesome'
                 </a>
             </div>
             <div className='circle mr-3'>
-              <a href='#' className='d-flex'>
+              <a href='https://www.instagram.com/ivisionwebstudio/?utm_source=ig_profile_share&igshid=1djd4p8s9673q' target='blank' className='d-flex'>
                 <FontAwesome
                     name="twitter"
                     className='text-white icon'

@@ -28,9 +28,11 @@ const Career = () => (
             <div className='job-article left-section'>
               <div className='mb-4'>
                 <h3 className='font-weight-bold'>PHP Developer with MVC Framework</h3>
-                <p className='font-weight-bold mt-4'>Experience: 1-4 years</p>
                 <p>
-                  <span  className='font-weight-bold'>Skills Required:</span> PHP, MySQL, HTML5, CSS3, JavaScript, JQuery, Ajax and related Technologies
+                  <span  className='font-weight-bold f-s-18'>Experience:</span > 1-4 years
+                </p>
+                <p>
+                  <span  className='font-weight-bold f-s-18'>Skills Required:</span> PHP, MySQL, HTML5, CSS3, JavaScript, JQuery, Ajax and related Technologies
                 </p>
               </div>
               <h5 className='mb-4 font-weight-bold'>Job Description:</h5>
@@ -67,36 +69,50 @@ const Career = () => (
             <div className='job-article right-section'>
               <div className='mb-4'>
                 <h3  className='font-weight-bold'>Front End Developer</h3>
-                <p className='font-weight-bold mt-4'>Experience: 1-4 years</p>
                 <p>
-                  <span  className='font-weight-bold'>Skills Required:</span> XHTML / HTML5, CSS2.1 / CSS3, JavaScript, jQuery, Bootstrap, Angular.JS
+                  <span  className='font-weight-bold f-s-18'>Experience:</span > 1-4 years
+                </p>
+                <p>
+                  <span  className='font-weight-bold f-s-18'>Skills Required:</span> XHTML / HTML5, CSS2.1 / CSS3, JavaScript, jQuery, Bootstrap, Angular.JS
                 </p>
               </div>
               <h5 className='mb-4 font-weight-bold'>Job Description:</h5>
               <ul>
                 <li>
-                  <p>Experience in Web Application Development using PHP/ My SQL.</p>
+                  <p>Strong knowledge in HTML4, HTML5, CSS3</p>
                 </li>
                 <li>
-                  <p>Should have experience in MVC based PHP Framework such as Yii2, Laravel, Codeigniter</p>
+                  <p>Strong knowledge in advanced JavaScript using OOPS concept & good knowledge in Jquery</p>
                 </li>
                 <li>
-                  <p>Perform coding to written technical specifications</p>
+                  <p>Moderate to expert knowledge in AJAX, JSON and XML</p>
                 </li>
                 <li>
-                  <p>Should have experience in JavaScript, JQuery, Ajax</p>
+                  <p>Ability to create interactive HTML5 templates like Drag and Drop, Single select, Multiple select, Tab interactivity in HTML5 using JavaScript and Jquery Knowledge of HTML5 Audio and Video tags and cross platform issues related to audio and video</p>
                 </li>
                 <li>
-                  <p>Candidates must have Strong analytical and problem- solving skills</p>
+                  <p>Conversion of design into CSS/DIV layouts qualifying W3C Standards</p>
                 </li>
                 <li>
-                  <p>Strong experience will be preferred</p>
+                  <p>Knowledge in HTML without using Dreamweaver/FrontPage tool is a definite plus</p>
                 </li>
                 <li>
-                  <p>Team participation Skills. Can handle project independently</p>
+                  <p>Understands graphic design and digital layout basics</p>
                 </li>
                 <li>
-                  <p>Excellent communication skills required</p>
+                  <p>Ability to develop Applications using HTML 5 and JavaScript that will run effectively on touch screen devises like the iPhone / iPad</p>
+                </li>
+                <li>
+                  <p>Should be aware of Use responsive techniques to build interface for multiple screen resolution</p>
+                </li>
+                <li>
+                  <p>Communicate effectively with project managers, technical leads, and other internal team members</p>
+                </li>
+                <li>
+                  <p>Document, organize, and maintain new code, helping to grow the company's code base</p>
+                </li>
+                <li>
+                  <p>Testing cross-browser, cross-platform, and/or cross-device compatibility for inconsistencies</p>
                 </li>
               
               </ul>

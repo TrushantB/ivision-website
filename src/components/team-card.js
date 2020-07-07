@@ -6,7 +6,7 @@ import '../styles/scss/main.scss';
 import profile from './../images/profile.jpg';
 import FontAwesome from 'react-fontawesome'
 
-  const TeamCard = ({ siteTitle }) => (
+  const TeamCard = ({ siteTitle,data }) => (
     <div className='team-card-wrapper'>
        {/* <div className='card py-3'>
             <div className='card-body'>
@@ -18,10 +18,10 @@ import FontAwesome from 'react-fontawesome'
             </div>
        </div> */}
          <div className='profile-wrap'>
-            <img src={profile} width='100%'/>
+            <img src={data.picture} width='100%'/>
             <div className='member-details-wrap'>
                 <div className='member-details'>
-                    <p className='text-white'>Rahul Rawade is a creative artist and founding partner, providing smart & flexible digital services.</p>
+                    <p className='text-white'>{data.description}</p>
                     <div className='social-link d-flex mt-4'>
                         <div className='circle mr-3'>
                             <FontAwesome
@@ -48,8 +48,8 @@ import FontAwesome from 'react-fontawesome'
                 </div>
             </div>
         </div>
-            <h5 className='mt-3 mb-0 member-name'>Rahul Rawade</h5>
-            <p className='m-0 card-text'>Co-Founder</p>
+            <h5 className='mt-3 mb-0 member-name'>{data.name}</h5>
+            <p className='m-0 card-text'>{data.designation}</p>
     </div>
 
 )

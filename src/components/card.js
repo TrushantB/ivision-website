@@ -6,14 +6,14 @@ import '../styles/scss/main.scss';
 import logo from './../images/logo.jpg';
 import FontAwesome from 'react-fontawesome'
 
-  const Card = ({ siteTitle }) => (
+  const Card = ({ siteTitle ,data}) => (
     <div className='card-wrapper'>
         <p className='subtitle'>
-            services
+            {data.name}
         </p>
-        <h4 className='subheading'>Brand Strategy & Art Direction</h4>
+        <h4 className='subheading'>{data.tagline}</h4>
         <p>
-         Creating a higher spacing and how people move through a unique and impactful campaign.
+        {data.discription}
         </p>
     </div>
 

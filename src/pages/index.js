@@ -71,13 +71,15 @@ const IndexPage = () => (
                  <Row>
                    {
                       dataSource.Services.map((item,index) => {
-                        return (
-                          <Col lg='6' md='6'>
-                          {/* <Card data={item}/> */}
-                          <ServiceCard data={item} index={index}/>
-                        </Col>
-     
-                        )
+                        if(index < 4) {
+                          return (
+                            <Col lg='6' md='6' key={index}>
+                            <Card data={item}/>
+                            {/* <ServiceCard data={item} index={index}/> */}
+                          </Col>
+       
+                          )
+                        }
                       })
                    }
                  </Row>

@@ -3,8 +3,10 @@ import TeamCard from '../components/team-card'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container,Nav, Row ,Col} from 'react-bootstrap';
+import dataSource from '../mock-data.json';
 
-const Team = () => (
+const Team = () => {
+  return (
   <Layout>
     <SEO title="Team" />
      <section className='team-wrap mt-5 main-section'>
@@ -14,22 +16,20 @@ const Team = () => (
       </Container>
       <Container>
         <Row>
-          <Col lg='3' md='4'sm='6' className='mb-5'>
-           <TeamCard/>
-          </Col>
-          <Col lg='3'md='4'sm='6' className='mb-5'>
-           <TeamCard/>
-          </Col>
-          <Col lg='3'md='4'sm='6' className='mb-5'>
-           <TeamCard/>
-          </Col>
-          <Col lg='3'md='4'sm='6' className='mb-5'>
-           <TeamCard/>
-          </Col>
+          {
+            dataSource.Team.map((item,index) => {
+              return(
+                <Col lg='3' md='4'sm='6' className='mb-5' key={index}>
+                <TeamCard data={item}/>
+               </Col>
+              )
+            })
+          }
         </Row>
       </Container>
      </section>
   </Layout>
 )
+  }
+export default Team;
 
-export default Team

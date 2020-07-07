@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container,Nav ,Row,Col} from 'react-bootstrap';
 import ServiceCard from "../components/service-card";
-
+import dataSource from '../mock-data.json';
 const Services = () => (
   <Layout>
     <SEO title="Services" />
@@ -26,18 +26,15 @@ const Services = () => (
               </Col>
               <Col lg='8'  className='p-0'>
                 <Row>
-                  <Col lg='6' sm='6'>
-                    <ServiceCard/>
-                  </Col>
-                  <Col lg='6' sm='6' >
-                    <ServiceCard/>
-                  </Col>
-                  <Col lg='6'  sm='6'>
-                    <ServiceCard/>
-                  </Col>
-                  <Col lg='6' sm='6' >
-                    <ServiceCard/>
-                  </Col>
+                  {
+                    dataSource.Services.map((item,index) => {
+                      return (
+                        <Col lg='6' sm='6' key={index}>
+                          <ServiceCard data={item} index={index}/>
+                        </Col>
+                      )
+                    })
+                  }
                 </Row>
               </Col>
              </Row> 

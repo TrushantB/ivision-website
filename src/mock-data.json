@@ -1,0 +1,211 @@
+{
+    
+ "Team": [
+    {
+    "name": "Rahul Rawade",
+    "designation": "Co-Founder",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/38H1OxPgsjPrj1u6cbO5ui/9b24749ca5b57b106f68cf207acc5ab6/rahul_rawade.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Rahul Rawade is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Girish Boke",
+    "designation": "Team Manager",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/5JsjBMK9MIZRvA21Phwsb8/2baa0d26829fe7538796be1f6daa6987/girish_boke.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Girish Boke is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Preity Uttekar",
+    "designation": "Project Coordinator",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/1zTyoT7K34y9lKK4QaC3gS/eaba35cd5d57dfbbba78153e479f691d/preity_uttekar.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Preity Uttekar is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Jaywardhan Jadhav",
+    "designation": "UI/UX Software Engineer",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/4wMDtBKkKihDUzen2M9TLT/6fa40b92a3f03b004080d60305bed5ec/jay_jadhav.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Jaywardhan Jadhav is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Ronak Rawade",
+    "designation": "UI/UX Software Engineer",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/1sbECbV9bWagE8UK328vAx/ba6962cd1f7aad6e429130eb88e53d6c/ronak_rawade.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Ronak Rawade is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Yogesh Jadhav",
+    "designation": "Software Developer",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/1z1vifqm58WGZJk8eIDjSD/be6ef6f1e83f53ad20eb5fa6b2c3eed0/yogesh_jadhav.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Yogesh Jadhav is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Trushant Bhangare",
+    "designation": "Software Developer",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/3emi5ofBmwMb2q5td696zp/0c1eb220b28a2e00f2254cf63f26f5a0/trushant_bhangare.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Trushant Bhangare is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Aniket Shinde",
+    "designation": "Team Leader",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/5A6r1M2ULQdabdMo7sgTMF/1624dfc55c659cf778efcacb8c9666df/aniket_shinde.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Aniket Shinde is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Akshay Chidre",
+    "designation": "UI/UX Developer",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/rdLWpVLYUNV3QMY9ORABx/ddb5b695886adb402d54800cef1fb18e/akshay_chidre.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Akshay Chidre is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Baldev Pardeshi",
+    "designation": "UI/UX Developer",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/2twieyvt8NEgX7Vh9aBwiz/c1d46e9260852693fbc413586fb95023/baldev_pardeshi.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Baldev Pardeshi is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  },
+  {
+    "name": "Pravin Jadhav",
+    "designation": "UI/UX Developer",
+    "picture": "https://images.ctfassets.net/frm2ukqlqqti/5kTF1bAv12kFDU8tkEgwfQ/7b7d33b66f1df81ec40debb7bfbda624/pravin_jadhav.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
+    "description": "Pravin Jadhav is a creative artist and founding partner, providing smart & flexible digital services.",
+    "social": {
+      "Facebook":"https://www.facebook.com/",
+      "insta":"https://www.instagram.com/",
+      "linkedin":"https://www.linkedin.com/"
+    }
+  }
+  ],
+  "Services":[
+      {
+        "id":1,
+        "name":"JAM Development",
+        "tagline": "Modern Web Development Architecture",
+        "tools":"Gatsby /Hugo/Jekyll / Contentful / Netlify",
+        "discription":"The JAM Development is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.",
+        "heading1": "What is the JAM Development ?",
+        "heading1_content":[
+            {
+                "title":"JAVASCRIPT",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"APIS",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"MARKUP",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ],
+        "heading2": "What is the JAM Development ?",
+        "heading2_content":[
+            {
+                "title":"BETTER PERFORMANCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"HIGHER SECURITY",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"BETTER DEVELOPER EXPERIENCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"CHEAPER, EASIER SCALING",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ]
+      },
+      {
+        "id":2,
+        "name":"Mobile Development",
+        "tools":"Gatsby /Hugo/Jekyll / Contentful / Netlify",
+        "tagline": "Modern Web Development Architecture",
+        "discription":"The JAM Development is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.",
+        "heading1": "What is the JAM Development ?",
+        "heading1_content":[
+            {
+                "title":"JAVASCRIPT",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"APIS",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"MARKUP",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ],
+        "heading2": "What is the JAM Development ?",
+        "heading2_content":[
+            {
+                "title":"BETTER PERFORMANCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"HIGHER SECURITY",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"BETTER DEVELOPER EXPERIENCE",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            },
+            {
+                "title":"CHEAPER, EASIER SCALING",
+                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+            }
+        ]
+      }
+  ]
+  
+}

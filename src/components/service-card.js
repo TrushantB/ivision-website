@@ -6,16 +6,17 @@ import '../styles/scss/main.scss';
 import logo from './../images/logo.jpg';
 import FontAwesome from 'react-fontawesome'
 
-  const ServiceCard = ({ siteTitle }) => (
+  const ServiceCard = ({ siteTitle,data,index}) => (
     <div className='services-card-wrapper'>
         <div className='border-left body'>
-            <p> 01. </p>
-            <h4 className='subheading'>JAM Development</h4>
-            <p className='font-weight-bold'>Gatsby /Hugo/Jekyll / Contentful / Netlify</p>
+            <p> 0{index + 1}. </p>
+            <h4 className='subheading'>{data.name}</h4>
+            <p className='font-weight-bold'>{data.tools}</p>
             <p>
-             Creating a higher spacing and how people move through a unique and impactful campaign.
+             {data.discription}
             </p>
-            <Link className='read-more' to='/services-details'>Read More</Link>
+           
+            <Link className='read-more' to={`/services-details?id=${index + 1}`}>Read More</Link>
         </div>
     </div>
 

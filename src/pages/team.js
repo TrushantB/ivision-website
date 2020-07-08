@@ -19,7 +19,7 @@ const Team = () => {
           {
             dataSource.Team.map((item,index) => {
               return(
-                <Col lg='3' md='4'sm='6' className='mb-5' key={index}>
+                <Col lg='3' md='4'sm='6' className='mb-100' key={index}>
                 <TeamCard data={item}/>
                </Col>
               )

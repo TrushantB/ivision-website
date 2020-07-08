@@ -15,7 +15,7 @@ import FontAwesome from 'react-fontawesome'
         <p className='description-details'>
         {data.discription}
         </p>
-         <Link className='read-more' to={`/services-details?id=${index + 1}`}>Read More</Link>
+        <Link className='read-more' to={data.slug}>Read More</Link>
     </div>
 
 )

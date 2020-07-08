@@ -126,6 +126,8 @@
   "Services":[
       {
         "id":1,
+        "slug":"/jam-development",
+        
         "name":"JAM Development",
         "tagline": "Modern Web Development Architecture",
         "tools":"Gatsby /Hugo/Jekyll / Contentful / Netlify",
@@ -167,6 +169,8 @@
       },
       {
         "id":2,
+        
+        "slug":"/web-application",
         "name":"Web Application",
         "tools":"Gatsby /Hugo/Jekyll / Contentful / Netlify",
         "tagline": "Creating online environments",
@@ -208,6 +212,7 @@
       },
       {
         "id":3,
+        "slug":"/mobile-application",
         "name":"Mobile Application",
         "tools":" iOS / Android /React Native /Ionic",
         "tagline": "We turn ideas into wonderful Apps",
@@ -249,6 +254,7 @@
       },
       {
         "id":4,
+        "slug":"/website-development",
         "name":"Website Development",
         "tools":" Opencart, WooCommerce, Magento. / Wordpress. / Bootstrap, Foundation. / HTML 5, CSS 3, Javascript.",
         "tagline": "Building smarter websites",
@@ -294,6 +300,7 @@
       },
       {
         "id":5,
+        "slug":"/ui-ux-design",
         "name":"UI / UX Design",
         "tools":" Photoshop / Illustrator / Wireframes software",
         "tagline": "Mobile Application Development",
@@ -335,6 +342,8 @@
       },
       {
         "id":6,
+        "slug":"/ redesign-maintenance",
+       
         "name":"Redesign & Maintenance",
         "tools":" ",
         "tagline": "Mobile Application Development",
@@ -376,6 +385,7 @@
       },
       {
         "id":7,
+        "slug":"/staffing-solutions",
         "name":"Staffing Solutions",
         "tools":" ",
         "tagline": "Temporary Staffing, Temporary-to-Hire, Logn-term Staffing",

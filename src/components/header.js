@@ -37,35 +37,35 @@ import FontAwesome from 'react-fontawesome'
           <div className='right-part '>
           <Nav activeKey="/home">
             <Nav.Item>
-              <Nav.Link className='nav-link'>
+              <div className='nav-link'>
                 <Link to='/' className='link '>Home </Link>
-                </Nav.Link>
+                </div>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link >
+              <div className='nav-link'>
                 <Link to='/about' className='link'>About Us</Link>
-                </Nav.Link>
+                </div>
             </Nav.Item>
            
             <Nav.Item>
-              <Nav.Link >
+               <div className='nav-link'>
                 <Link to='/services' className='link'>Services </Link>
-                </Nav.Link>
+                </div>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link >
-                <Link to='/career' className='link'>Career </Link>
-                </Nav.Link>
+               <div className='nav-link'>
+                 <Link to='/career' className='link'>Career </Link>
+                </div>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link >
+              <div className='nav-link'>
                 <Link to='/team' className='link'>Team</Link>
-                </Nav.Link>
+                </div>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link >
+               <div className='nav-link' >
                 <Link to='/contact' className='link'>Contact</Link>
-                </Nav.Link>
+                </div>
             </Nav.Item>
            
           </Nav>

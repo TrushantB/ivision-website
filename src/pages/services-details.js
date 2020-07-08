@@ -12,7 +12,7 @@ const ServicesDetails = ({location}) =>{
       <section className='mt-5 services-details main-section'>
        <Container >
             <div className='top-wrap'>
-                <h1 className='page-heading font-weight-bold '>{serviceDetails.name}</h1>
+                {/* <h1 className='page-heading font-weight-bold '>{serviceDetails.name}</h1> */}
                 <p className='description mb-3'>{serviceDetails.tagline}</p>
                 <p>
                 {serviceDetails.description}

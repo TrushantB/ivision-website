@@ -106,7 +106,7 @@ import FontAwesome from 'react-fontawesome'
                 </a>
             </div>
             <div className='circle mr-3'>
-              <a href='#' target='blank' className='d-flex'>
+              <a href='https://in.linkedin.com/company/ivision-studio' target='blank' className='d-flex'>
                 <FontAwesome
                     name="linkedin"
                     className='text-white icon'

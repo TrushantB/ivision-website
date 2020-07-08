@@ -19,6 +19,7 @@ const Contact = () => (
           <Row className='m-0'>
             <Col md='6'>
                  <div className=' contact-form pr-4'>
+                   <h3 className='mb-5'>Contact Form</h3>
                    <Form>
                     <Form.Row>
                         <Form.Group as={Col} className='input-box' controlId="formGridEmail">
@@ -67,8 +68,9 @@ const Contact = () => (
                           <p className='secondary-text-color mb-0 '>
                             Work and general inquiries
                           </p>
-                            <p className='mb-0'> <span className='text-white font-weight-bold'>USA</span><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none f-w-600 footer-link'> +1 860 967 0120</a></p>
-                          <p className='mb-0'><span className='text-white font-weight-bold'>IND</span><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none f-w-600 footer-link'> +91 9130 036 036</a></p>
+                           <p className='mb-0 font-weight-bold'><a href='mailto:contact@ivisionstudio.in' className='mb-0 text-decoration-none footer-link'>contact@ivisionstudio.in</a></p>
+                           <p className='mb-0'> <span className='text-white font-weight-bold'>USA</span><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none f-w-600 footer-link'> +1 860 967 0120</a></p>
+                           <p className='mb-0'><span className='text-white font-weight-bold'>IND</span><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none f-w-600 footer-link'> +91 9130 036 036</a></p>
 
                         </div>
                         <div className='mt-4'>

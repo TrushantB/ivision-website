@@ -163,7 +163,7 @@ const IndexPage = () => (
             </Row>
         </Container>
       </section>
-      <section className='capabilties-section bg-color'>
+      <section className='capabilties-section bg-color pb-5'>
         <Container fluid className='p-0'>
           <Row>
             <Col lg='7' className='p-0'>
@@ -197,7 +197,7 @@ const IndexPage = () => (
         </Container>
         
       </section>
-      <section className='sponser-section bg-color'>
+      {/* <section className='sponser-section bg-color'>
           <Container>
              <Row>
                <Col lg='2' md='3' sm='4' xs={6}>
@@ -232,8 +232,8 @@ const IndexPage = () => (
                </Col>
              </Row>
           </Container>
-        </section>
-        <section className='award-section '>
+        </section> */}
+        {/* <section className='award-section '>
          <Container>
             <Row>
                <Col lg='5' sm='7'>
@@ -280,7 +280,7 @@ const IndexPage = () => (
             </Row>
            
          </Container>
-       </section>
+       </section> */}
       <section className='collaboration-section'>
           <Container>
              <div>

@@ -32,7 +32,7 @@ import FontAwesome from 'react-fontawesome'
                         </div>
                         <div className='circle mr-3'>
                             <FontAwesome
-                                name="twitter"
+                                name="linkedin"
                                 size="1x"
                                 className='text-white icon'
                             />

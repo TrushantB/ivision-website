@@ -12,14 +12,14 @@ import FontAwesome from 'react-fontawesome'
             <p> 0{index + 1}. </p>
             <h4 className='subheading'>{data.name}</h4>
             <p className='font-weight-bold'>{data.tools}</p>
-            <p>
+            <p className='description-details'>
              {data.discription}
             </p>
            
             <Link className='read-more' to={`/services-details?id=${index + 1}`}>Read More</Link>
         </div>
     </div>
-    
+
  
 )
 

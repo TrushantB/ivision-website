@@ -167,9 +167,9 @@
       },
       {
         "id":2,
-        "name":"Mobile Development",
+        "name":"Web Application",
         "tools":"Gatsby /Hugo/Jekyll / Contentful / Netlify",
-        "tagline": "Modern Web Development Architecture",
+        "tagline": "Creating online environments",
         "discription":"Web Application Development is the creation of application programs that reside on remote servers and are delivered to the user's device over the Internet. for starters, web applications don’t require any installation and that means that they can be used almost instantly. At the same time, this also means that nearly all web applications are cloud-based by definition",
         "heading1": "What is the JAM Development ?",
         "heading1_content":[
@@ -210,7 +210,7 @@
         "id":3,
         "name":"Mobile Application",
         "tools":" iOS / Android /React Native /Ionic",
-        "tagline": "Mobile Application Development",
+        "tagline": "We turn ideas into wonderful Apps",
         "discription":"A majority of the users prefer using their smartphones to navigate a website or an app. The mobile applications should be developed in congruence with a user-friendly interface, and we strive to develop top-notch and accessible mobile apps for our clients.",
         "heading1": "What is the JAM Development ?",
         "heading1_content":[
@@ -251,22 +251,26 @@
         "id":4,
         "name":"Website Development",
         "tools":" Opencart, WooCommerce, Magento. / Wordpress. / Bootstrap, Foundation. / HTML 5, CSS 3, Javascript.",
-        "tagline": "Mobile Application Development",
+        "tagline": "Building smarter websites",
         "discription":"A majority of the users prefer using their smartphones to navigate a website or an app. The mobile applications should be developed in congruence with a user-friendly interface, and we strive to develop top-notch and accessible mobile apps for our clients.",
-        "heading1": "What is the JAM Development ?",
+        "heading1": "What is the Website Development ?",
         "heading1_content":[
             {
-                "title":"JAVASCRIPT",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+                "title":"CMS ( content management system )",
+                "description":"A content management system is a software application or set of related programs that are used to create and manage digital content."
             },
             {
-                "title":"APIS",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+                "title":"Ecommerce",
+                "description":"Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet."
             },
             {
-                "title":"MARKUP",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
-            }
+                "title":"Responsive Web Design",
+                "description":"We develop responsive layouts, Bootstrap-based / Foundation Projects. We test website on all major devices and browsers. As responsive website is the first approach that shows website development and design should respond to all the user’s request regardless of device they use."
+            },
+            {
+              "title":"Email Template Development",
+              "description":"Email templates allow you to customize the formatting and text of emails sent by users who share your content. Templates can be text-only, or HTML and text, in which case the user’s email client will determine which is displayed."
+          }
         ],
         "heading2": "What is the JAM Development ?",
         "heading2_content":[

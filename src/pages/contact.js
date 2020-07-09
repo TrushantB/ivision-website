@@ -19,7 +19,7 @@ const Contact = () => (
           <Row className='m-0'>
             <Col md='6'>
                  <div className=' contact-form pr-4'>
-                   <h3 className='mb-5'>Contact Form</h3>
+                   <h3 className='mb-5 font-weight-bold'>Contact Form</h3>
                    <Form>
                     <Form.Row>
                         <Form.Group as={Col} className='input-box' controlId="formGridEmail">

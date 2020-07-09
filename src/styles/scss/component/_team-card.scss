@@ -6,12 +6,16 @@
         overflow: hidden;
         position: relative;
         border-radius: 4px;
+        padding-bottom: 100%;
         &:hover img{
             transform: scale3d(1.1,1.1,1);
             transition: all cubic-bezier(.4,0,.2,1) .4s;
         }
         img{
             border-radius: 4px;
+            position: absolute;
+            height: 100%;
+            object-fit: cover;
         }
         .member-details-wrap{
             position: absolute;
@@ -19,7 +23,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            padding: 40px;
+            padding: 30px;
             z-index: 1;
             background-image: linear-gradient(to top,rgba(23,22,26,.6),transparent);
             opacity: 0;

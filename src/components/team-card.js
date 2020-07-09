@@ -24,25 +24,31 @@ import FontAwesome from 'react-fontawesome'
                     <p className='text-white'>{data.description}</p>
                     <div className='social-link d-flex mt-4'>
                         <div className='circle mr-3'>
-                            <FontAwesome
-                                name="facebook-f"
-                                size="1x"
-                                className='text-white icon'
-                            />
+                            <a href='#'>
+                                <FontAwesome
+                                    name="facebook-f"
+                                    size="1x"
+                                    className='text-white icon'
+                                />
+                            </a>
                         </div>
                         <div className='circle mr-3'>
+                         <a href='#'>
                             <FontAwesome
                                 name="linkedin"
                                 size="1x"
                                 className='text-white icon'
                             />
+                          </a>
                         </div>
                         <div className='circle mr-3'>
+                          <a href='#'>
                             <FontAwesome
                                 name="instagram"
                                 size="1x"
                                 className='text-white icon'
                             />
+                          </a>
                         </div>
                     </div>
                 </div>

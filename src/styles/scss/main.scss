@@ -329,4 +329,11 @@ background-color:$bg-black;
         }
     }
 }
+@media screen and (max-width:480px){
+    .collaboration-section{
+        .contact-buttom{
+            margin-top: 20px;
+        }
+    } 
+}
 

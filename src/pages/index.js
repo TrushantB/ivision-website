@@ -183,10 +183,12 @@ const IndexPage = () => (
               <div className='card border-0'>
                 <div className='card-body right-body'>
                     <div className='play-video  d-flex align-items-center mb-4'>
-                      <div className='play-icon mr-3'>
-                         <img src={play} width='100%'/>
-                      </div>
-                      <span className='font-weight-bold'>Play Video</span>
+                      {/* <Link to ='#'>
+                        <div className='play-icon mr-3'>
+                          <img src={play} width='100%'/>
+                        </div>
+                      </Link>
+                      <span className='font-weight-bold'>Play Video</span> */}
                     </div>
                     <div>
                       <h3 className='title'>We work in the fields

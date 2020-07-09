@@ -27,7 +27,7 @@ const Career = () => (
           <Col lg='6'>
             <div className='job-article left-section'>
               <div className='mb-4'>
-                <h3 className='font-weight-bold'>PHP Developer with MVC Framework</h3>
+                <h3 className='font-weight-bold mb-4'>PHP Developer with MVC Framework</h3>
                 <p>
                   <span  className='font-weight-bold f-s-18'>Experience:</span > 1-4 years
                 </p>
@@ -68,7 +68,7 @@ const Career = () => (
           <Col lg='6'>
             <div className='job-article right-section'>
               <div className='mb-4'>
-                <h3  className='font-weight-bold'>Front End Developer</h3>
+                <h3  className='font-weight-bold mb-4'>Front End Developer</h3>
                 <p>
                   <span  className='font-weight-bold f-s-18'>Experience:</span > 1-4 years
                 </p>

@@ -18,7 +18,7 @@ import FontAwesome from 'react-fontawesome'
             </div>
        </div> */}
          <div className='profile-wrap'>
-            <img src={data.picture} width='100%'/>
+            <img  src={data.picture}  width='100%'/>
             <div className='member-details-wrap'>
                 <div className='member-details'>
                     <p className='text-white'>{data.description}</p>
@@ -39,7 +39,7 @@ import FontAwesome from 'react-fontawesome'
                                 size="1x"
                                 className='text-white icon'
                             />
-                          </a>
+                         </a>
                         </div>
                         <div className='circle mr-3'>
                           <a href='#'>

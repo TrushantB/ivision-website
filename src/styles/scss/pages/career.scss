@@ -25,6 +25,13 @@
         }
     }
 }
+@media screen and (max-width:992px){
+    .career-wrapper{
+        .right-section{
+            padding-top: 60px; 
+         }
+    }
+}   
 @media screen and (max-width:768px){
     .career-wrapper{
         .job-article{
@@ -32,9 +39,7 @@
                 font-size: 24px;
             }
         }
-        .right-section{
-            padding-top: 40px; 
-         }
+    
     }
 
 }

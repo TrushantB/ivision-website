@@ -69,7 +69,7 @@ import FontAwesome from 'react-fontawesome'
             </Nav.Item>
            
           </Nav>
-          <Button className='button'>Let's Talk</Button>
+          <Button className='button'><Link to='/contact' className='text-white text-decoration-none'>Let's Talk</Link></Button>
           </div>
       </div>
    </div>

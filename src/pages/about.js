@@ -70,29 +70,29 @@ const About = () => (
           <div className='bg-color about-company'>
              <Container>
                 <Row className='m-0'>
-                <Col lg='6' className='pr-5'>
-                    <div className='body'>
-                      <div>
-                        <h3 className='heading'>Why choose us?</h3>
+                  <Col lg='6' className='pr-5 '>
+                      <div className='body left-section '>
+                        <div>
+                          <h3 className='heading'>Why choose us?</h3>
+                        </div>
+                        <div className='my-5'>
+                          <h4>We Deliver On Time</h4>
+                          <p>iVision Studio prides itself on delivering projects on time. We set realistic deadlines at a realistic budget, and we follow it accordingly to ensure to deliver the project to our clients on time. We also update our clients along the progress of the projects, and we take their opinion and recommendations into our projects with no questions asked.</p>
+                        </div>
+                        <div className='my-5'>
+                          <h4>We Value Integrity</h4>
+                          <p>We consider integrity as a core of our business, and we strive to maintain a trust-based relationship with our clients. We value honesty, and we cater to completing your projects with complete honesty.</p>
+                        </div>
+                        <div className='my-5'>
+                          <h4>You Talk, We Listen</h4>
+                          <p>iVision Studio believes in translating the vision of its clients into a reality, and we go above and beyond a mile to provide our clients with everything that they need. You talk, we listen, and we follow accordingly.</p>
+                        </div>
+                        
                       </div>
-                      <div className='my-5'>
-                        <h4>We Deliver On Time</h4>
-                        <p>iVision Studio prides itself on delivering projects on time. We set realistic deadlines at a realistic budget, and we follow it accordingly to ensure to deliver the project to our clients on time. We also update our clients along the progress of the projects, and we take their opinion and recommendations into our projects with no questions asked.</p>
-                      </div>
-                      <div className='my-5'>
-                        <h4>We Value Integrity</h4>
-                        <p>We consider integrity as a core of our business, and we strive to maintain a trust-based relationship with our clients. We value honesty, and we cater to completing your projects with complete honesty.</p>
-                      </div>
-                      <div className='my-5'>
-                        <h4>You Talk, We Listen</h4>
-                        <p>iVision Studio believes in translating the vision of its clients into a reality, and we go above and beyond a mile to provide our clients with everything that they need. You talk, we listen, and we follow accordingly.</p>
-                      </div>
-                      
-                    </div>
-                  </Col>
+                    </Col>
                 
                   <Col lg='6' className='pr-5'>
-                  <div className='body'>
+                  <div className='body right-section '>
                       <div>
                         <h3 className='heading'>Our Strategies</h3>
                       </div>

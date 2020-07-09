@@ -73,7 +73,7 @@ const Contact = () => (
                            <p className='mb-0'><span className='text-white font-weight-bold'>IND</span><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none f-w-600 footer-link'> +91 9130 036 036</a></p>
 
                         </div>
-                        <div className='mt-4'>
+                        {/* <div className='mt-4'>
                           <p className='secondary-text-color mb-0 '>
                           Assistance hours:
                           </p>
@@ -81,7 +81,7 @@ const Contact = () => (
                              Monday – Friday<br/>
                             6 am to 8 pm EST
                           </p>
-                        </div>
+                        </div> */}
                     </Col>
                     <Col sm='6'>
                       <div className='circle d-flex justify-content-center align-items-center mb-3'>

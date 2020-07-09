@@ -18,6 +18,10 @@
         color: $primary-color;
     }
 }
+.view{
+    color: #fff;
+    @extend .read-more
+}
 @media screen and (max-width:580px){
     .services-card-wrapper{
         .body{

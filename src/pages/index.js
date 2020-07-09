@@ -6,6 +6,8 @@ import sponser from './../images/sponser.png'
 import project from './../images/project.jpg'
 import project1 from './../images/project1.jpg'
 import project3 from './../images/project3.jpg'
+import project4 from './../images/project4.jpg'
+
 
 import award from './../images/a.png'
 import Layout from "../components/layout"
@@ -98,9 +100,10 @@ const IndexPage = () => (
                   </div>
                   <div className='project-name'>
                     <h5>
-                      <a href='#' className='text-decoration-none'> Plastic Credit Card</a>
+                      <a href='#' className='text-decoration-none'> Solitaire</a>
                     </h5>
-                    <p className='category'>Identity</p>
+                    <p className='category'><Link target='blank' className='text-decoration-none view' to = 'https://solitaire.in/'>View Project</Link></p>
+
                   </div>
                 </div>
               </Col>
@@ -111,9 +114,9 @@ const IndexPage = () => (
                   </div>
                   <div className='project-name'>
                     <h5>
-                      <a href='#' className='text-decoration-none'> Plastic Credit Card</a>
+                      <a href='#' className='text-decoration-none'> Mobiport</a>
                     </h5>
-                    <p className='category'>Identity</p>
+                    <p className='category'><Link target='blank' className='text-decoration-none view' to = 'https://mobiport.io/'>View Project</Link></p>
                   </div>
                 </div>
               </Col>
@@ -124,25 +127,28 @@ const IndexPage = () => (
                   </div>
                   <div className='project-name'>
                     <h5>
-                      <a href='#'className='text-decoration-none'> Fitness Lifestyle Mobile App</a>
+                      <a href='#'className='text-decoration-none'> Touchtalen</a>
                     </h5>
-                    <p className='category'>Identity</p>
+                    <p className='category'><Link target='blank' className='text-decoration-none view' to = 'http://www.touchtalent.com/'>View Project</Link></p>
+
                   </div>
                 </div>
               </Col>
               <Col lg='4' className='p-0'>
                 <div className='project'>
                   <div className='img-wrap'>
-                      <img src={project1} width='100%'/>
+                      <img src={project4} width='100%'/>
                   </div>
                   <div className='project-name'>
                     <h5>
-                      <a href='#' className='text-decoration-none'> Plastic Credit Card</a>
+                      <a href='#' className='text-decoration-none'> Domain</a>
                     </h5>
-                    <p className='category'>Identity,Mockup</p>
+                    <p className='category'><Link target='blank' className='text-decoration-none view' to = 'https://skybridgedomains.com/'>View Project</Link></p>
+
                   </div>
                 </div>
               </Col>
+              
             </Row>
          </Container>
         </section> 

@@ -9,18 +9,20 @@ const Team = () => {
   return (
   <Layout>
     <SEO title="Team" />
-     <section className='team-wrap mt-4 main-section'>
-      <Container className='top-wrap'>
-          <h1 className='page-heading font-weight-bold'>Team</h1>
-          <p className='description'>The people who work at iVision Web Studio share the vision and values of our community.</p>
-      </Container>
+     <section className='pt-5 main-section team-page-wrapper'>
+      <div className='top-wrap'>
+          <Container>
+            <h1 className='page-heading font-weight-bold'>Team</h1>
+            <p className='description'>The people who work at iVision Web Studio share the vision and values of our community.</p>
+          </Container>
+      </div>
       <Container>
         <Row>
           {
             dataSource.Team.map((item,index) => {
               return(
-                <Col lg='3' md='4'sm='6' className='mb-100' key={index}>
-                <TeamCard data={item}/>
+                <Col lg='3' md='4'sm='6' className='mb-4' key={index}>
+                  <TeamCard data={item}/>
                </Col>
               )
             })

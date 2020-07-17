@@ -9,11 +9,11 @@ const Services = () => (
   <Layout>
     <SEO title="Services" />
      <section className='mt-4 services-wrapper main-section'>
-        <Container className='top-wrap'>
+        <Container className='top-wrap pb-4'>
           <h1 className='page-heading line-heignt0
             font-weight-bold'>
           Services</h1>
-          <p className='description mb-3'>What We Do</p>
+          <p className='description mb-0'>What We Do</p>
         </Container>
         <section className='bg-color what-we-do'>
           <Container>

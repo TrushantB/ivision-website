@@ -8,22 +8,21 @@ import Accordian from "../components/accordian";
 
 const Redesign = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="Service" />
      <section className='mt-4 about-wrapper main-section'>
-     <Container >
-          <div className='top-wrap'>
-              <h1 className='page-heading font-weight-bold '>Redesign & Maintenance</h1>
-              <p className='description mb-3'>Our website maintenance services are tailor made to meet your needs</p>
-              <p>
-              iVision Studio offers redesign maintenance services to its customers, and we take all the measurements to help our clients with updating their websites. We make sure that your website is updated as well as up-to-date, and we scan it thoroughly to avoid any glitches from it.
-               </p>
-              <div className='button-wrap'>
-                <Button className='button'><Link className='text-white text-decoration-none' to='/contact'>Learn More</Link></Button>
-              </div>
-          </div>
-          
-      </Container>
-       </section>
+      <Container >
+            <div className='top-wrap'>
+                <h1 className='page-heading font-weight-bold '>Redesign & Maintenance</h1>
+                <p className='description mb-3'>Our website maintenance services are tailor made to meet your needs</p>
+                <p>
+                iVision Studio offers redesign maintenance services to its customers, and we take all the measurements to help our clients with updating their websites. We make sure that your website is updated as well as up-to-date, and we scan it thoroughly to avoid any glitches from it.
+                </p>
+                <div className='button-wrap'>
+                  <Button className='button'><Link className='text-white text-decoration-none' to='/contact'>Learn More</Link></Button>
+                </div>
+            </div>
+        </Container>
+      </section>
   </Layout>
 )
 

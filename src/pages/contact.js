@@ -11,25 +11,27 @@ const Contact = () => (
    <section className='contact-wrapper mt-4 main-section '>
     <Container className='mb-5'>
           <h1 className='page-heading font-weight-bold'>Contact Us</h1>
+          <p className="description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
           {/* <p className='description'>The people who work at iVision Web Studio share the vision and values of our community.</p> */}
       </Container>
-      
-      <section className='contact-details '>
-        <Container className='p-0 p-md-3'> 
+
+      <section className='contact-details bg-color'>
+        <Container fluid className='p-0 '> 
           <Row className='m-0'>
             <Col md='6'>
-                 <div className=' contact-form pr-4'>
+                 <div className='contact-form '>
                    <h3 className='mb-5 font-weight-bold'>Contact Form</h3>
                    <Form>
                     <Form.Row>
-                        <Form.Group as={Col} className='input-box' controlId="formGridEmail">
+                        <Form.Group as={Col} className='input-box pr-3' controlId="formGridEmail">
                           <Form.Label>First Name</Form.Label>
-                          <Form.Control type="name" placeholder="First Name" />
+                          <Form.Control type="name" placeholder="First name" />
                         </Form.Group>
-
                         <Form.Group as={Col} controlId="formGridPassword">
                           <Form.Label>Last Name</Form.Label>
-                          <Form.Control type="name" placeholder="Last Name" />
+                          <Form.Control type="name" placeholder="Last name" />
                         </Form.Group>
                       </Form.Row>
                       <Form.Row>
@@ -46,7 +48,7 @@ const Contact = () => (
                       </Form.Row>
                       <Form.Group controlId="exampleForm.ControlTextarea1">
                          <Form.Label>Message</Form.Label>
-                      <Form.Control as="textarea" rows="3" placeholder='Message' />
+                      <Form.Control as="textarea" rows="4" placeholder='Message' />
                     </Form.Group>
                     <Button className='button'>Submit</Button>
                     </Form>
@@ -65,12 +67,12 @@ const Contact = () => (
                        </div>
                         <h5 className='text-white mb-4'>Get in touch</h5>
                         <div>
-                          <p className='secondary-text-color mb-0 '>
+                          {/* <p className='secondary-text-color mb-0 '>
                             Work and general inquiries
-                          </p>
-                           <p className='mb-0 font-weight-bold'><a href='mailto:contact@ivisionstudio.in' className='mb-0 text-decoration-none footer-link'>contact@ivisionstudio.in</a></p>
-                           <p className='mb-0'> <span className='text-white font-weight-bold'>USA</span><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none f-w-600 footer-link'> +1 860 967 0120</a></p>
-                           <p className='mb-0'><span className='text-white font-weight-bold'>IND</span><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none f-w-600 footer-link'> +91 9130 036 036</a></p>
+                          </p> */}
+                           <p><a href='mailto:contact@ivisionstudio.in' className='mb-0 text-decoration-none footer-link'>contact@ivisionstudio.in</a></p>
+                           <p> <span className='text-white font-weight-bold'>USA</span><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none f-w-600 footer-link'> +1 860 967 0120</a></p>
+                           <p><span className='text-white font-weight-bold'>IND</span><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none f-w-600 footer-link'> +91 9130 036 036</a></p>
 
                         </div>
                         {/* <div className='mt-4'>

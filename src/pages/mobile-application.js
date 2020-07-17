@@ -5,10 +5,11 @@ import SEO from "../components/seo"
 import { Container,Nav, Row ,Col,Button} from 'react-bootstrap';
 import image from './../images/about.jpg'
 import Accordian from "../components/accordian";
+import ServiceMeunList from "../components/service-menu-list"
 
 const MobileApplication = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="Service" />
      <section className='mt-4 about-wrapper main-section'>
      <Container >
           <div className='top-wrap'>
@@ -25,12 +26,28 @@ const MobileApplication = () => (
           
       </Container>
       <div className='details-wrapper bg-color pt-80 pb-5'>
-            <Container>
-                 <h3>Mobile Application Development</h3>
-                 <p>A majority of the users prefer using their smartphones to navigate a website or an app. The mobile applications should be developed in congruence with a user-friendly interface, and we strive to develop top-notch and accessible mobile apps for our clients. stantly. At the same time, this also means that nearly all web applications are cloud-based by definition</p>
-            </Container>
+        <Container>
+          <div>
+            <Row>
+              <Col lg="3">
+                <ServiceMeunList/>
+              </Col>
+              <Col lg="9">
+                <h3>
+                  Mobile Application Development
+                </h3>
+                <p>
+                  A majority of the users prefer using their smartphones to navigate a website or an app. 
+                  The mobile applications should be developed in congruence with a user-friendly interface, 
+                  and we strive to develop top-notch and accessible mobile apps for our clients. stantly. At 
+                  the same time, this also means that nearly all web applications are cloud-based by definition
+                </p>
+              </Col>
+            </Row>
+          </div>
+        </Container>
       </div>
-       </section>
+    </section>
   </Layout>
 )
 

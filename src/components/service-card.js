@@ -8,14 +8,15 @@ import FontAwesome from 'react-fontawesome'
 
   const ServiceCard = ({ siteTitle,data,index}) => (
     <div className='services-card-wrapper'>
-        <div className='border-left body'>
+        <div className='body'>
             <p> 0{index + 1}. </p>
-            <h4 className='subheading'>{data.name}</h4>
-            <p className='font-weight-bold'>{data.tools}</p>
-            <p className='description-details'>
-             {data.discription}
-            </p>
-           
+            <div className="content">
+                <h4 className='subheading'>{data.name}</h4>
+                <p className='font-weight-bold'>{data.tools}</p>
+                <p className='description-details'>
+                {data.discription}
+                </p>
+            </div>
             <Link className='read-more' to={data.slug}>Read More</Link>
         </div>
     </div>

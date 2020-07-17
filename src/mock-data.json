@@ -127,9 +127,8 @@
       {
         "id":1,
         "slug":"/jam-development",
-        
         "name":"JAM Development",
-        "tagline": "Modern Web Development Architecture",
+        "tagline": "ModernWeb Development Architecture",
         "tools":"Gatsby /Hugo/Jekyll / Contentful / Netlify",
         "discription":"The JAM Development is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.",
         "heading1": "What is the JAM Development ?",
@@ -342,7 +341,7 @@
       },
       {
         "id":6,
-        "slug":"/ redesign-maintenance",
+        "slug":"/redesign-maintenance",
        
         "name":"Redesign & Maintenance",
         "tools":" ",
@@ -425,6 +424,47 @@
             }
         ]
       }
-  ]
-  
+  ],  
+    "WhyChooseUs":[
+        {
+            "id":8,
+            "slug":"/we-deliver-on-time",
+            "name":"We Deliver On Time",
+            "discription":"iVision Studio prides itself on delivering projects on time. We set realistic deadlines at a realistic budget, and we follow it accordingly to ensure to deliver the project to our clients on time. We also update our clients along the progress of the projects, and we take their opinion and recommendations into our projects with no questions asked."
+        },
+        {
+            "id":9,
+            "slug":"/we-value-integrity",
+            "name":"We Value Integrity",
+            "discription":"We consider integrity as a core of our business, and we strive to maintain a trust-based relationship with our clients. We value honesty, and we cater to completing your projects with complete honesty."
+        },
+        {
+            "id":9,
+            "slug":"/you-talk-We-listen",
+            "name":"You Talk, We Listen",
+            "discription":"iVision Studio believes in translating the vision of its clients into a reality, and we go above and beyond a mile to provide our clients with everything that they need. You talk, we listen, and we follow accordingly."
+        }
+            
+    ],
+    "OurStrategies":[
+        {
+            "id":8,
+            "slug":"/Data-driven-marketing-strategy",
+            "name":"Data-driven marketing strategy",
+            "discription":"iVision Studio specializes in building dynamic campaigns by employing a data-driven process. We test and optimize website design using modern and innovative tools. As a full-service company, we aim to provide highly business-oriented and deliverable outcomes to our customers."
+        },
+        {
+            "id":9,
+            "slug":"/Easy-to-follow-strategy",
+            "name":"Easy to follow strategy",
+            "discription":"We take immense pride in our company and team. We work with our clients to devise an easy-to-follow strategy for their upcoming projects. We take all the possible elements into our account when preparing top-notch tactics and strategies for our client’s projects."
+        },
+        {
+            "id":9,
+            "slug":"/Business-oriented-strategy",
+            "name":"Business oriented Strategy",
+            "discription":"At iVision Studio, we are familiar with the significance of having a premium website design and implementable business solutions to attract maximum business outcomes. We make sure that the website design of our customers is updated and well-maintained.In addition, we also offer redesign maintenance services to our clients to remove any glitches from their current website."
+        }
+            
+    ]
 }

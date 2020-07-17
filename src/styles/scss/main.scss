@@ -1,17 +1,60 @@
 // 3. Base stuff
+
 // @import 'base/font';
+
 @import "abstracts/variables";
+
 // 4. Layout-related sections
 @import 'layout/header','layout/footer';
  
-@import 'component/card','component/team-card','component/accordian','component/button','component/service-card';
+@import 'component/card','component/team-card','component/accordian','component/button','component/service-card', 'component/service-menu-list';
 //pages
-@import 'pages/contact','pages/about','pages/career','pages/services','pages/services-details';
+@import 'pages/contact','pages/about','pages/career','pages/services','pages/services-details', 'pages/team.scss';
 //========= Home page===========//
 
+
+// Space Grotesk Font 
+
+@font-face{
+    font-family: SpaceGrotesk-Regular;
+    src: url(../fonts/SpaceGrotesk-Regular.otf);
+}
+@font-face{
+    font-family: SpaceGrotesk-Medium;
+    src: url(../fonts/SpaceGrotesk-Medium.otf);
+}
+@font-face{
+    font-family: SpaceGrotesk-Bold;
+    src: url(../fonts//SpaceGrotesk-Bold.otf);
+}
+@font-face{
+    font-family: SpaceGrotesk-Light;
+    src: url(../fonts/SpaceGrotesk-Light.otf);
+}
+@font-face{
+    font-family: SpaceGrotesk-SemiBold;
+    src: url(../fonts/SpaceGrotesk-SemiBold.otf);
+}
+
+body{
+    font-family: SpaceGrotesk-Regular;
+    font-size: 15px;
+}
+::selection{
+    background-color: $primary-color;
+    color: $white-color;
+}
+::-webkit-scrollbar-thumb {
+    background: $scroll-bar-color; 
+    border-radius: 2px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
 .main-section{
     .container{
-        max-width: 1300px;
+        max-width: 1270px;
+        margin: 0 auto;
     } 
 }
 .banner-main-wrapper.container{
@@ -23,7 +66,7 @@
     .right-section{
         background-image: url('../../images/banner.jpg');
         background-size: cover;
-        height: 540px;
+        height: 640px;
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -41,6 +84,10 @@
         }
     }
     .left-section{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         .more-project{
             color: $text-black;
             font-weight: 700;
@@ -51,6 +98,7 @@
         }
         .more-button{
             margin-top: 40px;
+            font-family: SpaceGrotesk-Bold;
         }
      h1{
          font-size: 96px;
@@ -62,11 +110,53 @@
 }
 
 //==========Services============//
+
 .services-section{
     background-color: $bg-color;
     padding: 100px 0 30px 0 ;
+        .subheading{
+            margin-bottom: 30px;
+        }
+        .borders-wrapper{
+            .left-site-border{
+                height: 100%;
+                width: 1px;
+                background: $site-border-color;
+                position: absolute;
+                left: 80px;
+            }
+            .middle-site-border{
+                height: 100%;
+                width: 1px;
+                background: $site-border-color;
+                position: absolute;
+                margin-left: calc(30% - 5px);
+                
+            }
+            .center-site-border{
+                height: 100%;
+                width: 1px;
+                background: $site-border-color;
+                position: absolute;
+                margin-left: calc(51% - 5px);
+                
+            }
+        }
+
 }
-//===Common css ===//
+
+
+//===Common css ===
+
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6{
+    font-family: SpaceGrotesk-Bold;
+}
+
 .page-heading{
     font-size: 50px;
 }
@@ -140,8 +230,35 @@ background-color:$bg-black;
 .text-color{
     color:#A4A3A6; 
     text-transform: uppercase;
-    font-weight: 500;
-
+    font-weight: 600;
+    font-size: 14px;
+    font-family: SpaceGrotesk-Bold; 
+}
+.borders-wrapper{
+    .left-site-border{
+        height: 100%;
+        width: 1px;
+        background: $site-border-color;
+        position: absolute;
+        left: 80px;
+        top: 0;
+    }
+    .middle-site-border{
+        height: 100%;
+        width: 1px;
+        background: $site-border-color;
+        position: absolute;
+        margin-left: calc(30% - 5px);
+        top: 0;
+    }
+    .center-site-border{
+        height: 100%;
+        width: 1px;
+        background: $site-border-color;
+        position: absolute;
+        margin-left: calc(51% - 5px);
+        top: 0;
+    }
 }
 //===Subtitle css ===//
     .main-title{
@@ -153,11 +270,12 @@ background-color:$bg-black;
         margin-bottom: 20px;
         text-transform: uppercase;
         font-size: 14px;
-        font-weight: 500;
-        color: rgba(35, 34, 38, 0.8);
+        font-weight: 600;
+        color: $subTitle-color;
+        font-family: SpaceGrotesk-Bold;
         &::after{
             content: '';
-            border-bottom: 1px solid rgba(136, 136, 136, 0.8);
+            border-bottom: 1px solid $subTitle-color;
             display: block;
             margin-top: 20px;
             
@@ -166,7 +284,7 @@ background-color:$bg-black;
 //===== Capabilties===//
 .capabilties-section{
     .image{
-        margin-top: 60px;
+        margin-top: 80px;
     }
     .play-icon{
         width: 60px;
@@ -175,7 +293,7 @@ background-color:$bg-black;
         font-size: 40px;;
     }
     .right-body{
-        padding:100px 120px
+        padding: 50px 90px 100px;
     }
 }
 //=====Collaboration ===//
@@ -190,7 +308,6 @@ background-color:$bg-black;
         font-size: 54px;
         line-height: 1;
     }
-  
     .decription{
         font-size: 17px;
     }
@@ -199,11 +316,13 @@ background-color:$bg-black;
         border-color: transparent;
         padding: 14px 18px;
         font-weight: 600;
+        font-family: SpaceGrotesk-Bold;
         &:hover{
             background-color: $primary-color;
             border-color: transparent;
         }
     }
+    
 }
 //=== sponser ===//
 .sponser-section{
@@ -263,6 +382,8 @@ background-color:$bg-black;
         }
     }
 }
+
+
 ///Media Query
 @media screen and (max-width:1140px){
     .capabilties-section{
@@ -294,7 +415,6 @@ background-color:$bg-black;
     .services-section{
         .services-wrap{
             padding-bottom: 40px;
-           
         }
     }
     .collaboration-section{

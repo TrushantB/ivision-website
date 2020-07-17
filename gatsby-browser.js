@@ -1,5 +1,5 @@
-import './src/styles/scss/main.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './src/styles/scss/main.scss'
 /**
  * Implement Gatsby's Browser APIs in this file.
  *

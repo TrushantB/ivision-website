@@ -8,54 +8,52 @@ import FontAwesome from 'react-fontawesome'
 
   const TeamCard = ({ siteTitle,data }) => (
     <div className='team-card-wrapper'>
-       {/* <div className='card py-3'>
-            <div className='card-body'>
-                <div className='profile-wrap'>
-                    <img src={profile} width='100%'/>
+       <div className="team-block position-relative">
+            <div className="inner-box position-relative">
+                <div className="image-box position-relative">
+                    <div className="image-wrapper">
+                        <img  src={data.picture}  width='100%'/>
+                    </div>
                 </div>
-                <h5 className='text-center mt-3 mb-2'>Rahul Rawade</h5>
-                <p className='text-center m-0 card-text'>Co-Founder</p>
-            </div>
-       </div> */}
-         <div className='profile-wrap'>
-            <img  src={data.picture}  width='100%'/>
-            <div className='member-details-wrap'>
-                <div className='member-details'>
-                    <p className='text-white'>{data.description}</p>
-                    <div className='social-link d-flex mt-4'>
-                        <div className='circle mr-3'>
-                            <a href='#'>
-                                <FontAwesome
+                <div className="info-box position-absolute">
+                    <h4 className="name position-relative">{data.name}</h4>
+                    <span className="designation position-relative">{data.designation}</span>
+                    <ul className="social-links p-0">
+                        <li>
+                            <a href="#" target="_blank">
+                            <FontAwesome
                                     name="facebook-f"
                                     size="1x"
-                                    className='text-white icon'
+                                    className='icon'
                                 />
+                            <span className="social-text">Facebook</span>
                             </a>
-                        </div>
-                        <div className='circle mr-3'>
-                         <a href='#'>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
                             <FontAwesome
                                 name="linkedin"
                                 size="1x"
-                                className='text-white icon'
+                                className='icon'
                             />
-                         </a>
-                        </div>
-                        <div className='circle mr-3'>
-                          <a href='#'>
+                            <span className="social-text">Linkedin</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
                             <FontAwesome
                                 name="instagram"
                                 size="1x"
-                                className='text-white icon'
+                                className='icon'
                             />
-                          </a>
-                        </div>
-                    </div>
+                            <span className="social-text">Instagram</span>
+                            </a>
+                        </li>
+                        
+                    </ul>   
                 </div>
             </div>
         </div>
-            <h5 className='mt-3 mb-0 member-name'>{data.name}</h5>
-            <p className='m-0 card-text'>{data.designation}</p>
     </div>
 
 )

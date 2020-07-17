@@ -7,8 +7,6 @@ import project from './../images/project.jpg'
 import project1 from './../images/project1.jpg'
 import project3 from './../images/project3.jpg'
 import project4 from './../images/project4.jpg'
-
-
 import award from './../images/a.png'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,6 +22,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <main className='main-section'>
+      <div className="borders-wrapper">
+        <div className="left-site-border"></div>
+        <div className="middle-site-border"></div>
+        <div className="center-site-border"></div>
+      </div>
        <Container className='banner-main-wrapper'>
       <Row>
         <Col lg='5'>
@@ -55,11 +58,16 @@ const IndexPage = () => (
         </Col>
       </Row>
    </Container> 
-       <section className='services-section'>
+      <section className='services-section position-relative'>
+        <div className="borders-wrapper">
+          <div className="left-site-border"></div>
+          <div className="middle-site-border"></div>
+          <div className="center-site-border"></div>
+        </div>
          <Container>
             <Row>
                <Col lg='5' sm='7'>
-                 <div className='services-wrap subititle-wrap'>
+                 <div className='subititle-wrap'>
                     <p className='subtitle'>
                       services
                     </p>
@@ -69,7 +77,7 @@ const IndexPage = () => (
                  </div>
                </Col>
                <Col lg='1'></Col>
-               <Col lg='6' className='p-0'>
+               <Col lg='6'>
                  <Row>
                    {
                       dataSource.Services.map((item,index) => {
@@ -91,9 +99,9 @@ const IndexPage = () => (
          </Container>
        </section>
        <section className='featured-project'>
-         <Container className='p-0' fluid> 
+         <Container className='' fluid> 
             <Row>
-              <Col lg='4' className='p-0'>
+              <Col lg='4' >
                 <div className='project'>
                   <div className='img-wrap'>
                       <img src={project1} width='100%'/>
@@ -107,7 +115,7 @@ const IndexPage = () => (
                   </div>
                 </div>
               </Col>
-              <Col lg='8' className='p-0'>
+              <Col lg='8' >
                 <div className='project'>
                   <div className='img-wrap'>
                       <img src={project3} width='100%'/>
@@ -120,7 +128,7 @@ const IndexPage = () => (
                   </div>
                 </div>
               </Col>
-              <Col lg='8' className='p-0'>
+              <Col lg='8'>
                 <div className='project'>
                   <div className='img-wrap'>
                       <img src={project} width='100%'/>
@@ -134,7 +142,7 @@ const IndexPage = () => (
                   </div>
                 </div>
               </Col>
-              <Col lg='4' className='p-0'>
+              <Col lg='4' >
                 <div className='project'>
                   <div className='img-wrap'>
                       <img src={project4} width='100%'/>
@@ -151,7 +159,7 @@ const IndexPage = () => (
               
             </Row>
          </Container>
-        </section> 
+      </section> 
       <section className='pt-70 bg-color'>
         <Container>
           <Row>
@@ -170,16 +178,16 @@ const IndexPage = () => (
         </Container>
       </section>
       <section className='capabilties-section bg-color pb-5'>
-        <Container fluid className='p-0'>
+        <Container fluid >
           <Row>
-            <Col lg='7' className='p-0'>
+            <Col lg='7' className="pl-0">
                  <div className='capabilities-wrap subititle-wrap'>
                     <div className='image'>
                      <img src={image} width='100%'/>
                     </div>
                  </div>
             </Col>
-            <Col lg='5' className='p-0'>
+            <Col lg='5'>
               <div className='card border-0'>
                 <div className='card-body right-body'>
                     <div className='play-video  d-flex align-items-center mb-4'>
@@ -203,7 +211,6 @@ const IndexPage = () => (
             </Col>
           </Row>
         </Container>
-        
       </section>
       {/* <section className='sponser-section bg-color'>
           <Container>

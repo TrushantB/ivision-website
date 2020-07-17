@@ -1,7 +1,7 @@
 
 .header-wrap{
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
     height: 130px;
     .menu-icon {
         cursor: pointer;
@@ -21,6 +21,7 @@
                 .nav-link{
                     position: relative;
                     color: $text-black;
+                    padding: 0 22px;
                     // &::before{
                     //     content: '0';
                     //     position: absolute;
@@ -36,8 +37,6 @@
                     }
                     .link{
                         color: $text-black;
-                        font-weight: 600;
-                       
                         &:hover{
                             color: $primary-color;
                             text-decoration: none;
@@ -47,8 +46,11 @@
                 .button{
                     background-color: $secondary-color;
                     font-weight: 600;
+                    font-size: 14px;
+                    border-radius: 4px;
                     padding: 7px 15px;
                     border-color: transparent;
+                    font-family: SpaceGrotesk-Bold;
                     &:hover{
                         background-color: $primary-color;
                     }
@@ -103,7 +105,11 @@
            padding-right:40px;
        }
        p{
-           color: $secondary-text-color  ;
+           color: $secondary-text-color;
+           font-size: 16px;
+            a{
+                font-size: 16px;
+            }
        }
    }
 }

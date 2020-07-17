@@ -13,12 +13,50 @@
         height: 100%;
     }
 }
+.why-choose-section{
+    background-color: $bg-color;
+    padding: 100px 0 60px 0;
+        .description-details{
+            -webkit-line-clamp: inherit;
+            -webkit-box-orient: inherit;
+        }
+        .borders-wrapper{
+            .left-site-border{
+                left: 65px;
+            }
+            .middle-site-border{
+                margin-left: calc(43.4% - 5px);
+            }
+            .center-site-border{
+                margin-left: calc(70.2% - 5px);
+            }
+        }
+}
+.optimize-services{
+    .right-body{
+        padding: 0px 60px 100px;
+        .title{
+            font-size: 40px;
+        }
+    }
+    .optimize-services-list{
+        li{
+            padding: 6px 0;
+        }
+    }
+    .image{
+        margin-top: 80px;
+    }
+    
+}
 .our-strategy{
     padding-left: 100px;
 }
 .about-company{
     padding: 100px 0 80px 0;
 }
+
+
 
 @media screen and (max-width:992px){
     .about-company{

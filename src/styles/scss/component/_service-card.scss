@@ -1,14 +1,18 @@
 
 
 .services-card-wrapper{
-    margin-bottom: 80px;
-    .body{
-        padding-left: 50px;
-    }
-    .border-left{
-        border-left: 1px solid rgba(136,136,136,0.8)!important;
-    }
-    
+    margin-bottom: 50px;
+    background: rgba(23, 22, 26, 0.04);
+    border-radius: 4px;
+    padding: 30px;
+        .body{
+            display: flex;
+            min-height: 290px;
+            flex-direction: column;
+                .content{
+                    flex: 1 0 auto;
+                }
+        }
 }
 .read-more{
     color: #000;

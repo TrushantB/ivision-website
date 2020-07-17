@@ -47,10 +47,10 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                   <li className='inner-wrap'>
                     <h3 className='footer-list-title'>Phone</h3>
                     <div>
-                      <span className='mb-0 font-weight-bold text-white'>USA </span> <a href='tel: +1 860 967 0120' className='mb-0 font-weight-bold text-decoration-none footer-link'>+1 860 967 0120</a>
+                      <span className='mb-0 text-white'>USA </span> <a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none footer-link'>+1 860 967 0120</a>
                     </div>
                     <div>
-                    <span  className='mb-0 font-weight-bold text-white'>IND </span><a href='tel: +91 9130 036 036' className='mb-0 font-weight-bold text-decoration-none footer-link'> +91 9130 036 036</a>
+                    <span  className='mb-0 text-white'>IND </span><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none footer-link'> +91 9130 036 036</a>
                     </div>
                   </li>
                 </ul>
@@ -67,7 +67,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
                             aria-label="Your email address"
                             aria-describedby="basic-addon2"
                           />
-                          <InputGroup.Append>
+                          <InputGroup.Append className="m-0 ">
                             <Button variant="outline-secondary" className='subscribe-button'>Subscribe</Button>
                           </InputGroup.Append>
                         </InputGroup>
@@ -83,7 +83,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
               <div className='left info'>
                 © {new Date().getFullYear()}, Website Design by
                 {` `}
-                <a href="https://www.gatsbyjs.org" className='info-link'> iVision Web Studio.</a>
+                <a href="http://ivisionstudio.in" className='info-link'> iVision Web Studio.</a>
               </div>
               <div>
                 <p className='right info m-0'>All right reserved.</p>

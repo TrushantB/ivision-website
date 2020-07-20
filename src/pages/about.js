@@ -1,5 +1,5 @@
 import React from "react"
-import image from './../images/image.jpg';
+import image from './../images/capabilities-service.jpg';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../styles/scss/main.scss'
@@ -10,12 +10,12 @@ import { Container, Col ,Row, Button} from "react-bootstrap"
 const About = () => (
 	<Layout>
 		<SEO title="About" />
-		<section className='mt-4 about-wrapper main-section'>
-			<Container >
+		<section className='about-wrapper main-section mt-0 mt-lg-4'>
+			<Container className=' px-4 px-xl-2'>
 				<div className="top-wrap px-2 px-lg-0">
 					<Row>
 						<Col>
-							<h1 className='page-heading font-weight-bold'>Hey, we make beautiful things.</h1>
+							<h1 className='page-heading font-weight-bold'>We make beautiful things.</h1>
 							{/* <p className='description'>We Make Beautiful Things.</p> */}
 							<p>
 								Successful businesses require working with full-service web development and digital marketing agencies
@@ -34,14 +34,14 @@ const About = () => (
 					<div className="middle-site-border"></div>
 					<div className="center-site-border"></div>
 				</div>
-				<Container>
+				<Container className=' px-4 px-xl-2'>
 					<div className="px-2 px-lg-0">
 						<Row>
 							<Col lg='4' sm='8'>
 								<div className='services-wrap subititle-wrap mb-5'>
 									<p className='subtitle'>Why choose us?</p>
 									<h2 className='main-title'>
-										We're a team of creatives who are excited about unique ideas.
+										We build products within the budget with remarkbale quality
 									</h2>
 								</div>
 							</Col>
@@ -110,7 +110,7 @@ const About = () => (
 					<div className="middle-site-border"></div>
 					<div className="center-site-border"></div>
 				</div>
-				<Container className="pt-80 pb-40">
+				<Container className="pt-80 pb-40 px-4 px-xl-2">
 					<Row>
 						<Col lg='4' sm='8'>
 							<div className='services-wrap subititle-wrap mb-5'>
@@ -118,7 +118,7 @@ const About = () => (
 									Why choose us?
 								</p>
 								<h2 className='main-title'>
-									We make beautiful things
+									We build products within the budget with remarkbale quality
 								</h2>
 							</div>
 						</Col>

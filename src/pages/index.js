@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import image from './../images/image.jpg';
-import project from './../images/project.jpg'
-import project1 from './../images/project1.jpg'
-import project3 from './../images/project3.jpg'
+import image from './../images/capabilities.jpg';
+import project from './../images/mobiport.png'
+import project1 from './../images/project1.png'
+import project3 from './../images/project2.png'
 import project4 from './../images/project4.jpg'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -18,8 +18,7 @@ import "slick-carousel/slick/slick-theme.css";
 import FontAwesome from 'react-fontawesome' 
 
 const settings = {
-	
-	arrows: true,
+	arrows: false,
 	centerMode: true,
 	centerPadding: "120px",
 	focusOnSelect: false,
@@ -27,6 +26,37 @@ const settings = {
 	autoplay: true,
 	autoplaySpeed: 2000,	
 	speed: 1200,
+	responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            infinite: true,
+            dots: false,
+            speed: 1200,
+            autoplaySpeed: 0
+          }
+        },
+        {
+          breakpoint: 580,
+          settings: {
+            centerMode: true,
+            infinite: true,
+            centerPadding: "50px",
+            slidesToShow: 1,
+            autoplaySpeed: 0
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            centerMode: true,
+            infinite: true,
+            centerPadding: "10px",
+            slidesToShow: 1,
+            autoplaySpeed: 0
+          }
+        }
+      ]
 };
 
 const IndexPage = () => (
@@ -52,20 +82,14 @@ const IndexPage = () => (
 									the works we’ve done.	
 									</h5>
 									<h1 className='title'>We’re design creators.</h1>
-									<div className='more-button'>
-										<a className='more-project' href='#'>More Project</a>
-									</div>
+									{/* <div className='more-button'>
+										<a className='more-project' href='/services'>More Services</a>
+									</div> */}
 								</div>
 							</Col>
-							<Col lg='1'></Col>
-							<Col lg='6'>
+							<Col lg='7'>
 								<div className='right-section'>
-									<div className='featured-project'>
-										<h6 className='font-weight-bold mb-4'>Featured project:</h6>
-										<h5 className='feature-project-title'>
-											<a href='' className='featured-details'>Unique Bowls From<br/> the South Pacific.</a>
-										</h5>
-									</div>
+									
 								</div>
 							</Col>	
 						</Row>
@@ -80,14 +104,14 @@ const IndexPage = () => (
 						<div className="middle-site-border"></div>
 						<div className="right-site-border"></div>
 					</div>
-					<Container>
-						<div className="px-2 px-lg-0">
+					<Container className="px-4 px-xl-2">
+						<div>
 							<Row>
 								<Col lg='5' sm='8'>
 									<div className='subititle-wrap mb-5'>
 										<p className='subtitle'>services</p>
 										<h2 className='main-title'>
-											We're a team of creatives who are excited about unique ideas.
+											Quickly deliver usable and fully-loaded software that is market-ready.
 										</h2>
 									</div>
 								</Col>
@@ -117,13 +141,13 @@ const IndexPage = () => (
 
 				{/* Product slider section start */}
 					<section className="product-slider-section pt-5">
-						<Container>
+						<Container className="px-4 px-xl-2">
 							<Row>
-								<Col lg="5">
+								<Col lg="7">
 									<div className='subititle-wrap mb-5'>
 										<p className='subtitle'>Featured Projects</p>
 										<h2 className='main-title'>
-											Lorem Ipsum is simply dummy text.
+											Expertise and experience of delivering an exact match to your requirements
 										</h2>
 									</div>
 								</Col>
@@ -170,14 +194,14 @@ const IndexPage = () => (
 
 				{/* Capabilties section start */}
 				<section className='pt-70 bg-color capabilties-section'>
-					<Container>
+					<Container className="px-4 px-xl-2">
 						<Row>
-							<Col lg='5' sm='7'>
+							<Col lg='7'>
 								<div className='capabilities-wrap subititle-wrap'>
 									<p className='subtitle'>Capabilities</p>
 									<h2 className='main-title'>
-										Creative studio with<br/>
-										art & technologies.
+										Creative studio for website<br/> 
+										design and development
 									</h2>
 								</div>
 							</Col>

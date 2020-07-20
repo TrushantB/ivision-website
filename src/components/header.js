@@ -23,12 +23,9 @@ import FontAwesome from 'react-fontawesome'
 					<div className='left-part'>
 						<div className='menu-icon justify-content-center align-items-center d-flex cursor-pointer'
 						onClick={() => openNav()}>
-							{/* <a href='#'> */}
-							<FontAwesome
-								name="bars"
-								size="1x"
-							/>
-							{/* </a> */}
+							<span className="top-line"></span>
+							<span className="middle-line"></span>
+							<span className="bottom-line"></span>
 						</div>
 						<div className='logo'>
 							<Link to='/'><img src={logo} /></Link>
@@ -67,7 +64,17 @@ import FontAwesome from 'react-fontawesome'
 								</div>
 							</Nav.Item>
 						</Nav>
-						<Button className='button'><Link to='/contact' className='text-white text-decoration-none'>Let's Talk</Link></Button>
+						{/* <Button className='button'>
+							<Link to='/contact' className='text-white text-decoration-none'>Let's Talk</Link>
+						</Button> */}
+						<div className="call-action">
+							<a href="tel:9130 036 036" className="tel-icon text-decoration-none" >
+								<FontAwesome className='text-white'
+									name="phone"
+									size="lg"
+								/>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

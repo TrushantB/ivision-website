@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Container,Nav ,Button} from 'react-bootstrap';
 import '../styles/scss/main.scss';
-import profile from './../images/profile.jpg';
 import FontAwesome from 'react-fontawesome'
 
   const TeamCard = ({ siteTitle,data }) => (

@@ -1,20 +1,9 @@
 {
     
  "Team": [
-    {
-    "name": "Rahul Rawade",
-    "designation": "Co-Founder",
-    "picture":" https://i.ibb.co/wBjpG29/profile.jpg",
-    "description": "Rahul Rawade is a creative artist and founding partner, providing smart & flexible digital services.",
-    "social": {
-      "Facebook":"https://www.facebook.com/",
-      "insta":"https://www.instagram.com/",
-      "linkedin":"https://www.linkedin.com/"
-    }
-  },
   {
     "name": "Girish Boke",
-    "designation": "Team Manager",
+    "designation": "Co-Founder",
     "picture": "https://images.ctfassets.net/frm2ukqlqqti/5JsjBMK9MIZRvA21Phwsb8/2baa0d26829fe7538796be1f6daa6987/girish_boke.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
     "description": "Girish Boke is a creative artist and founding partner, providing smart & flexible digital services.",
     "social": {
@@ -39,28 +28,6 @@
     "designation": "UI/UX Software Engineer",
     "picture": "https://images.ctfassets.net/frm2ukqlqqti/4wMDtBKkKihDUzen2M9TLT/6fa40b92a3f03b004080d60305bed5ec/jay_jadhav.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
     "description": "Jaywardhan Jadhav is a creative artist and founding partner, providing smart & flexible digital services.",
-    "social": {
-      "Facebook":"https://www.facebook.com/",
-      "insta":"https://www.instagram.com/",
-      "linkedin":"https://www.linkedin.com/"
-    }
-  },
-  {
-    "name": "Ronak Rawade",
-    "designation": "UI/UX Software Engineer",
-    "picture": "https://images.ctfassets.net/frm2ukqlqqti/1sbECbV9bWagE8UK328vAx/ba6962cd1f7aad6e429130eb88e53d6c/ronak_rawade.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
-    "description": "Ronak Rawade is a creative artist and founding partner, providing smart & flexible digital services.",
-    "social": {
-      "Facebook":"https://www.facebook.com/",
-      "insta":"https://www.instagram.com/",
-      "linkedin":"https://www.linkedin.com/"
-    }
-  },
-  {
-    "name": "Yogesh Jadhav",
-    "designation": "Software Developer",
-    "picture": "https://images.ctfassets.net/frm2ukqlqqti/1z1vifqm58WGZJk8eIDjSD/be6ef6f1e83f53ad20eb5fa6b2c3eed0/yogesh_jadhav.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
-    "description": "Yogesh Jadhav is a creative artist and founding partner, providing smart & flexible digital services.",
     "social": {
       "Facebook":"https://www.facebook.com/",
       "insta":"https://www.instagram.com/",
@@ -99,29 +66,8 @@
       "insta":"https://www.instagram.com/",
       "linkedin":"https://www.linkedin.com/"
     }
-  },
-  {
-    "name": "Baldev Pardeshi",
-    "designation": "UI/UX Developer",
-    "picture": "https://images.ctfassets.net/frm2ukqlqqti/2twieyvt8NEgX7Vh9aBwiz/c1d46e9260852693fbc413586fb95023/baldev_pardeshi.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
-    "description": "Baldev Pardeshi is a creative artist and founding partner, providing smart & flexible digital services.",
-    "social": {
-      "Facebook":"https://www.facebook.com/",
-      "insta":"https://www.instagram.com/",
-      "linkedin":"https://www.linkedin.com/"
-    }
-  },
-  {
-    "name": "Pravin Jadhav",
-    "designation": "UI/UX Developer",
-    "picture": "https://images.ctfassets.net/frm2ukqlqqti/5kTF1bAv12kFDU8tkEgwfQ/7b7d33b66f1df81ec40debb7bfbda624/pravin_jadhav.jpg?w=300&h=300&q=50&fm=webp&bg=rgb%3A000000",
-    "description": "Pravin Jadhav is a creative artist and founding partner, providing smart & flexible digital services.",
-    "social": {
-      "Facebook":"https://www.facebook.com/",
-      "insta":"https://www.instagram.com/",
-      "linkedin":"https://www.linkedin.com/"
-    }
   }
+ 
   ],
   "Services":[
       {
@@ -216,7 +162,7 @@
         "tools":" iOS / Android /React Native /Ionic",
         "tagline": "We turn ideas into wonderful Apps",
         "discription":"A majority of the users prefer using their smartphones to navigate a website or an app. The mobile applications should be developed in congruence with a user-friendly interface, and we strive to develop top-notch and accessible mobile apps for our clients.",
-        "heading1": "What is the JAM Development ?",
+        "heading1": "Mobile Application Development",
         "heading1_content":[
             {
                 "title":"JAVASCRIPT",
@@ -257,7 +203,7 @@
         "name":"Website Development",
         "tools":" Opencart, WooCommerce, Magento. / Wordpress. / Bootstrap, Foundation. / HTML 5, CSS 3, Javascript.",
         "tagline": "Building smarter websites",
-        "discription":"A majority of the users prefer using their smartphones to navigate a website or an app. The mobile applications should be developed in congruence with a user-friendly interface, and we strive to develop top-notch and accessible mobile apps for our clients.",
+        "discription":"iVision Studio specializes in offering top-notch services in the area of web development. We work with important elements when developing a website for our clients. We make sure that the theme of the website aligns with the theme of their business/niche. In addition, we excel in the development of secure and user intuitive content management systems.",
         "heading1": "What is the Website Development ?",
         "heading1_content":[
             {
@@ -342,7 +288,6 @@
       {
         "id":6,
         "slug":"/redesign-maintenance",
-       
         "name":"Redesign & Maintenance",
         "tools":" ",
         "tagline": "Mobile Application Development",
@@ -387,40 +332,30 @@
         "slug":"/staffing-solutions",
         "name":"Staffing Solutions",
         "tools":" ",
-        "tagline": "Temporary Staffing, Temporary-to-Hire, Logn-term Staffing",
+        "tagline": "Flexible staffing solutions for the agile organisation.",
         "discription":"A temporary staff can lead to cost savings and enhanced productivity for your organization. One of the leading temporary agencies, iVision combines innovative technology with the human touch to save costs, enhance quality, and maximize efficiency for your business. Embrace flexibility and business freedom with our excellent contract staffing services.",
         "heading1": "Why iVision Web Studio?",
         "heading1_content":[
             {
-                "title":"JAVASCRIPT",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
-            },
-            {
-                "title":"APIS",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
-            },
-            {
-                "title":"MARKUP",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+                "description":"In today's dynamic markets, temporary staff can offer agility and cost savings to businesses. Our trained personnel spread across 20 locations in India along with our use of cutting edge technology will equip your business with cost-effective temp staffing solutions that maximise efficiency, improve productivity and maintain compliance across skill sets."
             }
         ],
-        "heading2": "What is the JAM Development ?",
+        "heading2": "The leading staffing solutions provider",
         "heading2_content":[
             {
-                "title":"BETTER PERFORMANCE",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
-            },
+                "description":"iVision is one of the leading staffing agencies in India and comes with years of experience. If you are looking for an ideal candidate for vacancies in any sector, be it - banking, finance, marketing, etc., then get in touch with us. We will bridge the gap in the employment market and find the best talent available for you."
+            }
+        ],
+        "heading3": "The best staffing services",
+        "heading3_content":[
             {
-                "title":"HIGHER SECURITY",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
-            },
+                "description":"iVision is one of the leading staffing agencies in India and comes with years of experience. If you are looking for an ideal candidate for vacancies in any sector, be it - banking, finance, marketing, etc., then get in touch with us. We will bridge the gap in the employment market and find the best talent available for you."
+            }
+        ],
+        "heading4": "Find experienced candidates",
+        "heading4_content":[
             {
-                "title":"BETTER DEVELOPER EXPERIENCE",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
-            },
-            {
-                "title":"CHEAPER, EASIER SCALING",
-                "description":"Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript."
+                "description":"iVision is one of the leading staffing agencies in India and comes with years of experience. If you are looking for an ideal candidate for vacancies in any sector, be it - banking, finance, marketing, etc., then get in touch with us. We will bridge the gap in the employment market and find the best talent available for you."
             }
         ]
       }

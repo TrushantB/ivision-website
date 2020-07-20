@@ -3,11 +3,14 @@
 }
 .career-wrapper{
     .job-overview-section{
+        width: 780px;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 60px;
         .job-overviews{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            width: 780px;
             padding: 28px 24px;
             align-items: center;
             background: $white;
@@ -16,19 +19,32 @@
                 button{
                     background-color: $secondary-color;
                     border-color: transparent;
+                        &:hover{
+                            background-color: $primary-color;
+                        }
                         a{
                             color: $white;
                             font-size: 15px;
+                                
                         }
                 }
                 .job-title{
                     color: $secondary-color;
+                        &:hover{
+                            color: $primary-color;
+                        }
                 }                
         }
         .react-out-text{
             color: $secondary-color;
             font-family: SpaceGrotesk-Bold; 
+                &:hover{
+                    color: $primary-color;
+                }
         }
+    }
+    .content{
+        padding-bottom: 10px;
     }
 }
 .content{
@@ -50,9 +66,9 @@
     }
     .career-wrapper{
         .job-overview-section{
-            .job-overviews{
-                width: 80%;
-            }
+            width: 80%;
+            padding-top: 0;
+            margin: 0;
         }
     }
 }
@@ -65,11 +81,15 @@
 }   
 @media screen and (max-width:768px){
     .career-wrapper{
-        .job-article{
-            h3{
-                font-size: 24px;
-            }
+        .job-overview-section{
+            width: 100%;
+                .job-article{
+                    h3{
+                        font-size: 24px;
+                    }
+                }
         }
+        
     }
 }
 @media screen and (max-width:580px){

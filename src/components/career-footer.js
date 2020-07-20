@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Container,Nav,Col,Row, Button } from 'react-bootstrap';
 import '../styles/scss/main.scss';
-import logo from './../images/logo.jpg';
 import FontAwesome from 'react-fontawesome'
 
   const CareerFooter = () => (
@@ -11,13 +10,12 @@ import FontAwesome from 'react-fontawesome'
         <Container fluid >
             <Row>
                 <Col lg="6" md="12" sm="12" className="p-0">
-                    <div className="meet-the-team wrapper px-4">
+                    <div className="meet-the-team wrapper px-4 px-xl-2">
                         <div className="content">
                             <h4 className="mb-4">Meet the team</h4>
-                            <p className="mb-5">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley.
+                            <p className="mb-4 mb-lg-5">
+                                An inspirational and fun working environment, an innovation-driven and 
+                                incredibly talented team are just a few reasons why you will love it here.
                             </p>
                             <button className="button btn btn-primary">
                             <a href="/team" className="text-decoration-none">Meet our team</a>
@@ -26,10 +24,10 @@ import FontAwesome from 'react-fontawesome'
                     </div>
                 </Col>
                 <Col lg="6" md="12" sm="12" className="p-0">
-                    <div className="get-in-touch wrapper px-4">
+                    <div className="get-in-touch wrapper px-4 px-xl-2">
                         <div className="content">
-                            <h4 className="mb-4">Get in touch</h4>
-                            <p className="mb-5">
+                            <h4 className="mb-4">Have some questions?</h4>
+                            <p className="mb-4 mb-lg-5">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                 when an unknown printer took a galley.

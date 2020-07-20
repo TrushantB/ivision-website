@@ -75,6 +75,7 @@ body{
         height: 100%;
         display: flex;
         align-items: flex-start;
+        background-repeat: no-repeat;
         justify-content: center;
         flex-direction: column;
         .featured-details{
@@ -413,6 +414,12 @@ h6{
 }
 
 ///Media Query
+@media screen and (max-width:1200px){
+    .banner-main-wrapper.container{
+        padding: 0 25px 30px;
+    }
+}
+
 @media screen and (max-width:1140px){
     .capabilties-section{
         .right-body{
@@ -432,12 +439,15 @@ h6{
     .banner-main-wrapper.container{
             .left-section h1{
                 font-size: 60px;
-                width: 500px;
+                // width: 500px;
                 line-height: 54px;
             }
             .right-section{
-                height: 340px;
+                height: 240px;
             }
+    }
+    #page{
+        padding-top: 110px;
     }
     .pt-80{
         padding-top: 40px;
@@ -501,14 +511,45 @@ h6{
             padding: 10px 12px;
         }
     }
+    .nav-fixed-top{
+        padding: 12px 10px 14px ;
+    }
+    .banner-main-wrapper.container{
+        .row{
+            flex-direction: column-reverse;
+            .left-section {
+                margin-top: 20px;
+                h1{
+                    font-size: 80px;
+                    line-height: 64px;
+                }
+            }
+            .right-section{
+            }
+        }
+        
+    }
 }
 @media screen and (max-width:580px){
     .banner-main-wrapper.container{
-        .left-section h1{
-            font-size: 60px;
-            width: auto;
-            line-height: 54px;
+        .row{
+            flex-direction: column-reverse;
+            .left-section {
+                margin-top: 0;
+                h1{
+                    font-size: 66px;
+                    line-height: 64px;
+                }
+            }
+            .right-section{
+                background-position: center;
+                height: 210px;
+            }
         }
+        
+    }   
+    #page{
+        padding-top: 90px;
     }
     .capabilties-section{
         .right-body{

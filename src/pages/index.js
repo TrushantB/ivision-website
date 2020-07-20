@@ -75,7 +75,7 @@ const IndexPage = () => (
 				<section>
 					<Container className='banner-main-wrapper'>
 						<Row>
-							<Col lg='5'>
+							<Col lg='5' md="6" sm="12">
 								<div className='left-section'>
 									<h5 className=' heading'>
 									We are proud of <br/>    
@@ -87,7 +87,7 @@ const IndexPage = () => (
 									</div> */}
 								</div>
 							</Col>
-							<Col lg='7'>
+							<Col lg='7' md="6" sm="12">
 								<div className='right-section'>
 									
 								</div>

@@ -50,6 +50,9 @@ Footer{
             &:hover{
                 background-color: $primary-color;
             }
+            &:focus{
+                box-shadow: none;
+            }
         }
     }
     .site-info-holder{

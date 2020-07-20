@@ -117,3 +117,35 @@
         }
     }
 }
+
+@media screen and (max-width:580px){
+    .team-card-wrapper{
+        .team-block{
+            .inner-box{
+                .info-box{
+                    background-color: $primary-color;
+                    .name{
+                        color: $white;
+                    }
+                    .designation{
+                        color: $white;
+                    }
+                    .social-links{
+                        visibility: visible;
+                        opacity: 1;
+                        margin-top: 14px;
+                        height: 30px;
+                        margin-bottom: -10px;
+                        li{
+                            &:hover .social-text{
+                                visibility: visible;
+                                top: -33px;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

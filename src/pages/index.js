@@ -10,20 +10,23 @@ import SEO from "../components/seo"
 import '../styles/scss/main.scss'
 import Card from "../components/card"
 import Accordian from "../components/accordian"
-import FontAwesome from 'react-fontawesome' 
 import dataSource from '../mock-data.json';
 import { Container, Col ,Row, Button} from "react-bootstrap"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import FontAwesome from 'react-fontawesome' 
 
 const settings = {
 	
 	arrows: true,
 	centerMode: true,
-	centerPadding: "150	px",
+	centerPadding: "120px",
 	focusOnSelect: false,
 	slidesToShow: 1,
+	autoplay: true,
+	autoplaySpeed: 2000,	
+	speed: 1200,
 };
 
 const IndexPage = () => (

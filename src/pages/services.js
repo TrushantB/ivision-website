@@ -14,7 +14,12 @@ const Services = () => (
 				<Row>
 					<Col>
 						<h1 className='page-heading line-heignt0 font-weight-bold'>Services</h1>
-						<p className='description mb-0'>What We Do</p>
+						<p className='description mb-3'>What We Do</p>
+						<p>
+							As a full-service firm, we have developed a unique approach and strategies to help our 
+							clients with their projects. We offer a multitude of services to our customers; however, 
+							we also tailor our services to meet the demand and requirements of our clients.
+						</p>
 					</Col>
 				</Row>
 			</div>

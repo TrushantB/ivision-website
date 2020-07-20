@@ -91,6 +91,11 @@
             border-color:lighten( $bg-color, 10% );
             width: 40px;
             height: 40px;
+                &:hover{
+                    background-color: $primary-color;
+                    color: $white;
+                    border-color: $primary-color;
+                }
             .icon{
                 font-size: 20px;
             }

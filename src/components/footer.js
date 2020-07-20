@@ -12,7 +12,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 		<footer>
 			<Container className='page-container'> 
 				<Row className='main-row'>
-					<Col lg='3' md='12' className="mb-5 mb-md-0">
+					<Col lg='3' md='12' className="mb-5 mb-xl-0">
 						<div className='logo '>
 							<Link to='/'><img src={logo} /></Link>
 						</div>

@@ -70,7 +70,7 @@
     
     .optimize-services{ 
         .right-body{
-            padding: 20px 20px 40px;
+            padding: 40px 20px 20px;
         }
         .image{
             margin-top: 0;
@@ -81,26 +81,32 @@
             .body{
                 padding: 30px 0;
             }
+            .why-choose-section{
+                padding: 0px 0 20px 0;
+            }
         } 
+        
     }   
 }    
  
 @media screen and (max-width:768px){
 
-    .main-section{
+    .about-wrapper{
+        .about-company {
+            padding: 60px 0 40px 0; 
+        }
+        .right-body .title{
+            font-size: 36px;
+        }
+        .optimize-services .right-body{
+            padding: 30px 20px 20px;
+        }
         .page-heading{
             font-size: 40px;
         }
         .heading{
             font-size: 30px;
         }
-    }
-    .why-choose-section{
-        padding: 50px 0 20px 0;
-    }
-    .about-wrapper{
-        .about-company {
-            padding: 60px 0 40px 0; 
-        }
+        
     }
 } 

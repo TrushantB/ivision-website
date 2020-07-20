@@ -55,6 +55,9 @@
         &:hover{
             background-color: $primary-color;
         }
+        &:focus{
+            box-shadow: none;
+        }
     }
 }
 @media screen and (max-width:1200px){
@@ -102,24 +105,19 @@
 
     .contact-wrapper{
         .contact-details{
-            .right-section{
-                padding: 35px 15px 35px 10px;
-            }
             .contact-form{
-                padding: 35px 15px 35px 10px;
+                padding: 35px 0px 35px 0px;
+            }
+            .input-box{
+                flex-basis: auto;
+            }
+            .contact-details{
+                .right-section{
+                    padding: 50px 0px;
+                }
             }
         }
     }
-    
-    .contact-wrapper{
-        .input-box{
-            flex-basis: auto;
-        }
-        .contact-details{
-            .right-section{
-                padding: 50px 16px;
-            }
-        }
-    }
+
 }
 

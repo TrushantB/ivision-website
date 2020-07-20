@@ -14,7 +14,7 @@ import FontAwesome from 'react-fontawesome'
                 <h4 className='subheading'>{data.name}</h4>
                 <p className='font-weight-bold'>{data.tools}</p>
                 <p className='description-details'>
-                {data.discription}
+                    {data.discription}
                 </p>
             </div>
             <Link className='read-more' to={data.slug}>Read More</Link>

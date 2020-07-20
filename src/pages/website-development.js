@@ -12,41 +12,45 @@ const WebsiteDevelopment = () => (
     <SEO title="Service"/>
     <section className='mt-5 services-details main-section'>
         <Container>
-            <div className='top-wrap'>
-                <h1 className='page-heading font-weight-bold'>
-                    Website Development
-                </h1>
-                <p className='description mb-3'>
-                    Building smarter websites
-                </p>
-                <p>
-                    iVision Studio specializes in offering top-notch services in the area of web 
-                    development. We work with important elements when developing a website for our 
-                    clients. We make sure that the theme of the website aligns with the theme of their 
-                    business/niche. In addition, we excel in the development of secure and user intuitive 
-                    content management systems.
-                </p>
-                <div className='button-wrap'>
-                    <Button className='button'>
-                        <Link className='text-white text-decoration-none' to='/contact'>
-                            Learn More
-                        </Link>
-                    </Button>
-                </div>
+            <div className='top-wrap px-2 px-lg-0'>
+                <Row>
+                    <Col>
+                        <h1 className='page-heading font-weight-bold'>
+                            Website Development
+                        </h1>
+                        <p className='description mb-3'>
+                            Building smarter websites
+                        </p>
+                        <p>
+                            iVision Studio specializes in offering top-notch services in the area of web 
+                            development. We work with important elements when developing a website for our 
+                            clients. We make sure that the theme of the website aligns with the theme of their 
+                            business/niche. In addition, we excel in the development of secure and user intuitive 
+                            content management systems.
+                        </p>
+                        <div className='button-wrap'>
+                            <Button className='button'>
+                                <Link className='text-white text-decoration-none' to='/contact'>
+                                    Learn More
+                                </Link>
+                            </Button>
+                        </div>
+                    </Col>
+                </Row>
             </div>
         </Container>
         <section className='details-wrapper bg-color pt-80'>
             <Container>
                 <Row>
-                    <Col lg="3">
+                    <Col xl='3' md="4">
                         <ServiceMeunList/>
                     </Col>
-                    <Col lg="9">
-                        <div className='mb-5'>
+                    <Col xl='9' md="8">
+                        <div className='mb-4 mb-md-5 px-2 px-lg-0'>
                             <h3>What is the Website Development ?</h3>
                             <Row>
                                 <Col md='6'>
-                                    <div className='my-4'>
+                                    <div className='my-3 my-md-4 '>
                                         <h4 className='subtitle'>
                                             CMS ( content management system )
                                         </h4>
@@ -57,7 +61,7 @@ const WebsiteDevelopment = () => (
                                     </div>
                                 </Col>
                                 <Col md='6'>
-                                    <div className='my-4'>
+                                    <div className='my-3 my-md-4 '>
                                         <h4 className='subtitle '>Responsive Web Design</h4>
                                         <p>
                                             Ecommerce, also known as electronic commerce or internet commerce, 
@@ -67,7 +71,7 @@ const WebsiteDevelopment = () => (
                                     </div>
                                 </Col>
                                 <Col md='6'>
-                                    <div className='my-4'>
+                                    <div className='my-3 my-md-4 '>
                                         <h4 className='subtitle '>Markup</h4>
                                         <p>
                                             Templated markup should be prebuilt at deploy time, usually using a 
@@ -76,7 +80,7 @@ const WebsiteDevelopment = () => (
                                     </div>
                                 </Col>
                                 <Col md='6'>
-                                    <div className='mt-5'>
+                                    <div className='my-3 my-md-4 '>
                                         <h4 className='subtitle '>Email Template Development</h4>
                                         <p>
                                             Email templates allow you to customize the formatting and text of 

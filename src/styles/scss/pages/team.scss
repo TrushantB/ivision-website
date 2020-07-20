@@ -1,3 +1,8 @@
-.team-page-wrapper{
-    background-color: $bg-color;
+@media screen and (max-width:1024px){
+    .team-page-wrapper{
+        .top-wrap{
+            padding: 0 20px;
+        }
+    }
+
 }

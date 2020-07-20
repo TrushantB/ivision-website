@@ -1,12 +1,13 @@
 Footer{
-    background-color: $footer-bg-color;
+    background-color: $secondary-color;
     .container{
         max-width: 1300px;
+            .main-row{
+                padding: 70px 0;
+            }
     }
     .page-container{
-        padding: 40px 0;
         .logo{
-            padding: 50px 0 0;
             img{
                 width: auto;
             }
@@ -14,11 +15,7 @@ Footer{
     }
     .footer-list{
         list-style: none;
-        .inner-wrap{
-            padding: 50px 0 0;
-        }
         .footer-list-title{
-            font-size: 14px;
             margin: 0 0 20px;
             color: $secondary-text-color;
             font-size: 16px;
@@ -32,10 +29,10 @@ Footer{
         padding-left: 0;
         .subscribe-input{
             background-color: rgba(136, 136, 136, 0.06);
-            border-color: #1e1d20;
+            border-color: transparent;
             height: 100%;
             padding: 14px 15px;
-            color: $white-color;
+            color: $white;
             &:focus{
                 box-shadow: none;
             }
@@ -47,7 +44,7 @@ Footer{
             height: 100%;
             padding: 14px 18px;
             font-weight: 700;
-            color:#fff;
+            color:$white;
             font-family: SpaceGrotesk-Bold;
             border-radius: 4px;
             &:hover{
@@ -94,5 +91,16 @@ Footer{
         .main-row{
             margin:0
         }
+    }
+}
+@media screen and (max-width: 768px){
+    Footer {
+        .page-container{
+            padding: 0px 10px 0;
+                .main-row{
+                    padding: 40px 0 10px;
+                }
+        }
+        
     }
 }

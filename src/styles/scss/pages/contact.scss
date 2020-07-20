@@ -3,8 +3,9 @@
         .contact-form{
             padding: 55px 55px 40px;
                 .form-group{
+                    margin-bottom: 24px;
                     .form-control{
-                        color: #232226;
+                        color: $secondary-color;
                         background-color: rgba(23,22,26,.04);
                         border: 0px solid transparent;
                         width: 100%;
@@ -26,10 +27,16 @@
                                 background-color: rgba(23,22,26,.07);
                                 outline: 0;
                                 border: 0;
+                                box-shadow: none;
                             }
                     }
                 }
         }
+}
+.contact-wrapper{
+    .top-wrap{
+        margin: 0 0 50px 0;
+    }
 }
 .contact-wrapper{
     .contact-details{
@@ -37,14 +44,8 @@
             padding: 55px  55px 50px;
             height: 100%;
         }
-        .form-control:focus{
-            box-shadow: none;
-            border-color: #ced4da;
-        }
     }
-    .join-team{
-        padding:70px 0
-    }
+    
     .button{
         background-color: $secondary-color;
         border: transparent;
@@ -56,29 +57,69 @@
         }
     }
 }
-@media screen and (max-width:768px){
-.contact-wrapper{
-    .contact-form {
-        padding-right: 0!important;
-        margin-bottom: 60px;
-     }
-     .contact-details {
-         padding:0;
-     }
-     
- }
-  
-}
-@media screen and (max-width:580px){
-  .contact-wrapper{
-    .input-box{
-        flex-basis: auto;
-    }
-    .contact-details{
-        .right-section{
-            padding: 50px 16px;
+@media screen and (max-width:1200px){
+    .contact-wrapper{
+        .contact-details{
+            .contact-form{
+                padding: 55px 0 50px;
+            }
         }
     }
-  }
+}
+@media screen and (max-width:1024px){
+
+    .contact-wrapper{
+        .contact-details{
+            .right-section{
+                padding: 55px 25px 50px;
+            }
+        }
+    }
+}
+@media screen and (max-width:992px){
+
+    .contact-wrapper{
+        .contact-details{
+            .right-section{
+                padding: 35px 25px 35px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .contact-wrapper{
+        .contact-details{
+            .right-section{
+                padding: 35px 15px 35px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:580px){
+
+    .contact-wrapper{
+        .contact-details{
+            .right-section{
+                padding: 35px 15px 35px 10px;
+            }
+            .contact-form{
+                padding: 35px 15px 35px 10px;
+            }
+        }
+    }
+    
+    .contact-wrapper{
+        .input-box{
+            flex-basis: auto;
+        }
+        .contact-details{
+            .right-section{
+                padding: 50px 16px;
+            }
+        }
+    }
 }
 

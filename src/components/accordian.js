@@ -7,20 +7,20 @@ import logo from './../images/logo.jpg';
 import FontAwesome from 'react-fontawesome'
 
   const Accordian = ({ siteTitle }) => (
+      
     <div className='accordian-wrapper pt-4'>
         <Accordion defaultActiveKey="0">
             <Card className='border-0 '>
-                
                 <Accordion.Toggle as={Card.Header} eventKey="0" className='border-0 bg-transparent font-weight-bold'>
                     <FontAwesome className=''
                         name="plus"
                         size="1x"
                         className='pr-3 plus-icon' 
-                        />
+                    />
                     Website & Mobile App Design
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
-                     <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
+                    <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card  className='border-0 ' >
@@ -29,24 +29,24 @@ import FontAwesome from 'react-fontawesome'
                         name="plus"
                         size="1x"
                         className='pr-3 plus-icon'
-                        />
+                    />
                      Motion Graphics & Animation
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
-                     <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
+                    <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card  className='border-0 ' >
                 <Accordion.Toggle as={Card.Header} eventKey="2" className='border-0 bg-transparent font-weight-bold'>
-                  <FontAwesome className=''
+                    <FontAwesome className=''
                         name="plus"
                         size="1x"
                         className='pr-3 plus-icon'
-                        />
+                    />
                    User Experience
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
-                     <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
+                    <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
                 </Accordion.Collapse>
             </Card>
         </Accordion>

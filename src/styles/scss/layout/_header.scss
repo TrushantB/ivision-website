@@ -1,8 +1,5 @@
-
 .header-wrap{
-    padding-right: 30px;
-    padding-left: 30px;
-    height: 130px;
+    padding: 30px 30px 50px;
     .menu-icon {
         cursor: pointer;
     }
@@ -20,7 +17,7 @@
                 align-items: center;
                 .nav-link{
                     position: relative;
-                    color: $text-black;
+                    color: $black;
                     padding: 0 22px;
                     // &::before{
                     //     content: '0';
@@ -36,7 +33,7 @@
                         color: $primary-color;
                     }
                     .link{
-                        color: $text-black;
+                        color: $black;
                         &:hover{
                             color: $primary-color;
                             text-decoration: none;
@@ -79,12 +76,11 @@
                     border-radius:100%;
                     margin-right: 15px;
                     a{
-                        color: #000;
+                        color: $black;
                     }
                 }
             }
     }
-  
 }
 
 .bottom-section{
@@ -92,7 +88,7 @@
     padding-top: 100px;
     .social-link{
         .circle{
-            border-color: #878787;
+            border-color:lighten( $bg-color, 10% );
             width: 40px;
             height: 40px;
             .icon{
@@ -109,6 +105,8 @@
            font-size: 16px;
             a{
                 font-size: 16px;
+                display: inline-block;
+                padding-bottom: 7px;
             }
        }
    }
@@ -120,20 +118,25 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: $secondary-color;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 120px;
+    padding-top: 100px;
     text-align:center;
     z-index: 11;
-  }
+        ul{
+            li{
+                text-align: left;
+            }
+        }
+}
   
-  .sidenav{
+.sidenav{
     .link[aria-current=page]{
         color: $primary-color;
     }
     .info{
-        width: 25vw;
+        width: 35vw;
         text-align: left;
     }
     .link {
@@ -142,44 +145,45 @@
         font-size:30px; 
         font-weight: 600;
         text-align: left;
-        color: #fff;
-        display: block;
+        color: $white;
         transition: 0.3s;
-      
-      }
-      .closebtn {
+    }
+    .closebtn {
         position: absolute;
-        top: 0;
+        top: 15px;
         font-size: 36px;
-        padding-top:30px;
-        left: -54px;
-        margin-left: 50px;
-      }
-      a:hover{
+        left: 20px;
+        padding: 0;
+    }
+    a:hover{
         color: $primary-color;
         text-decoration: none;
-      }
-      .menu-item{
-        color: #f1f1f1;
-        font-size: x-large;
-        cursor: pointer;
-      }
-      .footer-link{
-          color: $secondary-text-color;
-      }
-  }
+    }
+    .footer-link{
+        color: $secondary-text-color;
+    }
+}
   
-
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .header-wrap {
+        .header-wrap-inner {
+            .right-part .nav-link {
+                padding: 0 12px;
+            }
+        }
+    }
+}
 @media screen and (max-width: 992px){
     .header-wrap{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 20px 20px 30px;
         .header-wrap-inner{
             .nav{
                 display: none;
@@ -205,9 +209,9 @@
             margin-bottom: 20px;
         }
     }
-.bottom-section{
-    padding-top: 60px;
-}
+    .bottom-section{
+        padding-top: 60px;
+    }
 }
 @media screen and (max-width: 420px){
     .header-wrap {

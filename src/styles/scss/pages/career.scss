@@ -1,26 +1,57 @@
 .top-wrap{
     margin: 0 0 50px 0;
 }
-.middle-section{
-    padding-bottom: 80px;
-}
-.job-article{
-    ul{
-        list-style: none;
-        padding-left: 30px;
-        li{
-            p{
-                font-size: 18px;
-                margin-bottom: 20px;
-                &::before{
-                    content: "\2713";
-                    font-weight: bolder;
-                    color: #000;
-                    font-size: 20px;
-                    margin-right: 8px;
-                    position: absolute;
-                    left: 17px;
+.career-wrapper{
+    .job-overview-section{
+        .job-overviews{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 780px;
+            padding: 28px 24px;
+            align-items: center;
+            background: $white;
+            overflow: hidden;
+            box-shadow: 0 0 6px rgba(106,125,165,.1), 0 10px 35px rgba(106,125,165,.1);
+                button{
+                    background-color: $secondary-color;
+                    border-color: transparent;
+                        a{
+                            color: $white;
+                            font-size: 15px;
+                        }
                 }
+                .job-title{
+                    color: $secondary-color;
+                }                
+        }
+        .react-out-text{
+            color: $secondary-color;
+            font-family: SpaceGrotesk-Bold; 
+        }
+    }
+}
+.content{
+    padding-top:100px;
+    padding-bottom: 50px;
+        p{
+            a{
+                font-family: SpaceGrotesk-Bold;
+                color: $secondary-color;
+            }
+        }
+}
+
+
+@media screen and (max-width:1024px){
+    .content{
+        padding-top: 50px ;
+        padding-bottom: 50px;
+    }
+    .career-wrapper{
+        .job-overview-section{
+            .job-overviews{
+                width: 80%;
             }
         }
     }
@@ -39,7 +70,20 @@
                 font-size: 24px;
             }
         }
-    
     }
+}
+@media screen and (max-width:580px){
+    .career-wrapper{
+        .job-overview-section{
+            .job-overviews{
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 18px 24px;
+                    .button{
+                        margin-top: 15px;
+                    }
 
+            }
+        }
+    }
 }

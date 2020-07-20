@@ -1,5 +1,3 @@
-// 3. Base stuff
-
 // @import 'base/font';
 
 @import "abstracts/variables";
@@ -7,7 +5,8 @@
 // 4. Layout-related sections
 @import 'layout/header','layout/footer';
  
-@import 'component/card','component/team-card','component/accordian','component/button','component/service-card', 'component/service-menu-list';
+@import 'component/card','component/team-card','component/accordian','component/button','component/service-card', 'component/service-menu-list', 'component/career-footer';
+
 //pages
 @import 'pages/contact','pages/about','pages/career','pages/services','pages/services-details', 'pages/team.scss';
 //========= Home page===========//
@@ -39,12 +38,18 @@
 body{
     font-family: SpaceGrotesk-Regular;
     font-size: 15px;
+    color: $secondary-color;
+    background-image: url('../../images/shape.png');
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 ::selection{
     background-color: $primary-color;
-    color: $white-color;
+    color: $white;
 }
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
     background: $scroll-bar-color; 
     border-radius: 2px;
 }
@@ -66,13 +71,13 @@ body{
     .right-section{
         background-image: url('../../images/banner.jpg');
         background-size: cover;
-        height: 640px;
+        height: 630px;
         display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
         .featured-details{
-            color: $text-black;
+            color: $black;
             font-weight: 700;
             &:hover{
                 color:$primary-color;
@@ -89,7 +94,7 @@ body{
         justify-content: center;
         flex-direction: column;
         .more-project{
-            color: $text-black;
+            color: $black;
             font-weight: 700;
             &:hover{
                 color:$primary-color;
@@ -100,11 +105,11 @@ body{
             margin-top: 40px;
             font-family: SpaceGrotesk-Bold;
         }
-     h1{
-         font-size: 96px;
-         line-height: 90px;
-         letter-spacing: -3px;
-         font-weight: 700;
+        h1{
+            font-size: 96px;
+            line-height: 90px;
+            letter-spacing: -3px;
+            font-weight: 700;
         }
      }
 }
@@ -113,7 +118,6 @@ body{
 
 .services-section{
     background-color: $bg-color;
-    padding: 100px 0 30px 0 ;
         .subheading{
             margin-bottom: 30px;
         }
@@ -123,22 +127,22 @@ body{
                 width: 1px;
                 background: $site-border-color;
                 position: absolute;
-                left: 80px;
+                left: 65px;
             }
             .middle-site-border{
                 height: 100%;
                 width: 1px;
                 background: $site-border-color;
                 position: absolute;
-                margin-left: calc(30% - 5px);
+                margin-left: calc(51% - 5px);
                 
             }
-            .center-site-border{
+            .right-site-border{
                 height: 100%;
                 width: 1px;
                 background: $site-border-color;
                 position: absolute;
-                margin-left: calc(51% - 5px);
+                margin-left: calc(74% - 5px);
                 
             }
         }
@@ -163,6 +167,9 @@ h6{
 .pt-80{
     padding-top: 80px;
 }
+.pb-40{
+    padding-bottom: 40px;
+}
 .heading{
     font-size: 38px;
     font-weight: 600;
@@ -175,39 +182,18 @@ h6{
     padding-top: 70px;
 }
 .bg-black{
-background-color:$bg-black;
+    background-color:$secondary-color;
 }
 .bg-color{
     background-color:$bg-color;
-}
-.mb-100{
-    margin-bottom: 100px;
 }
 .description{
     font-size: 17px;
     font-weight: 600;
 }
-.mt-20{
-    margin-top: 20px;
-}
-.f-w-500{
-    font-weight: 500;
-}
-.f-w-600{
-    font-weight: 500;
-}
-.secondary-text-color{
-    color: $secondary-text-color;
-}
 .title{
     font-size: 54px;
     line-height: 1;
-}
-.f-s-18{
-    font-size: 18px;
-}
-.pl-70{
-    padding-left: 70px;
 }
 .bottom-border{
     padding-bottom: 25px;
@@ -220,15 +206,15 @@ background-color:$bg-black;
 }
 .circle{
     width:50px;
-    border-radius: 50%;
-    border:1px solid #fff;
+    border-radius: 4px;
+    border:1px solid $white;
     height: 50px;
     justify-content:center;
     display: flex;
     align-items:center;
 }
 .text-color{
-    color:#A4A3A6; 
+    color: $secondary-text-color; 
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
@@ -240,7 +226,7 @@ background-color:$bg-black;
         width: 1px;
         background: $site-border-color;
         position: absolute;
-        left: 80px;
+        left: 65px;
         top: 0;
     }
     .middle-site-border{
@@ -248,39 +234,40 @@ background-color:$bg-black;
         width: 1px;
         background: $site-border-color;
         position: absolute;
-        margin-left: calc(30% - 5px);
+        margin-left: calc(51% - 5px);
         top: 0;
     }
-    .center-site-border{
+    .right-site-border{
         height: 100%;
         width: 1px;
         background: $site-border-color;
         position: absolute;
-        margin-left: calc(51% - 5px);
+        margin-left: calc(74% - 5px);
         top: 0;
     }
 }
+
 //===Subtitle css ===//
-    .main-title{
-        font-size: 54px;
-        letter-spacing: -2px;
-        line-height: 1.1;
+.main-title{
+    font-size: 54px;
+    letter-spacing: -2px;
+    line-height: 1.1;
+}
+.subtitle{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: $subTitle-color;
+    font-family: SpaceGrotesk-Bold;
+    &::after{
+        content: '';
+        border-bottom: 1px solid $subTitle-color;
+        display: block;
+        margin-top: 20px;
+        
     }
-    .subtitle{
-        margin-bottom: 20px;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 600;
-        color: $subTitle-color;
-        font-family: SpaceGrotesk-Bold;
-        &::after{
-            content: '';
-            border-bottom: 1px solid $subTitle-color;
-            display: block;
-            margin-top: 20px;
-            
-        }
-    }
+}
 //===== Capabilties===//
 .capabilties-section{
     .image{
@@ -297,11 +284,12 @@ background-color:$bg-black;
     }
 }
 //=====Collaboration ===//
+
 .collaboration-section{
-    background-color: #1a191d;
+    background-color: $light-color;
     padding:90px 0;
     .subtitle{
-        color: #A4A3A6;
+        color: $secondary-text-color;
         text-transform: uppercase;
     }
     .title{
@@ -332,10 +320,7 @@ background-color:$bg-black;
         margin-bottom: 20px;
     }
 }
-///== Award ===//
-.award-section {
-    padding:80px 0 40px 0;
-}
+
 ///===== Project ===//
 .featured-project{
     .project{
@@ -371,13 +356,115 @@ background-color:$bg-black;
                 letter-spacing: 0;
                 margin-bottom: 0;
                 a{
-                    color: #fff;
+                    color: $white;
                 }
             }
             .category{
                 font-weight: 600;
-                color: #fff;
+                color: $white;
                 font-size: 14px;
+            }
+        }
+    }
+}
+// Product Slider 
+
+.product-slider-section{
+    .slick-list{
+        .slick-slide{
+            height: 500px;
+                .image-wrapper{
+                    position: relative;
+                        .overlay{
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            height: 100%;
+                            width: 100%;
+                            opacity: 0.5;
+                            transition: .5s ease;
+                            background-color: $secondary-color;
+                        }
+                }
+        }       
+    }
+}
+.career-slider-section{
+    height: 900px;
+    position: relative;
+    top: -90px;
+    .grid-image-gallery{
+        .slick-list{
+            height: 1000px;
+            .slick-track{
+                .slick-slide{
+                    margin: 0 20px;
+                    .image-wrapper{
+                        position: relative;
+                        padding-bottom: 100%;
+                        margin-bottom: 30px;
+                        img{
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+                            border-radius: 5px 5px 0 0;
+                        }
+                    }
+                    &:nth-child(1){
+                        margin-top: 30px;
+                    }
+                    &:nth-child(2){
+                        margin-top: 60px;
+                    }
+                    &:nth-child(3){
+                        margin-top: 90px;
+                    }
+                    &:nth-child(4){
+                        margin-top: 120px;
+                    }
+                    &:nth-child(5){
+                        margin-top: 150px;
+                    }
+                    &:nth-child(6){
+                        margin-top: 180px;
+                    }
+                    &:nth-child(7){
+                        margin-top: 210px;
+                    }
+                    &:nth-child(8){
+                        margin-top: 240px;
+                    }
+                    &:nth-child(9){
+                        margin-top: 270px;
+                    }
+                    &:nth-child(10){
+                        margin-top: 300px;
+                    }
+                    &:nth-child(11){
+                        margin-top: 330px;
+                    }
+                    &:nth-child(12){
+                        margin-top: 360px;
+                    }
+                    &:nth-child(13){
+                        margin-top: 390px;
+                    }
+                    &:nth-child(14){
+                        margin-top: 420px;
+                    }
+                    &:nth-child(15){
+                        margin-top: 450px;
+                    }
+                    &:nth-child(16){
+                        margin-top: 480px;
+                    }
+    
+                }
             }
         }
     }
@@ -392,10 +479,14 @@ background-color:$bg-black;
         }
     }
     .collaboration-section{
-        padding: 60px 20px;
-    }   
+        padding: 60px 10px;
+    } 
+    .pt-80{
+        padding-top: 60px;
+    }  
 }
 @media screen and (max-width:992px){
+
     ///Banner
     .banner-main-wrapper.container{
             .left-section h1{
@@ -406,6 +497,14 @@ background-color:$bg-black;
             .right-section{
                 height: 340px;
             }
+    }
+    .pt-80{
+        padding-top: 40px;
+    }  
+    .capabilties-section {
+        .image{
+            margin-top: 40px;
+        }
     }
     .main-title{
         font-size: 40px;
@@ -426,6 +525,22 @@ background-color:$bg-black;
 }
 @media screen and (max-width:768px){
        
+    .main-title {
+        font-size: 34px;
+        margin-bottom: 0;
+    }
+    // .top-wrap{
+    //     margin: ;
+    // }
+    .subheading{
+        font-size: 20px;
+    }
+    .collaboration-section .title{
+        font-size: 36px;
+    }
+    .card-wrapper{
+        margin-bottom: 40px;
+    }
     .capabilties-section{
         .right-body{
             padding: 75px 50px;
@@ -433,6 +548,11 @@ background-color:$bg-black;
     } 
     .sponser-section{
         padding: 50px 0 30px 0;
+    }
+    .collaboration-section {
+        .contact-buttom {
+            padding: 10px 12px;
+        }
     }
 }
 @media screen and (max-width:580px){
@@ -445,7 +565,13 @@ background-color:$bg-black;
     }
     .capabilties-section{
         .right-body{
-            padding: 50px 30px;
+            padding: 30px 15px;
+        }   
+    }
+    .collaboration-section{
+        padding: 40px 10px;
+        .title{
+            padding-bottom: 10px;
         }
     }
 }

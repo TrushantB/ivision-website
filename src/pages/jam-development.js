@@ -13,40 +13,44 @@ const JAMDevelopment = () => (
     <SEO title="Service" />
     <section className='mt-5 services-details main-section'>
         <Container>
-            <div className='top-wrap'>
-                <h1 className='page-heading font-weight-bold '>
-                    JAM Development
-                </h1>
-                <p className='description mb-3'>
-                    ModernWeb Development Architecture
-                </p>
-                <p>
-                    The JAM Development is not about specific technologies. It’s a new way of building 
-                    websites and apps that delivers better performance, higher security, lower cost of 
-                    scaling, and a better developer experience.
-                </p>
-                <div className='button-wrap'>
-                    <Button className='button'>
-                        <Link className='text-white text-decoration-none' to='/contact'>
-                            Learn More
-                        </Link>
-                    </Button>
-                </div>
-            </div>
+            <Row>
+                <Col>
+                    <div className='top-wrap px-2 px-lg-0'>
+                        <h1 className='page-heading font-weight-bold '>
+                            JAM Development
+                        </h1>
+                        <p className='description mb-3'>
+                            ModernWeb Development Architecture
+                        </p>
+                        <p>
+                            The JAM Development is not about specific technologies. It’s a new way of building 
+                            websites and apps that delivers better performance, higher security, lower cost of 
+                            scaling, and a better developer experience.
+                        </p>
+                        <div className='button-wrap'>
+                            <Button className='button'>
+                                <Link className='text-white text-decoration-none' to='/contact'>
+                                    Learn More
+                                </Link>
+                            </Button>
+                        </div>
+                    </div>
+                </Col>
+            </Row>
         </Container>
         <section className='details-wrapper bg-color pt-80'>
-            <Container className="p-0">
+            <Container>
                 <div>
                     <Row>
-                        <Col lg='3'>
+                        <Col xl='3' md="4">
                             <ServiceMeunList/>
                         </Col>
-                        <Col lg="9">
-                            <div className='mb-5'>
+                        <Col xl='9' md="8">
+                            <div className='mb-4 mb-md-5 px-2 px-lg-0'>
                                 <h3>What is the JAM Development ?</h3>
                                 <Row>
                                     <Col md='6'>
-                                        <div className='my-4'>
+                                        <div className='my-3 my-md-4'>
                                             <h4 className='subtitle'>Javascript</h4>
                                             <p>
                                                 Any dynamic programming during the request/response cycle is handled by 
@@ -56,7 +60,7 @@ const JAMDevelopment = () => (
                                         </div>
                                     </Col>
                                     <Col md='6'>
-                                        <div className='my-4'>
+                                        <div className='my-3 my-md-4'>
                                             <h4 className='subtitle'>APIs</h4>
                                             <p>
                                                 All server-side processes or database actions are abstracted into 
@@ -66,7 +70,7 @@ const JAMDevelopment = () => (
                                         </div>
                                     </Col>
                                     <Col md='6'>
-                                        <div className='my-4'>
+                                        <div className='my-3 my-md-4'>
                                             <h4 className='subtitle'>Markup</h4>
                                             <p>
                                                 Templated markup should be prebuilt at deploy time, usually using a site generator
@@ -76,7 +80,7 @@ const JAMDevelopment = () => (
                                     </Col>
                                 </Row>
                             </div>
-                            <div className='mb-5'>
+                            <div className='mb-4 mb-md-5 px-2 px-lg-0'>
                                 <h3>Why the JAM Development?</h3>
                                 <Row>
                                     <Col md='6'>

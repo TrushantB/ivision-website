@@ -10,36 +10,40 @@ const StaffingSolution = () => (
         <SEO title="Service" />
         <section className='mt-4 about-wrapper main-section'>
             <Container >
-                <div className='top-wrap'>
-                    <h1 className='page-heading font-weight-bold'>
-                        Staffing Solutions
-                    </h1>
-                    <p className='description mb-3'>
-                        Flexible staffing solutions for the agile organisation.
-                    </p>
-                    <p>
-                        A temporary staff can lead to cost savings and enhanced productivity for your organization. 
-                        One of the leading temporary agencies, iVision combines innovative technology with the human 
-                        touch to save costs, enhance quality, and maximize efficiency for your business. Embrace flexibility 
-                        and business freedom with our excellent contract staffing services.
-                    </p>
-                    <div className='button-wrap'>
-                        <Button className='button'>
-                            <Link className='text-white text-decoration-none' to='/contact'>
-                                Learn More
-                            </Link>
-                        </Button>
-                    </div>
+                <div className='top-wrap px-2 px-lg-0'>
+                    <Row>
+                        <Col>
+                            <h1 className='page-heading font-weight-bold'>
+                                Staffing Solutions
+                            </h1>
+                            <p className='description mb-3'>
+                                Flexible staffing solutions for the agile organisation.
+                            </p>
+                            <p>
+                                A temporary staff can lead to cost savings and enhanced productivity for your organization. 
+                                One of the leading temporary agencies, iVision combines innovative technology with the human 
+                                touch to save costs, enhance quality, and maximize efficiency for your business. Embrace flexibility 
+                                and business freedom with our excellent contract staffing services.
+                            </p>
+                            <div className='button-wrap'>
+                                <Button className='button'>
+                                    <Link className='text-white text-decoration-none' to='/contact'>
+                                        Learn More
+                                    </Link>
+                                </Button>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
             </Container>
             <div className='details-wrapper bg-color pt-80 pb-5'>
                 <Container>
                     <Row>
-                        <Col lg="3">
+                        <Col xl='3' md="4">
                             <ServiceMeunList/>
                         </Col>
-                        <Col lg="9">
-                            <div className='mb-5'>
+                        <Col xl='9' md="8">
+                            <div className='mb-4 mb-md-5 px-2 px-lg-0'>
                                 <h3>Why iVision Web Studio?</h3>
                                 <p>A majority of the users prefer using their smartphones to navigate a website 
                                     or an app. The mobile applications should be developed in congruence with a 
@@ -48,7 +52,7 @@ const StaffingSolution = () => (
                                     nearly all web applications are cloud-based by definition
                                 </p>
                             </div>
-                            <div className='mb-5'>
+                            <div className='my-3 my-md-4'>
                                 <h3>
                                     The leading staffing solutions provider
                                 </h3>
@@ -60,7 +64,7 @@ const StaffingSolution = () => (
                                     and find the best talent available for you.
                                 </p>
                             </div>
-                            <div className='mb-5'>
+                            <div className='my-3 my-md-4'>
                                 <h3>
                                     The best staffing services
                                 </h3>
@@ -72,7 +76,7 @@ const StaffingSolution = () => (
                                     with that of talented employees.
                                 </p>
                             </div>
-                            <div className='mb-5'>
+                            <div className='my-3 my-md-4'>
                                 <h3>
                                     Find experienced candidates
                                 </h3>
@@ -86,7 +90,6 @@ const StaffingSolution = () => (
                             </div>
                         </Col>
                     </Row>
-                    
                 </Container>
             </div>
         </section>

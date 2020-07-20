@@ -1,8 +1,6 @@
-
-
 .services-card-wrapper{
     margin-bottom: 50px;
-    background: rgba(23, 22, 26, 0.04);
+    background: $gray-light;
     border-radius: 4px;
     padding: 30px;
         .body{
@@ -11,11 +9,12 @@
             flex-direction: column;
                 .content{
                     flex: 1 0 auto;
+                    padding: 0;
                 }
         }
 }
 .read-more{
-    color: #000;
+    color: $black;
     font-weight: 600;
     &:hover{
         text-decoration: none;
@@ -23,13 +22,14 @@
     }
 }
 .view{
-    color: #fff;
+    color: $white;
     @extend .read-more
 }
-@media screen and (max-width:580px){
+
+
+@media screen and (max-width:992px){
     .services-card-wrapper{
-        .body{
-            padding-left: 26px;
-        }
+        padding: 20px;
+        margin-bottom: 30px;
     }
 }

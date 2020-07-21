@@ -45,7 +45,7 @@ const Contact = () => {
 							<Col md="12" lg="6" className="px-3 px-xl-2">
 								<div className='contact-form '>
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
-									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+									<Form noValidate validated={validated} name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
 										<Form.Row>
 											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridEmail">
 												<Form.Label>First Name</Form.Label>

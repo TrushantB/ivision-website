@@ -1,10 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
 import image from './../images/capabilities.jpg';
-import project from './../images/mobiport.png'
-import project1 from './../images/project1.png'
-import project3 from './../images/project2.png'
-import project4 from './../images/project4.jpg'
+import Aarah from './../images/aarah.png'
+import BramhaCorp from './../images/BramhaCorp.png'
+import Capota from './../images/capota.png'
+import Flexchamp from './../images/flexchamp.png'
+import Ganeshapp from './../images/ganeshapp.png'
+import MyDeshi from './../images/my-deshi-app.png'
+import PercYallan from './../images/percyallan.png'
+import Rawade from './../images/rawade.png'
+import ShubanPhysiopedia from './../images/shubanphysiopedia.png'
+import Touchtalent from './../images/touchtalent.png'
+import YourMission from './../images/yourmission.png'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../styles/scss/main.scss'
@@ -155,35 +162,71 @@ const IndexPage = () => (
 							<Slider {...settings}>
 								
 								<div className="image-wrapper">
-									<a href="" target="_blank" className="slider-img image-ratio">
-										<img src={project} />
+									<a href="https://www.bramhacorp.in" target="_blank" className="slider-img image-ratio">
+										<img src={BramhaCorp} />
 										<span className="overlay"></span>
 									</a>
-								
 								</div>	
-								
+								<div className="image-wrapper">
+									<a href="https://www.aarah.store" target="_blank" className="slider-img image-ratio">
+										<img src={Aarah} />
+										<span className="overlay"></span>
+									</a>
+								</div>
+								<div className="image-wrapper">
+									<a href="https://capota.co" target="_blank" className="slider-img image-ratio">
+										<img src={Capota} />
+										<span className="overlay"></span>
+									</a>
+								</div>
 								<div className="image-wrapper">
 									<a href="" target="_blank" className="slider-img image-ratio">
-										<img src={project3} />
+										<img src={Flexchamp} />
 										<span className="overlay"></span>
 									</a>
-									</div>
-								
-								
-									<div className="image-wrapper">
+								</div>
+								<div className="image-wrapper">
+									<a href="https://www.ganeshapp.in" target="_blank" className="slider-img image-ratio">
+										<img src={Ganeshapp} />
+										<span className="overlay"></span>
+									</a>
+								</div>
+								<div className="image-wrapper">
+									<a href="https://www.mydeshi.in" target="_blank" className="slider-img image-ratio">
+										<img src={MyDeshi} />
+										<span className="overlay"></span>
+									</a>
+								</div>
+								<div className="image-wrapper">
+									<a href="https://www.percyallan.com" target="_blank" className="slider-img image-ratio">
+										<img src={PercYallan} />
+										<span className="overlay"></span>
+									</a>
+								</div>
+								<div className="image-wrapper">
+									<a href="https://rawade.in" target="_blank" className="slider-img image-ratio">
+										<img src={Rawade} />
+										<span className="overlay"></span>
+									</a>
+								</div>
+								<div className="image-wrapper">
+									<a href="https://www.shubanphysiopedia.com" target="_blank" className="slider-img image-ratio">
+										<img src={ShubanPhysiopedia} />
+										<span className="overlay"></span>
+									</a>
+								</div>
+								<div className="image-wrapper">
 									<a href="" target="_blank" className="slider-img image-ratio">
-										<img src={project1} />
+										<img src={YourMission} />
 										<span className="overlay"></span>
 									</a>
-									</div>
-								
-								
-									<div className="image-wrapper">
-										<a href="" target="_blank" className="slider-img image-ratio">
-											<img src={project4} />
-											<span className="overlay"></span>
-										</a>
-									</div>
+								</div>
+								<div className="image-wrapper">
+									<a href="http://www.touchtalent.com" target="_blank" className="slider-img image-ratio">
+										<img src={Touchtalent} />
+										<span className="overlay"></span>
+									</a>
+								</div>
 										
 							</Slider>
 						</Container>

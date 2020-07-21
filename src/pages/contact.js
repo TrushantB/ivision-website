@@ -46,7 +46,7 @@ const Contact = () => {
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
 									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
 										name="My contact form"
-										method="post" data-netlify="true" data-netlify-honeypot="bot-field"
+										method="POST" data-netlify="true"
 										>
 										<Form.Row>
 											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridEmail">

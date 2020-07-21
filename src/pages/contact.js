@@ -13,7 +13,7 @@ const Contact = () => (
 					<Col 	>
 						<h1 className='page-heading font-weight-bold'>Contact Us</h1>
 						<p className="description mb-0">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							Need to get in touch with the team? Please fill out our contact form or give us a call.
 						</p>
 						{/* <p className='description'>The people who work at iVision Web Studio share the vision and values of our community.</p> */}
 					</Col>

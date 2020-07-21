@@ -15,7 +15,8 @@ const About = () => (
 				<div className="top-wrap px-2 px-lg-0">
 					<Row>
 						<Col>
-							<h1 className='page-heading font-weight-bold'>We make beautiful things.</h1>
+							<h1 className='page-heading font-weight-bold'>About Us</h1>
+							<p className='description mb-3'>We make beautiful things.</p>
 							{/* <p className='description'>We Make Beautiful Things.</p> */}
 							<p>
 								Successful businesses require working with full-service web development and digital marketing agencies

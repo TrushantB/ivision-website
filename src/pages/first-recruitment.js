@@ -15,7 +15,7 @@ import CareerFooter from "../components/career-footer"
                         Careers at Ivision Web Studio
                     </h1>
                     <p className='description mb-3'>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Let's work together to create game-changing experience.
                     </p>
                 </div>  
             </Container>

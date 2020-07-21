@@ -28,9 +28,7 @@ import FontAwesome from 'react-fontawesome'
                         <div className="content">
                             <h4 className="mb-4">Have some questions?</h4>
                             <p className="mb-4 mb-lg-5">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley.
+                                Contact us for more information about working with Ivision
                             </p>
                             <button className="button btn btn-primary">
                             <a href="/contact" className="text-decoration-none">Contact Us</a>

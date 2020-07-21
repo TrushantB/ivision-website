@@ -557,6 +557,13 @@ h6{
         }
         
     }   
+    .product-slider-section{
+        .slick-slider{
+            .slick-list{
+                padding: 0 10px !important;
+            }
+        }
+    }
     #page{
         padding-top: 90px;
     }

@@ -191,9 +191,9 @@
     }
     .closebtn {
         position: absolute;
-        top: 15px;
-        font-size: 36px;
-        left: 20px;
+        top: 1px;
+        font-size: 39px;
+        left: 14px;
         padding: 0;
     }
     a:hover{
@@ -265,7 +265,7 @@
 @media screen and (max-width: 580px){
 
     div .nav-fixed-top{
-        padding: 6px 10px 13px;
+        padding: 10px 10px 13px;
         .header-wrap {
             .header-wrap-inner {
                 .tel-icon{

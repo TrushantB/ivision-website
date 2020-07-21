@@ -80,7 +80,7 @@ import FontAwesome from 'react-fontawesome'
 			</div>
 			<div id="mySidenav" className="sidenav">
 				<ul className="p-0">
-					<li><a href="javascript:void(0)" className="closebtn link" onClick={() => closeNav()}>&times;</a></li>
+					<li><a href="javascript:void(0)" className="closebtn" onClick={() => closeNav()}>&times;</a></li>
 					<li><Link to='/' className='link' onClick={() => closeNav()}>Home </Link></li>
 					<li><Link to='/about' className='link' onClick={() => closeNav()}>About Us </Link></li>
 					<li><Link to='/services' className='link' onClick={() => closeNav()}>Services </Link></li>

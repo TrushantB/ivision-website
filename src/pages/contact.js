@@ -44,7 +44,7 @@ const Contact = () => {
 							<Col md="12" lg="6" className="px-3 px-xl-2">
 								<div className='contact-form '>
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
-									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
+									<Form noValidate validated={validated} 
 										name="My contact form"
 										method="POST" data-netlify="true"
 										>

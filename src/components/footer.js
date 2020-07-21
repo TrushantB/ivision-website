@@ -54,13 +54,13 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 								<h3 className='footer-list-title'>Phone</h3>
 								<div>
 									<span className='mb-0 text-white'>USA </span> 
-									<a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none footer-link'>
+									<a href='tel: 860 967 0120' className='mb-0 text-decoration-none footer-link'>
 										+1 860 967 0120
 									</a>
 								</div>
 								<div>
 									<span  className='mb-0 text-white'>IND </span>
-									<a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none footer-link'> 
+									<a href='tel: 9130 036 036' className='mb-0 text-decoration-none footer-link'> 
 										+91 9130 036 036
 									</a>
 								</div>

@@ -70,8 +70,8 @@ const Contact = () => (
 										</div>
 										<h5 className='text-white mb-4'>Phone Number</h5>
 										<div>
-											<p className="mb-1"> <span className='text-white font-weight-bold'>USA</span><a href='tel: +1 860 967 0120' className='mb-0 text-decoration-none  footer-link'> +1 860 967 0120</a></p>
-											<p><span className='text-white font-weight-bold'>IND</span><a href='tel: +91 9130 036 036' className='mb-0 text-decoration-none footer-link'> +91 9130 036 036</a></p>
+											<p className="mb-1"> <span className='text-white font-weight-bold'>USA</span><a href='tel: 860 967 0120' className='mb-0 text-decoration-none  footer-link'> +1 860 967 0120</a></p>
+											<p><span className='text-white font-weight-bold'>IND</span><a href='tel: 9130 036 036' className='mb-0 text-decoration-none footer-link'> +91 9130 036 036</a></p>
 										</div>
 									</Col>
 									<Col sm='6' className='mb-3 mb-md-5' >

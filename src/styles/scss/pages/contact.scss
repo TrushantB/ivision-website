@@ -107,6 +107,9 @@
         .contact-details{
             .contact-form{
                 padding: 35px 0px 35px 0px;
+                    .form-group{
+                        margin-bottom: 14px;
+                    }
             }
             .input-box{
                 flex-basis: auto;
@@ -118,6 +121,7 @@
             }
         }
     }
+    
 
 }
 

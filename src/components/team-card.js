@@ -22,7 +22,6 @@ import FontAwesome from 'react-fontawesome'
                             <a href="#" target="_blank">
                             <FontAwesome
                                     name="facebook-f"
-                                    size="1x"
                                     className='icon'
                                 />
                             <span className="social-text">Facebook</span>
@@ -32,7 +31,6 @@ import FontAwesome from 'react-fontawesome'
                             <a href="#" target="_blank">
                             <FontAwesome
                                 name="linkedin"
-                                size="1x"
                                 className='icon'
                             />
                             <span className="social-text">Linkedin</span>
@@ -42,7 +40,6 @@ import FontAwesome from 'react-fontawesome'
                             <a href="#" target="_blank">
                             <FontAwesome
                                 name="instagram"
-                                size="1x"
                                 className='icon'
                             />
                             <span className="social-text">Instagram</span>

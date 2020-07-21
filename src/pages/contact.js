@@ -44,19 +44,20 @@ const Contact = () => {
 							<Col md="12" lg="6" className="px-3 px-xl-2">
 								<div className='contact-form '>
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
-									<Form noValidate validated={validated} 
+									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
 										name="My contact form"
 										method="POST" data-netlify="true"
+										autoComplete="off"
 										>
 										<Form.Row>
-											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridEmail">
+											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridFirstName">
 												<Form.Label>First Name</Form.Label>
 												<Form.Control type="name" name="first-name" placeholder="First name" autoComplete="off" required/>
 												<Form.Control.Feedback type="invalid">
 													The first name field is required.
 												</Form.Control.Feedback>
 											</Form.Group>
-											<Form.Group as={Col} controlId="formGridPassword">
+											<Form.Group as={Col} controlId="formGridLastName">
 												<Form.Label>Last Name</Form.Label>
 												<Form.Control type="name" placeholder="Last name" name="last-name" autoComplete="off" required/>
 												<Form.Control.Feedback type="invalid">
@@ -82,7 +83,7 @@ const Contact = () => {
 											</Form.Group>
 										</Form.Row>
 										<Form.Row>
-											<Form.Group as={Col} controlId="formGridEmail">
+											<Form.Group as={Col} controlId="formGridSubject">
 												<Form.Label>Subject</Form.Label>
 												<Form.Control type="name" placeholder="Subject" name="subject" autoComplete="off" required/>
 												<Form.Control.Feedback type="invalid">

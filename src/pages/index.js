@@ -25,7 +25,7 @@ import "slick-carousel/slick/slick-theme.css";
 import FontAwesome from 'react-fontawesome' 
 
 const settings = {
-	arrows: true,
+	arrows: false,
 	centerMode: true,
 	centerPadding: "120px",
 	focusOnSelect: false,

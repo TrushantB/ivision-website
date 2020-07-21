@@ -264,7 +264,7 @@
 }
 @media screen and (max-width: 580px){
 
-    .nav-fixed-top{
+    div .nav-fixed-top{
         padding: 6px 10px 13px;
         .header-wrap {
             .header-wrap-inner {
@@ -284,6 +284,15 @@
                     
             }
         }
+    }
+    .sidenav{
+        padding-top: 50px;
+            ul li{
+                margin-bottom: 2px;
+            }
+    }
+    .bottom-section{
+        padding-top: 40px;
     }
     
 }

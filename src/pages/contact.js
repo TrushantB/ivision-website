@@ -8,7 +8,7 @@ const Contact = () => (
 	<Layout>
 		<SEO title="Contact" />
 		<section className='contact-wrapper mt-0 mt-lg-4 main-section '>
-			<Container className='mb-3 mb-lg-5 px-4 px-xl-2'>
+			<Container className='mb-3 mb-lg-5 px-3 px-xl-2'>
 				<Row>
 					<Col 	>
 						<h1 className='page-heading font-weight-bold'>Contact Us</h1>
@@ -23,7 +23,7 @@ const Contact = () => (
 			<section className='contact-details bg-color'>
 				<Container fluid className="p-0"> 
 					<Row className='m-0'>
-						<Col md="12" lg="6" className="px-4 px-xl-2">
+						<Col md="12" lg="6" className="px-3 px-xl-2">
 							<div className='contact-form '>
 								<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
 								<Form>

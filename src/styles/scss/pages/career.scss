@@ -47,6 +47,17 @@
         padding-bottom: 10px;
     }
 }
+.job-article{
+    ul{
+        padding-left: 30px;
+        list-style: none;
+        li {
+            margin-bottom: 16px;
+            padding-left: 32px;
+            background: url(../../images/bullet.svg) no-repeat 0 4px transparent;        
+        }
+    }
+}
 .content{
     padding-top:100px;
     padding-bottom: 50px;

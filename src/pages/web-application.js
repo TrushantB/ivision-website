@@ -16,7 +16,7 @@ const WebApplication = () => {
 		<Layout>
 			<SEO title="Service" />
 			<section className='services-details main-section mt-0 mt-lg-4'>
-				<Container className=' px-4 px-xl-2'>
+				<Container className=' px-3 px-xl-2'>
 					<div className='top-wrap px-2 px-lg-0'>
 						<Row>
 							<Col>
@@ -32,7 +32,7 @@ const WebApplication = () => {
 				</Container>
 		
 				<div className='details-wrapper bg-color pt-80 pb-5'>
-					<Container className=' px-4 px-xl-2'>
+					<Container className=' px-3 px-xl-2'>
 						<div>
 							<Row>
 								<Col xl='3' md="4">

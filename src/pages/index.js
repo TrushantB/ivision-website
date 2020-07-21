@@ -39,7 +39,7 @@ const settings = {
         {
           breakpoint: 580,
           settings: {
-            centerMode: true,
+            // centerMode: true,
             infinite: true,
             centerPadding: "50px",
             slidesToShow: 1,
@@ -49,7 +49,7 @@ const settings = {
         {
           breakpoint: 480,
           settings: {
-            centerMode: true,
+            // centerMode: true,
             infinite: true,
             centerPadding: "10px",
             slidesToShow: 1,
@@ -140,7 +140,7 @@ const IndexPage = () => (
 				{/* Services section end */}
 
 				{/* Product slider section start */}
-					<section className="product-slider-section pt-5">
+					<section className="product-slider-section pt-4 pt-md-5 pb-4 pb-md-5">
 						<Container className="px-4 px-xl-2">
 							<Row>
 								<Col lg="7">

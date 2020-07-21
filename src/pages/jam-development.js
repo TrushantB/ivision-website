@@ -14,7 +14,7 @@ const JAMDevelopment = () => {
         <Layout>
             <SEO title="Service" /> 
             <section className='services-details main-section mt-0 mt-lg-4'>
-                <Container className=' px-4 px-xl-2'>
+                <Container className=' px-3 px-xl-2'>
                     <Row>
                         <Col>
                             <div className='top-wrap px-2 px-lg-0'>
@@ -35,7 +35,7 @@ const JAMDevelopment = () => {
                     </Row>
                 </Container>
                 <section className='details-wrapper bg-color pt-80'>
-                    <Container className=' px-4 px-xl-2'>
+                    <Container className=' px-3 px-xl-2'>
                         <div>
                             <Row>
                                 <Col xl='3' md="4">

@@ -197,6 +197,11 @@ h6{
     font-size: 54px;
     line-height: 1;
 }
+.btn-primary{
+    background-color: $secondary-color;
+    color: $white;
+    border-color: $secondary-color;
+}
 .bottom-border{
     padding-bottom: 25px;
     &::after{
@@ -486,6 +491,12 @@ h6{
     .pb-40{
         padding-bottom: 0   ;
     }
+    .pt-80{
+        padding-top: 30px;
+    }
+    .pt-70{
+        padding-top: 30px;
+    }
     .subheading{
         font-size: 20px;
     }
@@ -523,9 +534,7 @@ h6{
                     font-size: 80px;
                     line-height: 64px;
                 }
-            }
-            .right-section{
-            }
+            }   
         }
         
     }

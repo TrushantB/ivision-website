@@ -30,8 +30,10 @@
                 margin-left: calc(70.2% - 5px);
             }
         }
+
 }
 .optimize-services{
+
     .right-body{
         padding: 60px 60px 100px;
         .title{
@@ -39,8 +41,13 @@
         }
     }
     .optimize-services-list{
+        list-style: none;
+        padding-left: 25px;
         li{
-            padding: 6px 0;
+            margin-bottom: 16px;
+            padding-left: 32px;
+            background: url(../../images/bullet.svg) no-repeat 0 4px transparent;    
+
         }
     }
     .image{

@@ -9,7 +9,7 @@ import CareerFooter from "../components/career-footer"
     <Layout>
         <SEO title="Career" />
         <section className='main-section mt-0 mt-lg-4'>
-            <Container className=' px-4 px-xl-2'>
+            <Container className='px-3 px-xl-2'>
                 <div className='top-wrap px-2 px-lg-0'>
                     <h1 className='page-heading font-weight-bold'>
                         Careers at Ivision Web Studio
@@ -20,7 +20,7 @@ import CareerFooter from "../components/career-footer"
                 </div>  
             </Container>
             <div className="bg-color">
-                <Container className="content pt-80 px-4 px-xl-2">
+                <Container className="content pt-80 px-3 px-xl-2">
                     <div className="px-2 px-lg-0">
                         <h5 className="mb-3">PHP Developer with MVC Framework</h5>
                         <p className="mb-0">

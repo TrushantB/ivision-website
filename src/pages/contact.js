@@ -45,11 +45,11 @@ const Contact = () => {
 								<div className='contact-form '>
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
 									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
-									                                              name="My contact form"
-																				  method="post"
-																				  action="/success/"
-																				  data-netlify="true"
-																				  data-netlify-honeypot="bot-field">
+										name="My contact form"
+										method="POST"
+										action="/success/"
+										data-netlify="true"
+										data-netlify-honeypot="bot-field">
 										<Form.Row>
 											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridEmail">
 												<Form.Label>First Name</Form.Label>

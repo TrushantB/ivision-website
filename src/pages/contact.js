@@ -46,21 +46,19 @@ const Contact = () => {
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
 									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
 										name="My contact form"
-										method="POST"
-										action="/success/"
-										data-netlify="true"
-										data-netlify-honeypot="bot-field">
+										method="post" data-netlify="true" data-netlify-honeypot="bot-field"
+										>
 										<Form.Row>
 											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridEmail">
 												<Form.Label>First Name</Form.Label>
-												<Form.Control type="name" placeholder="First name" autoComplete="off" required/>
+												<Form.Control type="name" name="first-name" placeholder="First name" autoComplete="off" required/>
 												<Form.Control.Feedback type="invalid">
 													The first name field is required.
 												</Form.Control.Feedback>
 											</Form.Group>
 											<Form.Group as={Col} controlId="formGridPassword">
 												<Form.Label>Last Name</Form.Label>
-												<Form.Control type="name" placeholder="Last name" autoComplete="off" required/>
+												<Form.Control type="name" placeholder="Last name" name="last-name" autoComplete="off" required/>
 												<Form.Control.Feedback type="invalid">
 													The last name field is required.
 												</Form.Control.Feedback>
@@ -69,7 +67,7 @@ const Contact = () => {
 										<Form.Row>
 											<Form.Group as={Col} controlId="formGridEmail">
 												<Form.Label>Your Email</Form.Label>
-												<Form.Control type="email" placeholder="Email" autoComplete="off" required onChange={(e) => {
+												<Form.Control type="email" placeholder="Email" name="email" autoComplete="off" required onChange={(e) => {
 													setEmail(e.target.value)
 												}}/>
 												{
@@ -86,7 +84,7 @@ const Contact = () => {
 										<Form.Row>
 											<Form.Group as={Col} controlId="formGridEmail">
 												<Form.Label>Subject</Form.Label>
-												<Form.Control type="name" placeholder="Subject" autoComplete="off" required/>
+												<Form.Control type="name" placeholder="Subject" name="subject" autoComplete="off" required/>
 												<Form.Control.Feedback type="invalid">
 													The subject field is required.
 												</Form.Control.Feedback>
@@ -94,7 +92,7 @@ const Contact = () => {
 										</Form.Row>
 										<Form.Group controlId="exampleForm.ControlTextarea1">
 											<Form.Label>Message</Form.Label>
-											<Form.Control as="textarea" rows="4" placeholder='Message' />
+											<Form.Control as="textarea" rows="4" placeholder='Message' name="message" />
 										</Form.Group>
 										<Button className='button' type="submit" onClick={() => setValidated(true)}>Submit</Button>
 									</Form>

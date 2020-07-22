@@ -25,12 +25,14 @@ import "slick-carousel/slick/slick-theme.css";
 import FontAwesome from 'react-fontawesome' 
 
 const settings = {
-	arrows: false,
+	arrows: true,
 	centerMode: true,
 	centerPadding: "120px",
 	focusOnSelect: false,
 	slidesToShow: 1,
+	infinite: true,
 	autoplay: true,
+	dots: false,
 	autoplaySpeed: 2000,	
 	speed: 1200,
 	responsive: [
@@ -60,7 +62,7 @@ const settings = {
             infinite: true,
             centerPadding: "10px",
             slidesToShow: 1,
-            autoplaySpeed: 0
+            autoplaySpeed: 2000,
           }
         }
       ]
@@ -147,11 +149,11 @@ const IndexPage = () => (
 				{/* Services section end */}
 
 				{/* Product slider section start */}
-					<section className="product-slider-section pt-4 pt-md-5 pb-4 pb-md-5">
+					<section className="product-slider-section pt-4 pt-md-5 ">
 						<Container className="px-4 px-xl-2">
 							<Row>
 								<Col lg="7">
-									<div className='subititle-wrap mb-5'>
+									<div className='subititle-wrap mb-4 mb-md-5'>
 										<p className='subtitle'>Featured Projects</p>
 										<h2 className='main-title'>
 											Expertise and experience of delivering an exact match to your requirements
@@ -216,7 +218,7 @@ const IndexPage = () => (
 									</a>
 								</div>
 								<div className="image-wrapper">
-									<a href="" target="_blank" className="slider-img image-ratio">
+									<a href="https://missiondrivenpr.com" target="_blank" className="slider-img image-ratio">
 										<img src={YourMission} />
 										<span className="overlay"></span>
 									</a>

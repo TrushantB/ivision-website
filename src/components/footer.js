@@ -12,12 +12,12 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 		<footer>
 			<Container className='page-container'> 
 				<Row className='main-row'>
-					<Col lg='3' md='12' className="mb-5 mb-xl-0">
+					<Col lg='4' md='12' className="mb-5 mb-xl-0">
 						<div className='logo '>
 							<Link to='/'><img src={logo} /></Link>
 						</div>
 					</Col>
-					<Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
+					<Col lg='4' md='6' sm='6'  className="mb-4 mb-md-0">
 						<ul className='footer-list'>
 							<li className='inner-wrap'>
 								<h3 className='footer-list-title'>Address</h3>
@@ -29,17 +29,17 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 									</p>
 								</div>
 							</li>
-						{/* <li className='inner-wrap'>
-							<h3 className='footer-list-title'>Rotterdam</h3>
-							<div>
-							<p className='info'>Graaf Florisstraat 22A,<br/>
-								3021 CH Rotterdam,
-								Netherlands</p>
-							</div>
-						</li> */}
+							{/* <li className='inner-wrap'>
+								<h3 className='footer-list-title'>Rotterdam</h3>
+								<div>
+								<p className='info'>Graaf Florisstraat 22A,<br/>
+									3021 CH Rotterdam,
+									Netherlands</p>
+								</div>
+							</li> */}
 						</ul>
 					</Col>
-					<Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
+					<Col lg='4' md='6' sm='6'  className="mb-4 mb-md-0">
 						<ul className='footer-list'>
 							<li  className='inner-wrap'>
 								<h3 className='footer-list-title'>Work inquiries</h3>
@@ -67,7 +67,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 							</li>
 						</ul>
 					</Col>
-					<Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
+					{/* <Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
 						<ul className='subscribe footer-list'>
 							<li className='inner-wrap'>
 								<h3 className='footer-list-title'>Stay in touch</h3>
@@ -86,7 +86,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 								</div>
 							</li>
 						</ul>
-					</Col>
+					</Col> */}
 				</Row>
 			</Container>
 			<Container >

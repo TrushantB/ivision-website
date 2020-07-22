@@ -347,6 +347,7 @@ h6{
 
 // Product Slider 
 .product-slider-section{
+    padding-bottom: 105px;
     .slick-list{
         .slick-slide{
                 .image-wrapper{
@@ -385,23 +386,23 @@ h6{
         .slick-prev, 
         .slick-next{
             top: inherit;
-            bottom: -85px;
+            bottom: -80px;
             transform: inherit;
             z-index: 99;
-            height: 60px;
-            width: 60px;
+            height: 50px;
+            width: 50px;
             background-color:$gray-light;
-            border-radius: 4px;
+            border-radius: 6px;
             
         }
 
         .slick-prev{
-            right: 80px;
+            right: 65px;
             left: inherit;
                 &::before{
                     content: "\F060";
                     font: normal normal normal 14px/1 FontAwesome;
-                    font-size: 26px;
+                    font-size: 24px;
                     color: $secondary-color;
                 }
         }
@@ -411,7 +412,7 @@ h6{
                 &::before{
                     content: "\F061";
                     font: normal normal normal 14px/1 FontAwesome;
-                    font-size: 26px;
+                    font-size: 24px;
                     color: $secondary-color;
                 }
         }
@@ -539,6 +540,7 @@ h6{
         
     }
 }
+
 @media screen and (max-width:580px){
     .banner-main-wrapper.container{
         .row{
@@ -557,11 +559,30 @@ h6{
         }
         
     }   
+    
     .product-slider-section{
+        padding-bottom: 85px;
         .slick-slider{
             .slick-list{
                 padding: 0 10px !important;
             }
+            .slick-next{
+                right: 35px;
+                
+            }
+            .slick-prev{
+                right: 100px;
+            }
+            .slick-next,
+            .slick-prev{
+                bottom: -60px;
+                height: 45px;
+                width: 45px;
+                    &::before{
+                        font-size: 20px;
+                    }
+            }
+
         }
     }
     #page{

@@ -68,7 +68,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 						</ul>
 					</Col>
 					<Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
-						<h3 className='footer-list-title'>Work inquiries</h3>
+						<h3 className='footer-list-title'>Follow us on</h3>
 						<div className='social-link d-flex mt-4 mb-4'>
 							<div className='circle mr-3'>
 								<a href='https://www.facebook.com/ivision.webstudio.9' target='blank' className='d-flex'>

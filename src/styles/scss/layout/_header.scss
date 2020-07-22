@@ -121,7 +121,8 @@
 
 .bottom-section{
     padding-left: 45px;
-    padding-top: 100px;
+    position: absolute;
+    bottom: 20px;
     
    .info-wrap{
        .info{
@@ -163,7 +164,7 @@
     background-color: $secondary-color;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align:center;
     z-index: 11;
         ul{
@@ -249,6 +250,7 @@
             font-size: 25px;
         }
     }
+
     .info-wrap{
         flex-wrap: wrap;
         .info{
@@ -258,6 +260,8 @@
     }
     .bottom-section{
         padding-top: 60px;
+        position: absolute;
+        bottom: 0;
     }
 
     

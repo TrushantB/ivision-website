@@ -11,7 +11,7 @@ const About = () => (
 	<Layout>
 		<SEO title="About" />
 		<section className='about-wrapper main-section mt-0 mt-lg-4'>
-			<Container className=' px-3 px-xl-2'>
+			<Container className=' px-3 px-md-4 '>
 				<div className="top-wrap px-2 px-lg-0">
 					<Row>
 						<Col>
@@ -35,7 +35,7 @@ const About = () => (
 					<div className="middle-site-border"></div>
 					<div className="center-site-border"></div>
 				</div>
-				<Container className=' px-3 px-xl-2'>
+				<Container className=' px-3 px-md-4'>
 					<div className="px-2 px-lg-0">
 						<Row>
 							<Col lg='4' sm='8'>
@@ -111,7 +111,7 @@ const About = () => (
 					<div className="middle-site-border"></div>
 					<div className="center-site-border"></div>
 				</div>
-				<Container className="pt-80 pb-40 px-3 px-xl-2">
+				<Container className="pt-80 pb-40 px-3 px-md-4">
 					<Row>
 						<Col lg='4' sm='8'>
 							<div className='services-wrap subititle-wrap mb-5'>

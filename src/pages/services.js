@@ -9,7 +9,7 @@ const Services = () => (
   <Layout>
     <SEO title="Services" />
     <section className='services-wrapper main-section mt-0 mt-lg-4'>
-		<Container className=' px-3 px-xl-2'>
+		<Container className=' px-3 px-md-4'>
 			<div className="top-wrap px-2 px-lg-0">
 				<Row>
 					<Col>
@@ -25,7 +25,7 @@ const Services = () => (
 			</div>
         </Container>
         <section className='bg-color what-we-do pt-80 pb-40'>
-          	<Container className="px-3 px-lg-4">
+          	<Container className="px-3 px-md-4">
 				<Row>
 					<Col lg='4'>
 						<div className="px-2 px-lg-0">

@@ -14,7 +14,7 @@ const UIDesign = () => {
 		<Layout>
 			<SEO title="About" />
 			<section className='services-details main-section mt-0 mt-lg-4'>
-				<Container className=' px-3 px-xl-2'>
+				<Container className=' px-3 px-md-4'>
 					<div className='top-wrap px-2 px-lg-0 pb-3'>
 						<Row>
 							<Col>

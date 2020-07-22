@@ -113,7 +113,7 @@ const IndexPage = () => (
 						<div className="middle-site-border"></div>
 						<div className="right-site-border"></div>
 					</div>
-					<Container className="px-4 px-xl-2">
+					<Container className="px-4 px-md-4">
 						<div>
 							<Row>
 								<Col lg='5' sm='8'>
@@ -150,7 +150,7 @@ const IndexPage = () => (
 
 				{/* Product slider section start */}
 					<section className="product-slider-section pt-4 pt-md-5 ">
-						<Container className="px-4 px-xl-2">
+						<Container className="px-4 px-md-4">
 							<Row>
 								<Col lg="7">
 									<div className='subititle-wrap mb-4 mb-md-5'>
@@ -239,7 +239,7 @@ const IndexPage = () => (
 
 				{/* Capabilties section start */}
 				<section className='pt-70 bg-color capabilties-section'>
-					<Container className="px-4 px-xl-2">
+					<Container className="px-4 px-md-4">
 						<Row>
 							<Col lg='7'>
 								<div className='capabilities-wrap subititle-wrap'>

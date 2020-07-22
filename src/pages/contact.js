@@ -4,23 +4,24 @@ import SEO from "../components/seo"
 import { Container,Nav ,Row,Col,InputGroup,FormControl,Form,Button} from 'react-bootstrap';
 import FontAwesome from 'react-fontawesome' 
 import axios from 'axios'
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Contact = () => {
+	
 	const [validated, setValidated] = useState(false);
 	const [email, setEmail] = useState('');
-
 	const handleSubmit = (event) => {
 		const form = event.currentTarget;
 		
 		if (form.checkValidity() === false) {
 			console.log('invalid');
 		  event.preventDefault();
-		  event.stopPropagation();
+		  event.stopPropagation(); 
 		} else {
 			
 			axios.post('https://immense-headland-11317.herokuapp.com/sendEmail',{
-				to:'trushant.ivision@gmail.com',
+				to:'achidre.ivision@gmail.com',
 				subject: "Enquiry Form",
 				body:`FirstName: ${event.currentTarget.firstName.value}\nLastName: ${event.currentTarget.lastName.value}\nEmail: ${event.currentTarget.email.value}\nSubject: ${event.currentTarget.subject.value}\nMessage: ${event.currentTarget.message.value}\n`
 			}).then((response) => {
@@ -33,7 +34,9 @@ const Contact = () => {
 			// console.log("valid");
 		}
 	  };
-	//   const notify = () => toast("Wow so easy !");
+	  const notify = () => toast("Thank you for contacting us.");
+	  
+	
 	return(
 		<Layout>
 			<SEO title="Contact" />
@@ -104,6 +107,18 @@ const Contact = () => {
 											<Form.Control as="textarea" rows="4" placeholder='Message' name="message" />
 										</Form.Group>
 										<Button className='button' type="submit" onClick={() => setValidated(true)}>Submit</Button>
+										{/* <ToastContainer 
+											position="top-right"
+											autoClose={1520000000}
+											hideProgressBar
+											newestOnTop={false}
+											closeOnClick={false}
+											rtl={false}
+											pauseOnFocusLoss={false}
+											draggable={false}
+											pauseOnHover={false}
+										/> */}
+
 									</Form>
 								</div>
 							</Col>

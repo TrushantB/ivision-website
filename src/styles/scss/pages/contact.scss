@@ -30,9 +30,30 @@
                                 box-shadow: none;
                             }
                     }
+                    
+                }
+                // Toast css here
+                .Toastify__toast--default{
+                    background-color: $primary-color;
+                    color: $white;
+                    padding: 25px;
+                    font-family: SpaceGrotesk-Medium;
+                }
+                .Toastify__close-button--default{
+                    color: $white;
+                    opacity: 1;
+                    position: relative;
+                    top: -15px;
+                    right: -10px;
+                        &:focus{
+                            outline: 0px auto -webkit-focus-ring-color;
+                        }
                 }
         }
 }
+
+
+
 .contact-wrapper{
     .top-wrap{
         margin: 0 0 50px 0;

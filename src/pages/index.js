@@ -90,7 +90,7 @@ const IndexPage = () => (
 									We are proud of <br/>    
 									the works we’ve done.	
 									</h5>
-									<h1 className='title'>We’re design creators.</h1>
+									<h1 className='title'>We’re design creators</h1>
 									{/* <div className='more-button'>
 										<a className='more-project' href='/services'>More Services</a>
 									</div> */}
@@ -120,14 +120,14 @@ const IndexPage = () => (
 									<div className='subititle-wrap mb-5'>
 										<p className='subtitle'>services</p>
 										<h2 className='main-title'>
-											Quickly deliver usable and fully-loaded software that is market-ready.
+											Quickly deliver usable and fully-loaded software that is market-ready
 										</h2>
 									</div>
 								</Col>
 								<Col lg='1'></Col>
 								<Col lg='6'>
 									<Row>
-									{
+									{	
 										dataSource.Services.map((item,index) => {
 											if(index < 4) {
 											return (

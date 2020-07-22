@@ -42,7 +42,7 @@ const About = () => (
 								<div className='services-wrap subititle-wrap mb-5'>
 									<p className='subtitle'>Why choose us?</p>
 									<h2 className='main-title'>
-										We build products within the budget with remarkbale quality
+										We build products within the budget with remarkable quality
 									</h2>
 								</div>
 							</Col>

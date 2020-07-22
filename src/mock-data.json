@@ -118,7 +118,7 @@
         "id":1,
         "slug":"/jam-development",
         "name":"JAM Development",
-        "tagline": "ModernWeb Development Architecture",
+        "tagline": "Modern Web Development Architecture",
         "tools":"Gatsby /Hugo/Jekyll / Contentful / Netlify",
         "discription":"The JAM Development is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.",
         "heading1": "What is the JAM Development ?",

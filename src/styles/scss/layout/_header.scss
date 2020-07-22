@@ -215,7 +215,7 @@
         font-size: 18px;
     }
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){  
     .nav-fixed-top .header-wrap {
         .header-wrap-inner {
             .right-part{
@@ -226,6 +226,11 @@
             } 
             
         }
+    }
+    .bottom-section{
+        padding-top:100px;
+        position: relative;
+
     }
     
 }
@@ -257,11 +262,6 @@
             width: auto;
             margin-bottom: 20px;
         }
-    }
-    .bottom-section{
-        padding-top: 60px;
-        position: absolute;
-        bottom: 0;
     }
 
     

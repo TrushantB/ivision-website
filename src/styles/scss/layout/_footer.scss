@@ -6,6 +6,11 @@ Footer{
                 padding: 70px 0;
             }
     }
+    .footer-list-title{
+        margin: 0 0 20px;
+        color: $secondary-text-color;
+        font-size: 16px;
+    }
     .page-container{
         .logo{
             img{
@@ -15,11 +20,6 @@ Footer{
     }
     .footer-list{
         list-style: none;
-        .footer-list-title{
-            margin: 0 0 20px;
-            color: $secondary-text-color;
-            font-size: 16px;
-        }
         .info{
             color: $footer-text-color;
             font-size: 16px;

@@ -122,21 +122,7 @@
 .bottom-section{
     padding-left: 45px;
     padding-top: 100px;
-    .social-link{
-        .circle{
-            border-color:lighten( $bg-color, 10% );
-            width: 40px;
-            height: 40px;
-                &:hover{
-                    background-color: $primary-color;
-                    color: $white;
-                    border-color: $primary-color;
-                }
-            .icon{
-                font-size: 20px;
-            }
-        }
-    }
+    
    .info-wrap{
        .info{
            padding-right:40px;
@@ -151,6 +137,21 @@
             }
        }
    }
+}
+.social-link{
+    .circle{
+        border-color:lighten( $bg-color, 10% );
+        width: 40px;
+        height: 40px;
+            &:hover{
+                background-color: $primary-color;
+                color: $white;
+                border-color: $primary-color;
+            }
+        .icon{
+            font-size: 20px;
+        }
+    }
 }
 .sidenav {
     height: 100%;

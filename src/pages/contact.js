@@ -3,42 +3,37 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container,Nav ,Row,Col,InputGroup,FormControl,Form,Button} from 'react-bootstrap';
 import FontAwesome from 'react-fontawesome' 
-const encode = data => {
-	return Object.keys(data)
-	  .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-	  .join("&");
-  };
+import axios from 'axios'
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
 	const [validated, setValidated] = useState(false);
 	const [email, setEmail] = useState('');
 
 	const handleSubmit = (event) => {
-		// const form = event.currentTarget;
-		// if (form.checkValidity() === false) {
-		// 	console.log('invalid');
-		//   event.preventDefault();
-		//   event.stopPropagation();
-		// } else {
-		// 	event.preventDefault();
-		// 	event.stopPropagation();
-		// 	console.log("valid");
-		// }
-	
-		// setValidated(true);
-		// e.preventDefault();
 		const form = event.currentTarget;
-	
-		fetch("/", {
-		  method: "POST",
-		  headers: { "Content-Type": "application/x-www-form-urlencoded" },
-		  body: encode({
-			"form-name": form.getAttribute("name"),
-			...{name:""}
-		  })
-		})
-		  .then(() => navigate(form.getAttribute("action")))
-		  .catch(error => alert(error));
+		
+		if (form.checkValidity() === false) {
+			console.log('invalid');
+		  event.preventDefault();
+		  event.stopPropagation();
+		} else {
+			
+			axios.post('https://immense-headland-11317.herokuapp.com/sendEmail',{
+				to:'trushant.ivision@gmail.com',
+				subject: "Enquiry Form",
+				body:`FirstName: ${event.currentTarget.firstName.value}\nLastName: ${event.currentTarget.lastName.value}\nEmail: ${event.currentTarget.email.value}\nSubject: ${event.currentTarget.subject.value}\nMessage: ${event.currentTarget.message.value}\n`
+			}).then((response) => {
+				// this.notify()
+			})
+			event.preventDefault();
+			event.stopPropagation();
+			form.reset();
+			setValidated(false);
+			// console.log("valid");
+		}
 	  };
+	//   const notify = () => toast("Wow so easy !");
 	return(
 		<Layout>
 			<SEO title="Contact" />
@@ -61,22 +56,18 @@ const Contact = () => {
 							<Col md="12" lg="6" className="px-3 px-md-4">
 								<div className='contact-form '>
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
-									{/* <form name="contact" method="POST" class="contact__form" netlify-honeypot="bot-field" data-netlify="true"> */}
-
-									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
-										 method="POST" class="contact__form" netlify-honeypot="bot-field" data-netlify="true"
-										>
+									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)}>
 										<Form.Row>
 											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridFirstName">
 												<Form.Label>First Name</Form.Label>
-												<Form.Control type="name" name="first-name" placeholder="First name" autoComplete="off" required/>
+												<Form.Control type="name" name="firstName" placeholder="First name" autoComplete="off" required/>
 												<Form.Control.Feedback type="invalid">
 													The first name field is required.
 												</Form.Control.Feedback>
 											</Form.Group>
 											<Form.Group as={Col} controlId="formGridLastName">
 												<Form.Label>Last Name</Form.Label>
-												<Form.Control type="name" placeholder="Last name" name="last-name" autoComplete="off" required/>
+												<Form.Control type="name" placeholder="Last name" name="lastName" autoComplete="off" required/>
 												<Form.Control.Feedback type="invalid">
 													The last name field is required.
 												</Form.Control.Feedback>
@@ -114,7 +105,6 @@ const Contact = () => {
 										</Form.Group>
 										<Button className='button' type="submit" onClick={() => setValidated(true)}>Submit</Button>
 									</Form>
-									{/* </form> */}
 								</div>
 							</Col>
 							

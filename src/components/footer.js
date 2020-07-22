@@ -12,12 +12,12 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 		<footer>
 			<Container className='page-container'> 
 				<Row className='main-row'>
-					<Col lg='4' md='12' className="mb-5 mb-xl-0">
+					<Col lg='3' md='12' className="mb-5 mb-xl-0">
 						<div className='logo '>
 							<Link to='/'><img src={logo} /></Link>
 						</div>
 					</Col>
-					<Col lg='4' md='6' sm='6'  className="mb-4 mb-md-0">
+					<Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
 						<ul className='footer-list'>
 							<li className='inner-wrap'>
 								<h3 className='footer-list-title'>Address</h3>
@@ -39,7 +39,7 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 							</li> */}
 						</ul>
 					</Col>
-					<Col lg='4' md='6' sm='6'  className="mb-4 mb-md-0">
+					<Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
 						<ul className='footer-list'>
 							<li  className='inner-wrap'>
 								<h3 className='footer-list-title'>Work inquiries</h3>
@@ -67,26 +67,35 @@ import faStyles from 'font-awesome/css/font-awesome.css'
 							</li>
 						</ul>
 					</Col>
-					{/* <Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
-						<ul className='subscribe footer-list'>
-							<li className='inner-wrap'>
-								<h3 className='footer-list-title'>Stay in touch</h3>
-								<div>
-									<InputGroup className="mb-3">
-										<FormControl
-											className='subscribe-input'
-											placeholder="Your email address"
-											aria-label="Your email address"
-											aria-describedby="basic-addon2"
-										/>
-										<InputGroup.Append className="m-0 ">
-											<Button variant="outline-secondary" className='subscribe-button'>Subscribe</Button>
-										</InputGroup.Append>
-									</InputGroup>
-								</div>
-							</li>
-						</ul>
-					</Col> */}
+					<Col lg='3' md='6' sm='6'  className="mb-4 mb-md-0">
+						<h3 className='footer-list-title'>Follow us on</h3>
+						<div className='social-link d-flex mt-4 mb-4'>
+							<div className='circle mr-3'>
+								<a href='https://www.facebook.com/ivision.webstudio.9' target='blank' className='d-flex'>
+									<FontAwesome
+										name="facebook-f"
+										className='text-white icon'
+									/>
+								</a>
+							</div>
+							<div className='circle mr-3'>
+								<a href='https://in.linkedin.com/company/ivision-studio' target='blank' className='d-flex'>
+									<FontAwesome
+										name="linkedin"
+										className='text-white icon'
+									/>
+								</a>
+							</div>
+							<div className='circle mr-3'>
+								<a href='https://www.instagram.com/ivisionwebstudio/?utm_source=ig_profile_share&igshid=1djd4p8s9673q' target='blank' className='d-flex'> 
+									<FontAwesome
+										name="instagram"
+										className='text-white icon'
+									/>
+								</a>
+							</div>
+						</div>
+					</Col>
 				</Row>
 			</Container>
 			<Container >

@@ -19,7 +19,7 @@ import FontAwesome from 'react-fontawesome'
                     <span className="designation position-relative">{data.designation}</span>
                     <ul className="social-links p-0">
                         <li>
-                            <a href="#" target="_blank">
+                            <a href={data.social.Facebook} target="_blank">
                             <FontAwesome
                                     name="facebook-f"
                                     className='icon'
@@ -28,7 +28,7 @@ import FontAwesome from 'react-fontawesome'
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
+                            <a href={data.social.linkedin} target="_blank">
                             <FontAwesome
                                 name="linkedin"
                                 className='icon'
@@ -37,7 +37,7 @@ import FontAwesome from 'react-fontawesome'
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
+                            <a href={data.social.insta} target="_blank">
                             <FontAwesome
                                 name="instagram"
                                 className='icon'

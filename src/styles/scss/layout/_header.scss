@@ -121,22 +121,9 @@
 
 .bottom-section{
     padding-left: 45px;
-    padding-top: 100px;
-    .social-link{
-        .circle{
-            border-color:lighten( $bg-color, 10% );
-            width: 40px;
-            height: 40px;
-                &:hover{
-                    background-color: $primary-color;
-                    color: $white;
-                    border-color: $primary-color;
-                }
-            .icon{
-                font-size: 20px;
-            }
-        }
-    }
+    position: absolute;
+    bottom: 20px;
+    
    .info-wrap{
        .info{
            padding-right:40px;
@@ -152,6 +139,21 @@
        }
    }
 }
+.social-link{
+    .circle{
+        border-color:lighten( $bg-color, 10% );
+        width: 40px;
+        height: 40px;
+            &:hover{
+                background-color: $primary-color;
+                color: $white;
+                border-color: $primary-color;
+            }
+        .icon{
+            font-size: 20px;
+        }
+    }
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -162,7 +164,7 @@
     background-color: $secondary-color;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align:center;
     z-index: 11;
         ul{
@@ -213,7 +215,7 @@
         font-size: 18px;
     }
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){  
     .nav-fixed-top .header-wrap {
         .header-wrap-inner {
             .right-part{
@@ -224,6 +226,11 @@
             } 
             
         }
+    }
+    .bottom-section{
+        padding-top:100px;
+        position: relative;
+
     }
     
 }
@@ -248,15 +255,13 @@
             font-size: 25px;
         }
     }
+
     .info-wrap{
         flex-wrap: wrap;
         .info{
             width: auto;
             margin-bottom: 20px;
         }
-    }
-    .bottom-section{
-        padding-top: 60px;
     }
 
     

@@ -30,7 +30,7 @@ const Services = () => (
 					<Col lg='4'>
 						<div className="px-2 px-lg-0">
 							<p className='text-uppercase'>Capabilities</p>
-							<h2 className='sub-heading'>Creative studio with art & technologies.</h2>
+							<h2 className='sub-heading'>Creative studio with art & technologies</h2>
 						</div>
 					</Col>
 					<Col lg='8'  className=''>

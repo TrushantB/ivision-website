@@ -267,7 +267,7 @@ const IndexPage = () => (
 										<div className='card-body right-body'>
 											<div>
 												<h3 className='main-title	'>
-													We work in the fields of UI/UX design and art direction.
+													We work in the fields of UI/UX design and art direction
 												</h3>
 											</div>
 											<div>
@@ -291,7 +291,7 @@ const IndexPage = () => (
 								<div className='d-flex align-items-start justify-content-between flex-wrap'>
 									<h2 className=' mb-0 text-white title'>
 										Got a project?<br/>
-										Let’s talk.
+										Let’s talk
 									</h2>
 									<Button className='primary-button contact-buttom mt-sm-4'><Link className='text-white text-decoration-none' to='/contact'>Contact Us<FontAwesome className='ml-3' name='arrow-right'/></Link></Button>
 								</div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+	import React, { useState } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container,Nav ,Row,Col,InputGroup,FormControl,Form,Button} from 'react-bootstrap';
@@ -44,11 +44,13 @@ const Contact = () => {
 							<Col md="12" lg="6" className="px-3 px-xl-2">
 								<div className='contact-form '>
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
-									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
+									<form name="contact" method="POST" class="contact__form" netlify-honeypot="bot-field" data-netlify="true">
+
+									{/* <Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
 										name="My contact form"
 										method="POST" data-netlify="true"
 										autoComplete="off"
-										>
+										> */}
 										<Form.Row>
 											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridFirstName">
 												<Form.Label>First Name</Form.Label>
@@ -96,7 +98,8 @@ const Contact = () => {
 											<Form.Control as="textarea" rows="4" placeholder='Message' name="message" />
 										</Form.Group>
 										<Button className='button' type="submit" onClick={() => setValidated(true)}>Submit</Button>
-									</Form>
+									{/* </Form> */}
+									</form>
 								</div>
 							</Col>
 							

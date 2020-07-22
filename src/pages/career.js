@@ -205,7 +205,7 @@ const Career = () => (
 					</p>
 				</div> */}
 					<div className="job-overview-section pb-5 ">
-						<h5 className="job-overview-title mb-4">Current openings</h5>
+						<h5 className="job-overview-title mb-3">Current openings</h5>
 						<div className="job-overviews border-bottom ">
 							<a href="/first-recruitment"className="job-title mb-0 text-decoration-none">
 								PHP Developer with MVC Framework

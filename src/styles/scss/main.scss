@@ -571,11 +571,11 @@ h6{
                 padding: 0 10px !important;
             }
             .slick-next{
-                right: 35px;
+                right: -5px;
                 
             }
             .slick-prev{
-                right: 100px;
+                right: 55px;
             }
             .slick-next,
             .slick-prev{
@@ -594,7 +594,10 @@ h6{
     }
     .capabilties-section{
         .right-body{
-            padding: 30px 15px;
+            padding: 25px 15px;
+        }
+        .image{
+            margin-top: 25px;
         }   
     }
     .collaboration-section{
@@ -602,12 +605,14 @@ h6{
         .title{
             padding-bottom: 10px;
         }
+        
     }
+
 }
 @media screen and (max-width:480px){
     .collaboration-section{
         .contact-buttom{
-            margin-top: 20px;
+            margin-top: 20px;   
         }
     } 
 }

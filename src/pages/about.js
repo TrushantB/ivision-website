@@ -78,7 +78,7 @@ const About = () => (
 								<div className='card-body right-body'>
 									<div>
 										<h3 className='title mb-3'>
-											As a company, iVision Studio, strives to optimize its services below
+											We strives to optimize our services by following the given input:
 										</h3>
 									</div>
 									<div>

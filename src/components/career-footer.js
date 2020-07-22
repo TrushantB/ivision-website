@@ -12,11 +12,13 @@ import FontAwesome from 'react-fontawesome'
                 <Col lg="6" md="12" sm="12" className="p-0">
                     <div className="meet-the-team wrapper px-4 px-xl-2">
                         <div className="content">
-                            <h4 className="mb-4">Meet the team</h4>
-                            <p className="mb-4 mb-lg-5">
-                                An inspirational and fun working environment, an innovation-driven and 
-                                incredibly talented team are just a few reasons why you will love it here.
-                            </p>
+                            <div className="description-text">
+                                <h4 className="mb-4">Meet the team</h4>
+                                <p className="mb-4 mb-lg-5">
+                                    An inspirational and fun working environment, an innovation-driven and 
+                                    incredibly talented team are just a few reasons why you will love it here.
+                                </p>
+                            </div>
                             <button className="button btn btn-primary">
                             <a href="/team" className="text-decoration-none">Meet our team</a>
                             </button>
@@ -26,10 +28,12 @@ import FontAwesome from 'react-fontawesome'
                 <Col lg="6" md="12" sm="12" className="p-0">
                     <div className="get-in-touch wrapper px-4 px-xl-2">
                         <div className="content">
-                            <h4 className="mb-4">Have some questions?</h4>
-                            <p className="mb-4 mb-lg-5">
-                                Contact us for more information about working with Ivision
-                            </p>
+                            <div className="description-text">
+                                <h4 className="mb-4">Have some questions?</h4>
+                                <p className="mb-4 mb-lg-5">
+                                    Contact us for more information about working with Ivision.
+                                </p>
+                            </div>
                             <button className="button btn btn-primary">
                             <a href="/contact" className="text-decoration-none">Contact Us</a>
                             </button>

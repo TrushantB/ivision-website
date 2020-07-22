@@ -40,7 +40,7 @@ const Career = () => (
 						<div className='top-wrap wrap px-2 px-lg-0'>
 							<h1 className='page-heading font-weight-bold'>Careers at Ivision Web Studio</h1>
 							<p className='description mb-3'>
-								We are passionate about User Experience. If you too, this is the right place for you
+								We are passionate about User Experience. If you too, this is the right place for you.
 							</p>
 						</div>  
 					</Col>

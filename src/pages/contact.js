@@ -3,24 +3,41 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container,Nav ,Row,Col,InputGroup,FormControl,Form,Button} from 'react-bootstrap';
 import FontAwesome from 'react-fontawesome' 
-
+const encode = data => {
+	return Object.keys(data)
+	  .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+	  .join("&");
+  };
 const Contact = () => {
 	const [validated, setValidated] = useState(false);
 	const [email, setEmail] = useState('');
 
 	const handleSubmit = (event) => {
-		const form = event.currentTarget;
-		if (form.checkValidity() === false) {
-			console.log('invalid');
-		  event.preventDefault();
-		  event.stopPropagation();
-		} else {
-			event.preventDefault();
-			event.stopPropagation();
-			console.log("valid");
-		}
+		// const form = event.currentTarget;
+		// if (form.checkValidity() === false) {
+		// 	console.log('invalid');
+		//   event.preventDefault();
+		//   event.stopPropagation();
+		// } else {
+		// 	event.preventDefault();
+		// 	event.stopPropagation();
+		// 	console.log("valid");
+		// }
 	
-		setValidated(true);
+		// setValidated(true);
+		// e.preventDefault();
+		const form = event.currentTarget;
+	
+		fetch("/", {
+		  method: "POST",
+		  headers: { "Content-Type": "application/x-www-form-urlencoded" },
+		  body: encode({
+			"form-name": form.getAttribute("name"),
+			...{name:""}
+		  })
+		})
+		  .then(() => navigate(form.getAttribute("action")))
+		  .catch(error => alert(error));
 	  };
 	return(
 		<Layout>
@@ -44,13 +61,11 @@ const Contact = () => {
 							<Col md="12" lg="6" className="px-3 px-xl-2">
 								<div className='contact-form '>
 									<h3 className='mb-4 mb-lg-5 font-weight-bold'>Contact Form</h3>
-									<form name="contact" method="POST" class="contact__form" netlify-honeypot="bot-field" data-netlify="true">
+									{/* <form name="contact" method="POST" class="contact__form" netlify-honeypot="bot-field" data-netlify="true"> */}
 
-									{/* <Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
-										name="My contact form"
-										method="POST" data-netlify="true"
-										autoComplete="off"
-										> */}
+									<Form noValidate validated={validated} onSubmit={(e) => handleSubmit(e)} 
+										 method="POST" class="contact__form" netlify-honeypot="bot-field" data-netlify="true"
+										>
 										<Form.Row>
 											<Form.Group as={Col} className='input-box pr-0 pr-sm-3 ' controlId="formGridFirstName">
 												<Form.Label>First Name</Form.Label>
@@ -98,8 +113,8 @@ const Contact = () => {
 											<Form.Control as="textarea" rows="4" placeholder='Message' name="message" />
 										</Form.Group>
 										<Button className='button' type="submit" onClick={() => setValidated(true)}>Submit</Button>
-									{/* </Form> */}
-									</form>
+									</Form>
+									{/* </form> */}
 								</div>
 							</Col>
 							

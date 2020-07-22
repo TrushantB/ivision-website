@@ -142,8 +142,11 @@
 .social-link{
     .circle{
         border-color:lighten( $bg-color, 10% );
-        width: 40px;
-        height: 40px;
+        width: auto;
+        height: auto;    
+            a{
+                padding: 10px 15px;
+            }
             &:hover{
                 background-color: $primary-color;
                 color: $white;

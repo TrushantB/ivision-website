@@ -18,7 +18,7 @@ import FontAwesome from 'react-fontawesome'
                     <h4 className="name position-relative">{data.name}</h4>
                     <span className="designation position-relative">{data.designation}</span>
                     <ul className="social-links p-0">
-                        <li>
+                        {/* <li>
                             <a href={data.social.Facebook} target="_blank">
                             <FontAwesome
                                     name="facebook-f"
@@ -26,7 +26,7 @@ import FontAwesome from 'react-fontawesome'
                                 />
                             <span className="social-text">Facebook</span>
                             </a>
-                        </li>
+                        </li> */}
                         <li>
                             <a href={data.social.linkedin} target="_blank">
                             <FontAwesome
@@ -36,7 +36,7 @@ import FontAwesome from 'react-fontawesome'
                             <span className="social-text">Linkedin</span>
                             </a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href={data.social.insta} target="_blank">
                             <FontAwesome
                                 name="instagram"
@@ -44,7 +44,7 @@ import FontAwesome from 'react-fontawesome'
                             />
                             <span className="social-text">Instagram</span>
                             </a>
-                        </li>
+                        </li> */}
                         
                     </ul>   
                 </div>

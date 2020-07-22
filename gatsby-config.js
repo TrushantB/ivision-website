@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `iVision Web Studio`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Successful businesses require working with full-service web development and digital marketing agencies to help them thrive on an online platform. iVision Studio is based in India, and we specialize in offering a wide scope of services in JAM Development, Website Development, Mobile Application Development, E-Commerce Solutions, and CMS Services, Website Designing all in one place.`,
     author: `@gatsbyjs`,
   },
   plugins: [

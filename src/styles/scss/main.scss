@@ -422,7 +422,7 @@ h6{
 ///Media Query
 @media screen and (max-width:1200px){
     .banner-main-wrapper.container{
-        padding: 0 25px 30px;
+        padding: 0 25px 25px;
     }
 }
 
@@ -547,6 +547,10 @@ h6{
             flex-direction: column-reverse;
             .left-section {
                 margin-top: 0;
+                .heading{
+                    margin-bottom: 6px;
+                    margin-top: 20px;
+                }
                 h1{
                     font-size: 66px;
                     line-height: 64px;
@@ -586,7 +590,7 @@ h6{
         }
     }
     #page{
-        padding-top: 90px;
+        padding-top: 80px;
     }
     .capabilties-section{
         .right-body{

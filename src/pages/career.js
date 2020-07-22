@@ -34,7 +34,7 @@ const Career = () => (
 	<Layout>
 		<SEO title="Career" />
 		<section className='main-section career-wrapper mt-0 mt-lg-4'>
-			<Container className="px-3 px-xl-2">
+			<Container className="px-3 px-md-4">
 				<Row>
 					<Col>
 						<div className='top-wrap wrap px-2 px-lg-0'>
@@ -47,7 +47,7 @@ const Career = () => (
 				</Row>
 			</Container>
 			<div className="bg-color ">
-				<Container className="content pt-80 px-3 px-xl-2">
+				<Container className="content pt-80 px-3 px-md-4">
 					<Row>
 						<Col>
 							<div className=" px-2 px-lg-0 ">
@@ -191,7 +191,7 @@ const Career = () => (
 				</div> */}
 				
 				
-				<Container className="px-3 px-xl-2">
+				<Container className="px-3 px-xl-4">
 				{/* <div>
 					<p>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

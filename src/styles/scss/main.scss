@@ -63,7 +63,7 @@ body{
     } 
 }
 .banner-main-wrapper.container{
-    padding: 40px 0 60px 0;
+    padding: 40px 24px 60px 24px;
     .heading{
         margin-bottom: 26px;
         font-weight: 700;
@@ -129,7 +129,7 @@ body{
                 width: 1px;
                 background: $site-border-color;
                 position: absolute;
-                left: 65px;
+                left: 73px;
             }
             .middle-site-border{
                 height: 100%;
@@ -233,7 +233,7 @@ h6{
         width: 1px;
         background: $site-border-color;
         position: absolute;
-        left: 65px;
+        left: 73px;
         top: 0;
     }
     .middle-site-border{
@@ -323,9 +323,12 @@ h6{
     .contact-buttom{
         background-color: $primary-color;
         border-color: transparent;
-        padding: 14px 18px;
         font-weight: 600;
         font-family: SpaceGrotesk-Bold;
+            a{
+                padding: 7px 7px;
+                display: block;
+            }
         &:hover{
             background-color: $white !important;
             border-color: transparent !important;
@@ -386,31 +389,29 @@ h6{
         .slick-prev, 
         .slick-next{
             top: inherit;
-            bottom: -80px;
+            bottom: -100px;
             transform: inherit;
             z-index: 99;
             height: 50px;
             width: 50px;
             background-color:$gray-light;
             border-radius: 6px;
-            
+            transform: translate(-50%, -50%);
+            left: 50%;
         }
 
         .slick-prev{
-            right: 65px;
-            left: inherit;
+            margin-left: 65px;
                 &::before{
-                    content: "\F060";
+                    content: "\F061";
                     font: normal normal normal 14px/1 FontAwesome;
                     font-size: 24px;
                     color: $secondary-color;
                 }
         }
         .slick-next{
-            right: 0;
-            left: inherit;
                 &::before{
-                    content: "\F061";
+                    content: "\F060";
                     font: normal normal normal 14px/1 FontAwesome;
                     font-size: 24px;
                     color: $secondary-color;
@@ -519,8 +520,8 @@ h6{
         padding: 50px 0 30px 0;
     }
     .collaboration-section {
-        .contact-buttom {
-            padding: 10px 12px;
+        .contact-buttom a{
+            padding: 3px 3px;
         }
     }
     .nav-fixed-top{
@@ -536,6 +537,9 @@ h6{
                     line-height: 64px;
                 }
             }   
+            .right-section{
+                background-position: center;
+            }
         }
         
     }
@@ -572,16 +576,16 @@ h6{
             }
             .slick-next{
                 right: -5px;
-                
             }
             .slick-prev{
-                right: 55px;
+                margin-left: 60px;
             }
             .slick-next,
             .slick-prev{
-                bottom: -60px;
+                bottom: -85px;
                 height: 45px;
                 width: 45px;
+                left: 39%;    
                     &::before{
                         font-size: 20px;
                     }

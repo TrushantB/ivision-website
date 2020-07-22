@@ -15,7 +15,7 @@ const StaffingSolution = () => {
         <Layout>
             <SEO title="Service" />
             <section className='services-details main-section mt-0 mt-lg-4'>
-                <Container className=' px-3 px-xl-2'>
+                <Container className=' px-3 px-md-4'>
                     <div className='top-wrap px-2 px-lg-0'>
                         <Row>
                             <Col>
@@ -34,7 +34,7 @@ const StaffingSolution = () => {
                     </div>
                 </Container>
                 <div className='details-wrapper bg-color pt-80 pb-5'>
-                    <Container className=' px-3 px-xl-2'>
+                    <Container className=' px-3 px-md-4'>
                         <Row>
                             <Col xl='3' md="4">
                                 <ServiceMeunList/>

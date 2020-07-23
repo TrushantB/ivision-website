@@ -145,7 +145,10 @@
         width: auto;
         height: auto;    
             a{
-                padding: 10px 15px;
+                height: 40px;
+                width: 40px;
+                justify-content: center;
+                align-items: center;
             }
             &:hover{
                 background-color: $primary-color;

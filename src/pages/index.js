@@ -179,7 +179,7 @@ const IndexPage = () => (
 									</a>
 								</div>
 								<div className="image-wrapper">
-									<a href="" target="_blank" className="slider-img image-ratio">
+									<a href="https://flexchamps.com" target="_blank" className="slider-img image-ratio">
 										<img src={Flexchamp} />
 										<span className="overlay"></span>
 									</a>

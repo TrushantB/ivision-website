@@ -20,8 +20,8 @@ import FontAwesome from 'react-fontawesome'
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
                     <Card.Body className='pt-10'>
-                        We provide different services to our clients including Website designing, E-commerce, 
-                        solution, Customized web development, Magento development and UI/UX design.
+                        We provide different services to our clients including website designing, eCommerce 
+                        solution, customized web development, Magento development and UI/UX design.
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>
@@ -52,7 +52,7 @@ import FontAwesome from 'react-fontawesome'
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
                     <Card.Body className='pt-10'>
-                        We offer professional and effective eCommerce web design and developmentsolutions.
+                        We offer professional and effective eCommerce web design and development solutions.
                     </Card.Body>
                 </Accordion.Collapse>
             </Card>

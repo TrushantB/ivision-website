@@ -148,6 +148,12 @@ body{
                 
             }
         }
+        .button{
+            &:focus{
+                box-shadow: none;
+                background-color: $primary-color;
+            }
+        }
 
 }
 
@@ -401,17 +407,18 @@ h6{
         }
 
         .slick-prev{
-            margin-left: 65px;
+            
                 &::before{
-                    content: "\F061";
+                    content: "\F060";
                     font: normal normal normal 14px/1 FontAwesome;
                     font-size: 24px;
                     color: $secondary-color;
                 }
         }
         .slick-next{
+            margin-left: 65px;
                 &::before{
-                    content: "\F060";
+                    content: "\F061";
                     font: normal normal normal 14px/1 FontAwesome;
                     font-size: 24px;
                     color: $secondary-color;
@@ -587,7 +594,7 @@ h6{
                 right: -5px;
             }
             .slick-prev{
-                margin-left: 60px;
+                // margin-left: 60px;
             }
             .slick-next,
             .slick-prev{

@@ -22,7 +22,18 @@ const WebApplication = () => {
 							<Col>
 								<h1 className='page-heading font-weight-bold'>{content.name}</h1>
 								<p className='description mb-3'>{content.tagline}</p>
-								<p>{content.discription}</p>	
+								<div>
+									{
+										content.heading1_content.map((item,index) => {
+											return(
+												<>			
+														<p>{item.description}</p>
+												</>	
+											)   
+										})
+									}	
+								</div>
+								
 								<div className='button-wrap'>
 									<Button className='button'><Link className='text-white text-decoration-none' to='/contact'>Learn More</Link></Button>
 								</div>

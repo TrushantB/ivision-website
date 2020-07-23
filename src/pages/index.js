@@ -46,7 +46,7 @@ const settings = {
           }
         },
         {
-          breakpoint: 580,
+          breakpoint: 580, 
           settings: {
             // centerMode: true,
             infinite: true,
@@ -131,6 +131,13 @@ const IndexPage = () => (
 										})
 									}
 									</Row>
+									<div class="button-wrap d-flex justify-content-lg-end justify-content-sm-start pb-4 pb-lg-5">
+										<button type="button" class="button btn btn-primary">
+											<a class="text-white text-decoration-none" href="/services">
+												View All
+											</a>
+										</button>
+									</div>
 								</Col>
 							</Row>
 						</div>
@@ -257,7 +264,7 @@ const IndexPage = () => (
 										<div className='card-body right-body'>
 											<div>
 												<h3 className='main-title	'>
-													We work in the fields of UI/UX design and art direction
+													We develop best web product for our customers.
 												</h3>
 											</div>
 											<div>

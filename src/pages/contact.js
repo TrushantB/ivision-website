@@ -110,7 +110,7 @@ const Contact = () => {
 										<Button className='button' type="submit" onClick={() => setValidated(true)}>Submit</Button>
 										<ToastContainer 
 											position="top-right"
-											autoClose={2500}
+											autoClose={3500}
 											hideProgressBar
 											newestOnTop={false}
 											closeOnClick={false}

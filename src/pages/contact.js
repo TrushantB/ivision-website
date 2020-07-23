@@ -22,7 +22,7 @@ const Contact = () => {
 			event.preventDefault();
 			event.stopPropagation();
 			axios.post('https://immense-headland-11317.herokuapp.com/sendEmail',{
-				to:'achidre.ivision@gmail.com',
+				to:'contact@ivisionstudio.in',
 				subject: "Enquiry Form",
 				body:`FirstName: ${event.currentTarget.firstName.value}\nLastName: ${event.currentTarget.lastName.value}\nEmail: ${event.currentTarget.email.value}\nSubject: ${event.currentTarget.subject.value}\nMessage: ${event.currentTarget.message.value}\n`
 			}).then((response) => {

@@ -16,10 +16,13 @@ import FontAwesome from 'react-fontawesome'
                         size="1x"
                         className='pr-3 plus-icon' 
                     />
-                    Website & Mobile App Design
+                    Web Development
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
+                    <Card.Body className='pt-10'>
+                        We provide different services to our clients including Website designing, E-commerce, 
+                        solution, Customized web development, Magento development and UI/UX design.
+                    </Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card  className='border-0 ' >
@@ -29,10 +32,13 @@ import FontAwesome from 'react-fontawesome'
                         size="1x"
                         className='pr-3 plus-icon'
                     />
-                     Motion Graphics & Animation
+                     Mobile Application Development
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
-                    <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
+                    <Card.Body className='pt-10'>
+                        Our mobile app development process for cross-platforms balances clarity, 
+                        features and responsive interfaces.
+                    </Card.Body>
                 </Accordion.Collapse>
             </Card>
             <Card  className='border-0 ' >
@@ -42,10 +48,12 @@ import FontAwesome from 'react-fontawesome'
                         size="1x"
                         className='pr-3 plus-icon'
                     />
-                   User Experience
+                    eCommerce Solutions
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body className='pt-10'>Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole.</Card.Body>
+                    <Card.Body className='pt-10'>
+                        We offer professional and effective eCommerce web design and developmentsolutions.
+                    </Card.Body>
                 </Accordion.Collapse>
             </Card>
         </Accordion>

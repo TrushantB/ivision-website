@@ -55,16 +55,6 @@ const settings = {
             autoplaySpeed: 0
           }
         },
-        {
-          breakpoint: 480,
-          settings: {
-            // centerMode: true,
-            infinite: true,
-            centerPadding: "10px",
-            slidesToShow: 1,
-            autoplaySpeed: 2000,
-          }
-        }
       ]
 };
 

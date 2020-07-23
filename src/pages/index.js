@@ -42,7 +42,7 @@ const settings = {
             infinite: true,
             dots: false,
             speed: 1200,
-            autoplaySpeed: 0
+            autoplaySpeed: 2000
           }
         },
         {
@@ -52,7 +52,7 @@ const settings = {
             infinite: true,
             centerPadding: "50px",
             slidesToShow: 1,
-            autoplaySpeed: 0
+            autoplaySpeed: 2000
           }
         },
       ]

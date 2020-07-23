@@ -19,21 +19,22 @@ const Contact = () => {
 		  event.preventDefault();
 		  event.stopPropagation(); 
 		} else {
-			
+			event.preventDefault();
+			event.stopPropagation();
 			axios.post('https://immense-headland-11317.herokuapp.com/sendEmail',{
 				to:'achidre.ivision@gmail.com',
 				subject: "Enquiry Form",
 				body:`FirstName: ${event.currentTarget.firstName.value}\nLastName: ${event.currentTarget.lastName.value}\nEmail: ${event.currentTarget.email.value}\nSubject: ${event.currentTarget.subject.value}\nMessage: ${event.currentTarget.message.value}\n`
 			}).then((response) => {
-				// this.notify()
+				form.reset();
+				setValidated(false);
+				notify()
 			})
-			event.preventDefault();
-			event.stopPropagation();
-			form.reset();
-			setValidated(false);
+			
 			// console.log("valid");
 		}
 	  };
+	  
 	  const notify = () => toast("Thank you for contacting us.");
 	  
 	
@@ -107,9 +108,9 @@ const Contact = () => {
 											<Form.Control as="textarea" rows="4" placeholder='Message' name="message" />
 										</Form.Group>
 										<Button className='button' type="submit" onClick={() => setValidated(true)}>Submit</Button>
-										{/* <ToastContainer 
+										<ToastContainer 
 											position="top-right"
-											autoClose={1520000000}
+											autoClose={2500}
 											hideProgressBar
 											newestOnTop={false}
 											closeOnClick={false}
@@ -117,8 +118,8 @@ const Contact = () => {
 											pauseOnFocusLoss={false}
 											draggable={false}
 											pauseOnHover={false}
-										/> */}
-
+											hideProgressBar={false}
+										/>
 									</Form>
 								</div>
 							</Col>

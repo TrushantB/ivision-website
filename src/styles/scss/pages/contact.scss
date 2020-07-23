@@ -39,6 +39,9 @@
                     padding: 25px;
                     font-family: SpaceGrotesk-Medium;
                 }
+                .Toastify__progress-bar--default{
+                    background: $tertiary-color;
+                }
                 .Toastify__close-button--default{
                     color: $white;
                     opacity: 1;

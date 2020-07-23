@@ -628,5 +628,16 @@ h6{
             margin-top: 20px;   
         }
     } 
+    .product-slider-section{
+        padding-bottom: 85px;
+        .slick-slider{
+            .slick-list{
+                padding: 0 50px !important;
+            }
+            .slick-prev{
+                left: 40%;
+            }
+        }
+    }
 }
 
